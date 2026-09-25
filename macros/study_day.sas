@@ -9,7 +9,7 @@
 * Author      : Ngarciar24
 * Created     : 2026-09-25
 * SAS version : 9.4M8 (SAS OnDemand for Academics)
-* Change log  : 2026-09-25  NGR  Initial version (drafted with Claude Code)
+* Change log  : 2026-09-25  IGR  Initial version
 *
 * Day 1 is the reference date; the day before it is -1.
 *   %study_day(dtc=aestdtc, refdtc=rfstdtc, out=aestdy);
