@@ -47,7 +47,8 @@ on every push.
 | Layer | Source |
 |---|---|
 | Raw (CRF-like) | [`pharmaverseraw`](https://github.com/pharmaverse/pharmaverseraw) v0.1.1 (commit `e0771af`), exported to `data/raw/*.csv` by `tools/export_raw.py`: dm, ae, ds, ec, vs |
-| SDTM / ADaM reference | PHUSE `phuse-scripts`, `data/{sdtm,adam}/cdiscpilot01/` (added in Phase 1) |
+| SDTM / ADaM reference | PHUSE [`phuse-scripts`](https://github.com/phuse-org/phuse-scripts) (MIT), commit `398a6d3`: pilot SDTM/ADaM XPTs, define.xml, aCRF and data guide in `data/reference/` (see its README) |
+| Specs | `specs/sdtm_spec.csv` and `specs/ct.csv` generated from the pilot SDTM define.xml by `tools/define_to_specs.py`; `specs/sdtm_mapping.csv` maps raw fields to SDTM (DM so far) |
 
 Raw DM has 306 patients (254 randomised, 52 screen failures).
 
