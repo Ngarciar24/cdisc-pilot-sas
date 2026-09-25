@@ -68,9 +68,12 @@ Raw DM has 306 patients (254 randomised, 52 screen failures).
 setup.sas        root path, options, librefs, macro autocall
 run_all.sas      runs every program with its own log, then %logcheck
 sync.sas         git clone/pull inside SAS OnDemand
-macros/          logcheck, run_program, header_template, ...
+macros/          logcheck, run_program, read_spec, spec_attrib, ct_check,
+                 iso_dtc, dtc_date, study_day, seq, xpt_export, xpt_import
+specs/           variable specs, codelists, raw-to-SDTM mapping
 programs/        production programs (sdtm/, adam/, tfl/)
 qc/              independent QC programs
+tests/           unit tests for the macros (PASS/FAIL lines in the log)
 data/raw/        raw CSV (input)
 data/sdtm/, data/adam/   XPT v5 outputs (committed)
 logs/, lst/, outputs/    evidence from the SAS runs (committed)
