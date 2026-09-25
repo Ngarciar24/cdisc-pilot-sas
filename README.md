@@ -38,8 +38,9 @@ same rules to every committed log: any line starting with `ERROR` or `WARNING`,
 and any NOTE/INFO about uninitialized variables, repeated BY values in a MERGE,
 character/numeric conversion, invalid data, W.D formats too small, missing
 values generated, division by zero, or a variable overwritten in a MERGE. The
-Action also fails if a program has no committed log or lacks the standard
-header.
+Action also fails if a program lacks the standard header, and warns if a
+program has no committed log yet. It runs on pull requests and on demand, not
+on every push.
 
 ## Data
 

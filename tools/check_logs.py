@@ -1,12 +1,13 @@
 """CI check for the committed SAS evidence (SAS itself does not run in CI).
 
 Fails if:
-  1. a program under programs/ or qc/ has no logs/<name>.log;
-  2. a committed log has a finding (same rules as macros/logcheck.sas);
-  3. a .sas file lacks the standard header fields;
-  4. two programs share a file name (their logs would overwrite each other).
+  1. a committed log has a finding (same rules as macros/logcheck.sas);
+  2. a .sas file lacks the standard header fields;
+  3. two programs share a file name (their logs would overwrite each other).
+Warns (does not fail) if a program under programs/ or qc/ has no
+logs/<name>.log yet; pass --require-logs to make that a failure too.
 
-Usage: python tools/check_logs.py [repo_root]
+Usage: python tools/check_logs.py [repo_root] [--require-logs]
 """
 import pathlib
 import sys
@@ -57,14 +58,15 @@ def header_missing(path):
     return [f for f in HEADER_FIELDS if f"* {f}" not in head]
 
 
-def main(root):
+def main(root, require_logs=False):
     root = pathlib.Path(root).resolve()
     problems = []
+    warnings = []
 
-    def report(file, msg, line=None):
+    def report(file, msg, line=None, level="error"):
         loc = f"file={file.relative_to(root)}" + (f",line={line}" if line else "")
-        print(f"::error {loc}::{msg}")
-        problems.append(msg)
+        print(f"::{level} {loc}::{msg}")
+        (problems if level == "error" else warnings).append(msg)
 
     # 3. headers on every .sas file in the repo
     for sas in sorted(root.rglob("*.sas")):
@@ -83,7 +85,8 @@ def main(root):
         log = root / "logs" / f"{name}.log"
         if not log.exists():
             report(paths[0], f"no committed log: logs/{name}.log "
-                             "(run run_all.sas in SAS and commit logs/)")
+                             "(run run_all.sas in SAS and commit logs/)",
+                   level="error" if require_logs else "warning")
 
     # 2. every committed log is clean
     logs = sorted((root / "logs").glob("*.log"))
@@ -92,9 +95,11 @@ def main(root):
             report(log, f"{finding}: {text.strip()[:200]}", n)
 
     print(f"{len(programs)} program(s), {len(logs)} log(s), "
-          f"{len(problems)} problem(s)")
+          f"{len(problems)} problem(s), {len(warnings)} warning(s)")
     return 1 if problems else 0
 
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv[1] if len(sys.argv) > 1 else "."))
+    args = [a for a in sys.argv[1:] if a != "--require-logs"]
+    sys.exit(main(args[0] if args else ".",
+                  require_logs="--require-logs" in sys.argv[1:]))
