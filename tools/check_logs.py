@@ -4,7 +4,7 @@ Fails if:
   1. a committed log has a finding (same rules as macros/logcheck.sas);
   2. a .sas file lacks the standard header fields;
   3. two programs share a file name (their logs would overwrite each other).
-Warns (does not fail) if a program under programs/ or qc/ has no
+Warns (does not fail) if a program under programs/, qc/ or tests/ has no
 logs/<name>.log yet; pass --require-logs to make that a failure too.
 
 Usage: python tools/check_logs.py [repo_root] [--require-logs]
@@ -33,7 +33,7 @@ HEADER_FIELDS = [
     "Author", "Created", "SAS version", "Change log",
 ]
 
-PROGRAM_DIRS = ["programs", "qc"]
+PROGRAM_DIRS = ["programs", "qc", "tests"]
 
 
 def log_findings(path):
