@@ -9,7 +9,7 @@
 * Author      : Ngarciar24
 * Created     : 2026-09-25
 * SAS version : 9.4M8 (SAS OnDemand for Academics)
-* Change log  : 2026-09-25  NGR  Initial version (drafted with Claude Code)
+* Change log  : 2026-09-25  IGR  Initial version
 *
 * Use inside a DATA step. Partial raw dates (e.g. year only) are not SAS dates;
 * build their ISO value in the program and document it in the mapping spec.

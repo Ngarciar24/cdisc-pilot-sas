@@ -9,8 +9,8 @@
 * Author      : Ngarciar24
 * Created     : 2026-09-25
 * SAS version : 9.4M8 (SAS OnDemand for Academics)
-* Change log  : 2026-09-25  NGR  Initial version (drafted with Claude Code)
-*               2026-09-25  NGR  Run macro unit tests
+* Change log  : 2026-09-25  IGR  Initial version
+*               2026-09-25  IGR  Run macro unit tests
 *******************************************************************************/
 
 /* Submit setup.sas once in the session first: it defines ROOT.             */

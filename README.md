@@ -12,7 +12,7 @@ documents where they differ.
 
 > **Status: Phase 0 (setup).** Programs are run in SAS OnDemand for Academics.
 > A program is counted as done only when its log is committed under `logs/`
-> and is clean. See [docs/plan.md](docs/plan.md) for the full plan.
+> and is clean.
 
 ## What this repo shows
 

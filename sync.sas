@@ -10,7 +10,7 @@
 * Author      : Ngarciar24
 * Created     : 2026-09-25
 * SAS version : 9.4M8 (SAS OnDemand for Academics)
-* Change log  : 2026-09-25  NGR  Initial version (drafted with Claude Code)
+* Change log  : 2026-09-25  IGR  Initial version
 *
 * Uses the GIT_* DATA step functions (SAS 9.4M6 and later). If outbound Git is
 * blocked in your OnDemand instance, upload a zip of the branch instead.

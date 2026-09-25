@@ -14,7 +14,7 @@
 * Author      : Ngarciar24
 * Created     : 2026-09-25
 * SAS version : 9.4M8 (SAS OnDemand for Academics)
-* Change log  : 2026-09-25  NGR  Initial version (drafted with Claude Code)
+* Change log  : 2026-09-25  IGR  Initial version
 *******************************************************************************/
 
 %macro spec_attrib(data=, dataset=, out=, spec=sdtm);
