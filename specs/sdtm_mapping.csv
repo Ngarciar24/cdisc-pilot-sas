@@ -9,7 +9,7 @@ DM,RFENDTC,ds_raw,IT.DSSTDAT,"Latest IT.DSSTDAT (MM-DD-YYYY) of the end-of-study
 DM,RFXSTDTC,ec_raw,IT.ECSTDAT,= RFSTDTC,Derived,
 DM,RFXENDTC,ec_raw,IT.ECENDAT,"Latest non-missing IT.ECENDAT per patient, as ISO 8601 date",Derived,"Blank for 01-705-1018 and 01-705-1382 (no end date collected), as in the pilot."
 DM,RFICDTC,dm_raw,IC_DT,"IC_DT (MM/DD/YYYY) as ISO 8601 date",CRF,"Blank for all patients in the pilot (not entered in its database); raw data here has it for 254 patients. Expected difference; explain in cSDRG."
-DM,RFPENDTC,ds_raw,"IT.DSSTDAT, DSTMCOL","Date/time of the last disposition event, ISO 8601",Derived,To confirm against pilot when DS is built.
+DM,RFPENDTC,ds_raw,"IT.DSSTDAT, DSTMCOL","To be defined: pilot value is not the last DS date (matches 225/306)",Derived,"Probably the last contact date across DS and SV; confirm when SV is available."
 DM,DTHDTC,ds_raw,DEATHDT,"DEATHDT as ISO 8601 where IT.DSDECOD = 'Death'",Derived,3 deaths in pilot DM. Pilot define says DTHDTC = AEENDTC; check against AE.
 DM,DTHFL,ds_raw,IT.DSDECOD,"'Y' if a disposition record has IT.DSDECOD = 'Death', else blank",Derived,Codelist Y_BLANK.
 DM,AGE,dm_raw,IT.AGE,As collected,CRF,Pilot define says derived at RFSTDTC; raw age equals pilot AGE for all 306 patients.

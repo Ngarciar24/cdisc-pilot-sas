@@ -10,6 +10,7 @@
 * Created     : 2026-09-25
 * SAS version : 9.4M8 (SAS OnDemand for Academics)
 * Change log  : 2026-09-25  IGR  Initial version
+*               2026-09-25  IGR  Comment on REF library
 *******************************************************************************/
 
 /* The only environment-specific line in the repo.                            */
@@ -34,7 +35,7 @@ options mergenoby=error   /* MERGE without BY                                 */
 libname raw  "&root/data/raw";
 libname sdtm "&root/data/sdtm";
 libname adam "&root/data/adam";
-libname ref  "&root/data/reference";
+libname ref  "&root/data/reference";   /* copies of pilot XPTs made by %xpt_import */
 
 /* Macros in macros/ are found by name (file name = macro name, lower case).  */
 options mautosource sasautos=("&root/macros" sasautos);

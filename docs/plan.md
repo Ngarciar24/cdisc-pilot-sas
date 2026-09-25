@@ -29,7 +29,8 @@ Suggested name: `cdisc-pilot-sas` (short, says study + language).
   5. Claude reads the logs and fixes; repeat until `%logcheck` is clean.
 - A PR is merged only with clean logs committed for every changed program.
 - CI (GitHub Actions) still adds value without SAS: it checks the committed
-  logs are clean, and runs CDISC CORE on the committed SDTM/ADaM XPTs.
+  logs are clean, and runs CDISC CORE on the committed SDTM XPTs (CORE has
+  no ADaM rules; see section 7).
 
 **Authorship.** This repo is meant to prove *your* SAS skill. Write the core
 programs yourself (at least DM, ADSL, ADAE and the demographics and AE tables)
@@ -174,7 +175,8 @@ Each phase is one or more PRs with clean committed logs.
     (not a copy of the production code), `PROC COMPARE` → 0 differences.
   - `PROC COMPARE` vs the R repo XPTs → differences only where documented.
   - `PROC COMPARE` vs the official pilot ADaM → explained in `docs/adrg.md`.
-- CI: CORE against ADaMIG on `data/adam/*.xpt`.
+- CI: documented ADaMIG checks on `data/adam/*.xpt` (CORE has no ADaM rules;
+  reuse the R repo's conformance checks, see section 7).
 
 ### Phase 3 — TLFs (2–3 sessions)
 Write `docs/tlf-shells.md` first. Then, with ODS RTF via `%tfl_setup`:
@@ -194,8 +196,8 @@ Write `docs/tlf-shells.md` first. Then, with ODS RTF via `%tfl_setup`:
 ### Phase 4 — Submission documents (1–2 sessions)
 - `docs/csdrg.md` and `docs/adrg.md` (PHUSE template headings).
 - define.xml: SAS OnDemand has no free define generator; either generate it
-  from `specs/` with `{defineR}` in a small R helper (`tools/define.R`), or
-  reuse the R repo's approach. Commit `define.xml` + `define.html`.
+  from `specs/` by reusing the R repo's Define-XML 2.1 generator and its
+  XSD validation (see section 7). Commit `define.xml` + `define.html`.
 - Conformance reports from CORE, with every finding triaged.
 
 ### Phase 5 — Polish (1 session)
@@ -237,3 +239,36 @@ Write `docs/tlf-shells.md` first. Then, with ODS RTF via `%tfl_setup`:
 - SAS ADaM vs R ADaM: agreement shown, differences documented.
 - RTF + PDF outputs committed; README shows them.
 - cSDRG, ADRG, define.xml present.
+
+---
+
+## 7. Alignment with the R repo and checks made (2026-09-25)
+
+The R repo (`adam-admiral-walkthrough`) is being reworked in parallel. To keep
+the two repos from contradicting each other:
+
+- **One set of analysis rules.** The SAP is written once, in the R repo. This
+  repo's `docs/sap.md` links to that version (by commit) and records any
+  SAS-specific addition; it never restates a rule differently. Rules the R
+  repo has changed so far: last dose falls back to the discontinuation date
+  when EX has no end date (pilot rule); `CHG` only on post-baseline records;
+  screen failures no longer get a treatment in `TRT01P`; baseline stays "last
+  value on or before first dose" (differs from the pilot's `LBBLFL`).
+- **Same inputs.** The raw data (`pharmaverseraw` 0.1.1) corresponds to
+  `pharmaversesdtm` 1.5.0, which the R repo reads. Compared with the PHUSE
+  pilot SDTM it is identical for DM, EX, AE, SUPPDM and SUPPAE (blank vs
+  missing aside) but DS has 254 extra "PROTOCOL MILESTONE" (randomisation)
+  records. SDTM QC therefore compares with `pharmaversesdtm` 1.5.0 for DS and
+  with PHUSE for the rest.
+- **Same explained differences.** Differences between the pilot ADaM and our
+  ADaM that the R repo has already traced (e.g. the pilot's `ANRIND` range
+  comparison, baseline from `LBBLFL`, unimputed onset dates) are cited, not
+  re-investigated.
+- **Conformance.** CDISC CORE rules (checked in the rules cache) cover SDTMIG
+  3.2, 3.3 and 3.4 only: no ADaM rules and no SDTMIG 3.1.2, the version of the
+  pilot define.xml. Decide the SDTMIG target before Phase 1 CI (see
+  `specs/`); ADaM conformance uses the R repo's documented ADaMIG checks.
+- **Python reading XPT.** pandas decodes exact zeros in XPT files as about
+  5.4e-79; any Python check here must round before testing for 0.
+- **define.xml.** Reuse the R repo's Define-XML 2.1 generator and XSD
+  validation rather than building a second one.
