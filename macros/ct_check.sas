@@ -2,25 +2,29 @@
 * Program     : ct_check.sas
 * Study       : CDISCPILOT01 (public test data)
 * Purpose     : Check every coded variable of a dataset against its codelist
-*               in specs/ct.csv; list values not in the codelist.
+*               in specs/<spec>_ct.csv; list values not in the codelist.
+*               A variable may list several codelists separated by |
+*               (e.g. DSDECOD); a value must be in one of them.
 * Inputs      : data=    dataset to check
 *               dataset= spec dataset name, e.g. DM
 *               spec=    sdtm (default) or adam
 *               level=   WARNING (default) or ERROR, for the log message when
 *                        values are outside CT
-* Outputs     : work.ct_findings (variable, codelist, value, n); listing
+* Outputs     : work.ct_findings (variable, codelist, extensible, value, n);
+*               listing
 * Macros      : %read_spec
 * Author      : Ngarciar24
 * Created     : 2026-09-25
 * SAS version : 9.4M8 (SAS OnDemand for Academics)
 * Change log  : 2026-09-25  IGR  Initial version
+*               2026-09-25  IGR  Per-spec CT, several codelists, extensible flag
 *
-* Codelists with no terms in ct.csv (external dictionaries such as MedDRA,
+* Codelists with no terms in the CT file (external dictionaries such as MedDRA,
 * codelist AEDICT) are skipped with a NOTE.
 *******************************************************************************/
 
 %macro ct_check(data=, dataset=, spec=sdtm, level=WARNING);
-  %local lib mem n i nterms nfind;
+  %local lib mem n i nterms ext nfind;
   %let dataset = %upcase(&dataset);
   %if %length(&data) = 0 or %length(&dataset) = 0 %then %do;
     %put ERROR: [ct_check] DATA= and DATASET= are required.;
@@ -52,13 +56,14 @@
 
   proc sql;
     create table work.ct_findings
-      (variable char(8), codelist char(8), value char(200), n num);
+      (variable char(8), codelist char(100), extensible char(5),
+       value char(200), n num);
   quit;
 
   %do i = 1 %to &n;
     proc sql noprint;
-      select count(*) into :nterms trimmed
-        from work._ct where codelist = "&&cl&i";
+      select count(*), max(extensible) into :nterms trimmed, :ext trimmed
+        from work._ct_&spec where indexw("&&cl&i", strip(codelist), '|') > 0;
     quit;
 
     %if &nterms = 0 %then
@@ -66,12 +71,13 @@
     %else %do;
       proc sql;
         insert into work.ct_findings
-          select "&&var&i", "&&cl&i", cats(&&var&i), count(*)
+          select "&&var&i", "&&cl&i", "&ext", cats(&&var&i), count(*)
             from &data
            where not missing(&&var&i)
              and cats(&&var&i) not in
-                 (select term from work._ct where codelist = "&&cl&i")
-           group by 3;
+                 (select term from work._ct_&spec
+                   where indexw("&&cl&i", strip(codelist), '|') > 0)
+           group by 4;
       quit;
     %end;
   %end;

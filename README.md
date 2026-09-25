@@ -24,7 +24,7 @@ documents where they differ.
 | Independent QC with `PROC COMPARE` (vs own QC code, vs the R repo, vs the published pilot data) | `qc/`, `outputs/qc/` |
 | Macro language: parameter checks, `%SYSFUNC`, autocall library | `macros/` |
 | Log discipline: strict options + automated log scan in SAS and in CI | `setup.sas`, `macros/logcheck.sas`, `tools/check_logs.py` |
-| Submission documents: cSDRG, ADRG, define.xml, CDISC CORE conformance | `docs/` *(Phase 4)* |
+| Submission documents: cSDRG, ADRG, define.xml, CDISC CORE conformance | `docs/` *(Phase 4)*; the pilot checked against SDTMIG 3.4 with CORE: `outputs/qc/core_pilot_sdtmig34_summary.csv` |
 
 ## Log discipline
 
@@ -48,7 +48,9 @@ on every push.
 |---|---|
 | Raw (CRF-like) | [`pharmaverseraw`](https://github.com/pharmaverse/pharmaverseraw) v0.1.1 (commit `e0771af`), exported to `data/raw/*.csv` by `tools/export_raw.py`: dm, ae, ds, ec, vs |
 | SDTM / ADaM reference | PHUSE [`phuse-scripts`](https://github.com/phuse-org/phuse-scripts) (MIT), commit `398a6d3`: pilot SDTM/ADaM XPTs, define.xml, aCRF and data guide in `data/reference/` (see its README) |
-| Specs | `specs/sdtm_spec.csv` and `specs/ct.csv` generated from the pilot SDTM define.xml by `tools/define_to_specs.py`; `specs/sdtm_mapping.csv` maps raw fields to SDTM (DM so far) |
+| Target standards | SDTMIG 3.4, CDISC CT 2026-03-27, Define-XML 2.1. `specs/sdtm_spec.csv` and `specs/sdtm_ct.csv` are built from SDTMIG 3.4 metadata by `tools/build_sdtm_spec.py`; [docs/sdtmig-3.4-upgrade.md](docs/sdtmig-3.4-upgrade.md) lists what changes from the pilot (SDTMIG 3.1.2) and why, checked with CDISC CORE |
+| Pilot metadata | `specs/pilot_spec.csv` and `specs/pilot_ct.csv` from the pilot define.xml (`tools/define_to_specs.py`), for QC against the pilot |
+| Mapping | `specs/sdtm_mapping.csv`: raw fields to SDTM (DM so far) |
 
 Raw DM has 306 patients (254 randomised, 52 screen failures).
 
@@ -77,7 +79,7 @@ tests/           unit tests for the macros (PASS/FAIL lines in the log)
 data/raw/        raw CSV (input)
 data/sdtm/, data/adam/   XPT v5 outputs (committed)
 logs/, lst/, outputs/    evidence from the SAS runs (committed)
-tools/           Python helpers: raw export, CI log check
+tools/           helpers: raw export, spec builders, CORE runner, CI log check
 docs/            plan, SAP, TLF shells, reviewer's guides
 ```
 

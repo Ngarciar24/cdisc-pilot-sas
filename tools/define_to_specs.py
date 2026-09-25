@@ -1,8 +1,10 @@
-"""Build specs/sdtm_spec.csv and specs/ct.csv from the CDISC pilot define.xml.
+"""Build specs/pilot_spec.csv and specs/pilot_ct.csv from the pilot define.xml.
 
-The pilot SDTM define.xml (define 1.0, SDTMIG 3.1.2) is the target metadata
-for this repo's SDTM: variable order, label, type, length, origin, derivation
-comment and codelist per variable, plus the codelists themselves.
+The pilot SDTM define.xml (define 1.0, SDTMIG 3.1.2) describes the pilot
+datasets: variable order, label, type, length, origin, derivation comment and
+codelist per variable, plus the codelists. Used for QC against the pilot and
+in the macro tests; the target spec for this repo is SDTMIG 3.4
+(tools/build_sdtm_spec.py).
 
 Usage: python tools/define_to_specs.py [data/reference/sdtm/define.xml]
 """
@@ -49,6 +51,8 @@ for grp in mdv.findall("odm:ItemGroupDef", NS):
             "codelist": cl.get("CodeListOID") if cl is not None else "",
             "origin": item.get("Origin"),
             "comment": (item.get("Comment") or "").strip(),
+            "core": "",
+            "change": "",
         })
 
 # Codelists: one row per term.
@@ -59,7 +63,9 @@ for cl in mdv.findall("odm:CodeList", NS):
         decode = term.find("odm:Decode/odm:TranslatedText", NS)
         ct_rows.append({
             "codelist": cl.get("OID"),
-            "datatype": cl.get("DataType"),
+            "code": "",
+            "extensible": "",
+            "source": "pilot define.xml",
             "order": term.get(DEF + "Rank") or rank,
             "term": term.get("CodedValue"),
             "decode": decode.text.strip() if decode is not None and decode.text else "",
@@ -67,7 +73,7 @@ for cl in mdv.findall("odm:CodeList", NS):
 
 out = root_dir / "specs"
 out.mkdir(exist_ok=True)
-for fname, rows in (("sdtm_spec.csv", spec_rows), ("ct.csv", ct_rows)):
+for fname, rows in (("pilot_spec.csv", spec_rows), ("pilot_ct.csv", ct_rows)):
     with open(out / fname, "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0]))
         w.writeheader()
