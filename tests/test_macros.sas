@@ -12,6 +12,7 @@
 * Created     : 2026-09-25
 * SAS version : 9.4M8 (SAS OnDemand for Academics)
 * Change log  : 2026-09-25  IGR  Initial version
+*               2026-09-25  IGR  Remove formats with FORMAT _ALL_
 *
 * Conditions use EQ/NE, not "=", because they are macro arguments.
 *******************************************************************************/
@@ -115,7 +116,8 @@ data work.t_dm;
 run;
 proc datasets lib=work nolist;
   modify t_dm;
-  attrib _all_ label=' ' format=;
+  attrib _all_ label=' ';
+  format _all_;
 quit;
 
 %spec_attrib(data=work.t_dm, dataset=DM, out=work.t_dm2)

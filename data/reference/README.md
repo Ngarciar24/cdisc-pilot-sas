@@ -17,3 +17,8 @@ ADLBC 34 MB, ...). Fetch them from the same commit when Phase 2 needs them:
 Checks already made against the raw data (Python, before any SAS program):
 all 306 raw DM patients are in pilot DM (`USUBJID = '01-' || PATNUM`), with
 identical age, sex, race, ethnicity and collection date.
+
+The raw data corresponds to `pharmaversesdtm` 1.5.0 rather than to this PHUSE
+copy: both agree on DM, EX, AE, SUPPDM and SUPPAE, but `pharmaversesdtm` DS
+(like the raw data) has 254 extra "PROTOCOL MILESTONE" randomisation records.
+DS QC should use `pharmaversesdtm` 1.5.0.
