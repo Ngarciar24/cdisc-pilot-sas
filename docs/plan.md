@@ -14,28 +14,26 @@ Suggested name: `cdisc-pilot-sas` (short, says study + language).
 
 ## 0. How the work runs (read first)
 
-- **SAS does not run in the Claude Code cloud container** (no licence). Code is
-  written in the session, then run by you in **SAS OnDemand for Academics**
-  (free, SAS Studio in the browser).
+- **SAS does not run in CI** (no licence on GitHub Actions). Programs are
+  run in **SAS OnDemand for Academics** (free, SAS Studio in the browser).
 - The evidence is therefore committed files, not a CI rebuild: every program's
   `.log`, the `.lst` where relevant, and the RTF/PDF outputs.
 - Loop per pull request:
-  1. Claude (or you) writes/changes programs on a branch and pushes.
-  2. You pull the branch into SAS OnDemand (SAS 9.4M6+ has `git_clone` /
+  1. Write or change programs on a branch and push.
+  2. Pull the branch into SAS OnDemand (SAS 9.4M6+ has `git_clone` /
      `git_pull` functions you can call from a small `sync.sas`; if outbound Git
      is blocked in your OnDemand instance, upload a zip instead).
   3. Run `run_all.sas`. It ends with `%logcheck`, which fails loudly on any issue.
   4. Download `logs/`, `outputs/`, `data/` and commit them to the branch.
-  5. Claude reads the logs and fixes; repeat until `%logcheck` is clean.
+  5. Read the logs and fix; repeat until `%logcheck` is clean.
 - A PR is merged only with clean logs committed for every changed program.
 - CI (GitHub Actions) still adds value without SAS: it checks the committed
   logs are clean, and runs CDISC CORE on the committed SDTM XPTs (CORE has
   no ADaM rules; see section 7).
 
-**Authorship.** This repo is meant to prove *your* SAS skill. Write the core
-programs yourself (at least DM, ADSL, ADAE and the demographics and AE tables)
-and use Claude as reviewer and tutor; let Claude draft the scaffolding, macros
-and the less central programs. You must be able to explain every line.
+**Authorship.** The core programs (at least DM, ADSL, ADAE and the
+demographics and AE tables) are written by hand, and every line must be
+explainable.
 
 ---
 
@@ -44,7 +42,7 @@ and the less central programs. You must be able to explain every line.
 ```
 cdisc-pilot-sas/
 ├── README.md                 pitch, results, how to run, link to R repo
-├── CLAUDE.md                 conventions for Claude sessions (template provided)
+├── CONVENTIONS.md            programming conventions
 ├── setup.sas                 %let root; libnames; options; %include macros
 ├── run_all.sas               runs every program in order, then %logcheck
 ├── sync.sas                  git pull into SAS OnDemand (optional)
@@ -134,7 +132,7 @@ A hiring manager should be able to find each of these in a named program:
 Each phase is one or more PRs with clean committed logs.
 
 ### Phase 0 — Setup (1 session)
-- Create the GitHub repo; add `README.md` skeleton, `CLAUDE.md`, `.gitignore`
+- Create the GitHub repo; add `README.md` skeleton, `CONVENTIONS.md`, `.gitignore`
   (ignore `*.sas7bdat`, `work/`; keep `*.xpt`, `logs/`, `outputs/`).
 - `setup.sas` with a single `%let root=` that is the only path you edit when
   moving between OnDemand and elsewhere; libnames `raw`, `sdtm`, `adam`, `ref`.
