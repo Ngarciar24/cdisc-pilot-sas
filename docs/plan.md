@@ -14,27 +14,26 @@ Suggested name: `cdisc-pilot-sas` (short, says study + language).
 
 ## 0. How the work runs (read first)
 
-- **SAS does not run in the Claude Code cloud container** (no licence). Code is
-  written in the session, then run by you in **SAS OnDemand for Academics**
-  (free, SAS Studio in the browser).
+- **SAS does not run in CI** (no licence on GitHub Actions). Programs are
+  run in **SAS OnDemand for Academics** (free, SAS Studio in the browser).
 - The evidence is therefore committed files, not a CI rebuild: every program's
   `.log`, the `.lst` where relevant, and the RTF/PDF outputs.
 - Loop per pull request:
-  1. Claude (or you) writes/changes programs on a branch and pushes.
-  2. You pull the branch into SAS OnDemand (SAS 9.4M6+ has `git_clone` /
+  1. Write or change programs on a branch and push.
+  2. Pull the branch into SAS OnDemand (SAS 9.4M6+ has `git_clone` /
      `git_pull` functions you can call from a small `sync.sas`; if outbound Git
      is blocked in your OnDemand instance, upload a zip instead).
   3. Run `run_all.sas`. It ends with `%logcheck`, which fails loudly on any issue.
   4. Download `logs/`, `outputs/`, `data/` and commit them to the branch.
-  5. Claude reads the logs and fixes; repeat until `%logcheck` is clean.
+  5. Read the logs and fix; repeat until `%logcheck` is clean.
 - A PR is merged only with clean logs committed for every changed program.
 - CI (GitHub Actions) still adds value without SAS: it checks the committed
-  logs are clean, and runs CDISC CORE on the committed SDTM/ADaM XPTs.
+  logs are clean, and runs CDISC CORE on the committed SDTM XPTs (CORE has
+  no ADaM rules; see section 7).
 
-**Authorship.** This repo is meant to prove *your* SAS skill. Write the core
-programs yourself (at least DM, ADSL, ADAE and the demographics and AE tables)
-and use Claude as reviewer and tutor; let Claude draft the scaffolding, macros
-and the less central programs. You must be able to explain every line.
+**Authorship.** The core programs (at least DM, ADSL, ADAE and the
+demographics and AE tables) are written by hand, and every line must be
+explainable.
 
 ---
 
@@ -43,7 +42,7 @@ and the less central programs. You must be able to explain every line.
 ```
 cdisc-pilot-sas/
 ├── README.md                 pitch, results, how to run, link to R repo
-├── CLAUDE.md                 conventions for Claude sessions (template provided)
+├── CONVENTIONS.md            programming conventions
 ├── setup.sas                 %let root; libnames; options; %include macros
 ├── run_all.sas               runs every program in order, then %logcheck
 ├── sync.sas                  git pull into SAS OnDemand (optional)
@@ -133,7 +132,7 @@ A hiring manager should be able to find each of these in a named program:
 Each phase is one or more PRs with clean committed logs.
 
 ### Phase 0 — Setup (1 session)
-- Create the GitHub repo; add `README.md` skeleton, `CLAUDE.md`, `.gitignore`
+- Create the GitHub repo; add `README.md` skeleton, `CONVENTIONS.md`, `.gitignore`
   (ignore `*.sas7bdat`, `work/`; keep `*.xpt`, `logs/`, `outputs/`).
 - `setup.sas` with a single `%let root=` that is the only path you edit when
   moving between OnDemand and elsewhere; libnames `raw`, `sdtm`, `adam`, `ref`.
@@ -145,6 +144,10 @@ Each phase is one or more PRs with clean committed logs.
   finding from the `%logcheck` list, or if a program has no log.
 
 ### Phase 1 — SDTM from raw (2–3 sessions)
+Target SDTMIG 3.4 and CDISC CT 2026-03-27 (decided 2026-09-25); what changes
+from the pilot is in `docs/sdtmig-3.4-upgrade.md`.
+- Trial design TA, TE, TV, TI from the pilot (upper-case EPOCH) and SE from
+  EX/DS dates: SE is needed to derive EPOCH in AE, DS and EX.
 - `specs/sdtm_mapping.csv` from the aCRF: one row per raw field.
 - DM (with `RFSTDTC`, `RFENDTC`, `RFXSTDTC`, `RFXENDTC`, `RFICDTC`, `DTHDTC`,
   `ARM`/`ACTARM`, `AGE`/`AGEU`), SUPPDM.
@@ -155,9 +158,10 @@ Each phase is one or more PRs with clean committed logs.
 - Export XPT v5 with `%xpt_export`.
 - QC: `PROC COMPARE` vs PHUSE pilot SDTM; `docs/csdrg.md` explains each
   difference.
-- CI job 2: CDISC CORE on `data/sdtm/*.xpt` against SDTMIG (the version the
-  pilot uses; check), report committed, findings triaged in `docs/csdrg.md`.
-  Needs the free CDISC Library API key as a GitHub secret.
+- CI job 2: CDISC CORE on `data/sdtm/*.xpt` against SDTMIG 3.4 and CT
+  2026-03-27 with `tools/run_core.sh`, report committed, findings triaged in
+  `docs/csdrg.md`. The bundled rules cache is used, so no CDISC Library key is
+  needed.
 
 ### Phase 2 — ADaM (3–4 sessions)
 - ADSL: populations (`SAFFL`, `ITTFL`, `EFFFL`, `COMP24FL`), `TRT01P/A(N)`,
@@ -174,7 +178,8 @@ Each phase is one or more PRs with clean committed logs.
     (not a copy of the production code), `PROC COMPARE` → 0 differences.
   - `PROC COMPARE` vs the R repo XPTs → differences only where documented.
   - `PROC COMPARE` vs the official pilot ADaM → explained in `docs/adrg.md`.
-- CI: CORE against ADaMIG on `data/adam/*.xpt`.
+- CI: documented ADaMIG checks on `data/adam/*.xpt` (CORE has no ADaM rules;
+  reuse the R repo's conformance checks, see section 7).
 
 ### Phase 3 — TLFs (2–3 sessions)
 Write `docs/tlf-shells.md` first. Then, with ODS RTF via `%tfl_setup`:
@@ -194,8 +199,8 @@ Write `docs/tlf-shells.md` first. Then, with ODS RTF via `%tfl_setup`:
 ### Phase 4 — Submission documents (1–2 sessions)
 - `docs/csdrg.md` and `docs/adrg.md` (PHUSE template headings).
 - define.xml: SAS OnDemand has no free define generator; either generate it
-  from `specs/` with `{defineR}` in a small R helper (`tools/define.R`), or
-  reuse the R repo's approach. Commit `define.xml` + `define.html`.
+  from `specs/` by reusing the R repo's Define-XML 2.1 generator and its
+  XSD validation (see section 7). Commit `define.xml` + `define.html`.
 - Conformance reports from CORE, with every finding triaged.
 
 ### Phase 5 — Polish (1 session)
@@ -237,3 +242,37 @@ Write `docs/tlf-shells.md` first. Then, with ODS RTF via `%tfl_setup`:
 - SAS ADaM vs R ADaM: agreement shown, differences documented.
 - RTF + PDF outputs committed; README shows them.
 - cSDRG, ADRG, define.xml present.
+
+---
+
+## 7. Alignment with the R repo and checks made (2026-09-25)
+
+The R repo (`adam-admiral-walkthrough`) is being reworked in parallel. To keep
+the two repos from contradicting each other:
+
+- **One set of analysis rules.** The SAP is written once, in the R repo. This
+  repo's `docs/sap.md` links to that version (by commit) and records any
+  SAS-specific addition; it never restates a rule differently. Rules the R
+  repo has changed so far: last dose falls back to the discontinuation date
+  when EX has no end date (pilot rule); `CHG` only on post-baseline records;
+  screen failures no longer get a treatment in `TRT01P`; baseline stays "last
+  value on or before first dose" (differs from the pilot's `LBBLFL`).
+- **Same inputs.** The raw data (`pharmaverseraw` 0.1.1) corresponds to
+  `pharmaversesdtm` 1.5.0, which the R repo reads. Compared with the PHUSE
+  pilot SDTM it is identical for DM, EX, AE, SUPPDM and SUPPAE (blank vs
+  missing aside) but DS has 254 extra "PROTOCOL MILESTONE" (randomisation)
+  records. SDTM QC therefore compares with `pharmaversesdtm` 1.5.0 for DS and
+  with PHUSE for the rest.
+- **Same explained differences.** Differences between the pilot ADaM and our
+  ADaM that the R repo has already traced (e.g. the pilot's `ANRIND` range
+  comparison, baseline from `LBBLFL`, unimputed onset dates) are cited, not
+  re-investigated.
+- **Conformance.** CDISC CORE rules (checked in the rules cache) cover SDTMIG
+  3.2, 3.3 and 3.4 only: no ADaM rules and no SDTMIG 3.1.2, the version of the
+  pilot define.xml. Decision: target SDTMIG 3.4 (see
+  `docs/sdtmig-3.4-upgrade.md`); ADaM conformance uses the R repo's documented
+  ADaMIG checks.
+- **Python reading XPT.** pandas decodes exact zeros in XPT files as about
+  5.4e-79; any Python check here must round before testing for 0.
+- **define.xml.** Reuse the R repo's Define-XML 2.1 generator and XSD
+  validation rather than building a second one.

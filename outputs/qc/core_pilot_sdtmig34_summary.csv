@@ -1,0 +1,62 @@
+dataset,core_id,cdisc_rule_id,issues,message
+AE,CORE-000022,"CG0041, TIG0320",36,"At least one of the Seriousness criteria (AESCAN, AESCONG, AESDISAB, AESDTH, AESHOSP, AESLIFE, AESOD or AESMIE)  = 'Y', but AESER = 'N' or empty."
+AE,CORE-000024,"CG0082, TIG0347",1191,AEBODSYS is not empty and AEBDSYCD is empty
+AE,CORE-000321,,1,Study Day of Visit/Collection/Exam (AEDY) variable is missing when Date/Time of Collection (AEDTC) is present.
+AE,CORE-000552,"CG0220, TIG0434",1,AESTDY is not properly calculated per study day algorithm
+AE,CORE-000657,,250,"AEENDTC is populated, when AEOUT = NOT RECOVERED/NOT RESOLVED."
+AE,CORE-000701,,1191,EPOCH is missing for clinical subject-level observation.
+AE,CORE-000767,CG0603,1191,"Parent record exists and AEDECOD is not null, but FAOBJ is not equal to AEDECOD."
+AE,CORE-000793,,1,Collection study day (AEDY) is missing when date/time of collection (AEDTC) is populated.
+AE,CORE-000841,,1,AEENDTC in AE dataset of AE where AEOUT = 'FATAL' is not equal to DTHDTC in the DM dataset.
+AE,CORE-000929,"CG0001, SEND16, TIG0090, TIG0289",1,rule evaluation error - evaluation dataset failed to build
+AE,CORE-001081,CG0010,1,rule evaluation error - evaluation dataset failed to build
+DM,CORE-000047,"CG0518, TIG0613",52,ARM value in DM dataset is not among the values of ARM variable in TA dataset. This is allowed only in a multistage study with incomplete ARM assignment. Please confirm if your study is a multistage assignment study
+DM,CORE-000115,CG0570,52,"ARM cannot be equal to 'Screen Failure', 'Not Assigned', 'Unplanned Treatment' or 'Not Treated'."
+DM,CORE-000191,"CG0529, TIG0622",52,RFENDTC is missing when ARM is provided.
+DM,CORE-000208,"CG0512, TIG0607",52,ACTARMCD is not in TA.ARMCD
+DM,CORE-000209,"CG0514, TIG0609",52,ACTARM value in DM dataset is not among the values of ARM variable in the TA dataset. This is allowed only in a multistage study with incomplete ARM assignment. Please confirm if your study is a multistage assignment study.
+DM,CORE-000210,"CG0516, TIG0611",52,ARMCD is not present in TA.ARMCD
+DM,CORE-000334,"CG0016, SEND13, TIG0065, TIG0301",1,At least one expected variable is missing from dataset
+DM,CORE-000655,,12,Values between ARMCD and ACTARMCD are not matching
+DM,CORE-000656,,12,Values between ARM and ACTARM are not matching
+DM,CORE-000929,"CG0001, SEND16, TIG0090, TIG0289",1,rule evaluation error - evaluation dataset failed to build
+DM,CORE-001081,CG0010,1,rule evaluation error - evaluation dataset failed to build
+DS,CORE-000321,,1,Study Day of Visit/Collection/Exam (DSDY) variable is missing when Date/Time of Collection (DSDTC) is present.
+DS,CORE-000701,,596,EPOCH is missing for clinical subject-level observation.
+DS,CORE-000767,CG0603,596,"Parent record exists and DSDECOD is not null, but FAOBJ is not equal to DSDECOD."
+DS,CORE-000793,,1,Collection study day (DSDY) is missing when date/time of collection (DSDTC) is populated.
+DS,CORE-000867,,58,Text variable contains leading spaces.
+DS,CORE-000929,"CG0001, SEND16, TIG0090, TIG0289",1,rule evaluation error - evaluation dataset failed to build
+DS,CORE-001081,CG0010,1,rule evaluation error - evaluation dataset failed to build
+EX,CORE-000701,,591,EPOCH is missing for clinical subject-level observation.
+EX,CORE-000929,"CG0001, SEND16, TIG0090, TIG0289",1,rule evaluation error - evaluation dataset failed to build
+EX,CORE-001081,CG0010,1,rule evaluation error - evaluation dataset failed to build
+SE,CORE-000328,,1,The Study Day of Start of Observation (SESTDY) is not present in the dataset when Start Date/Time of Observation (SESTDTC) is present.
+SE,CORE-000776,,1,Study Day of End of Observation (SEENDY) variable is missing when End Date/Time of Observation (SEENDTC) is present.
+SE,CORE-000929,"CG0001, SEND16, TIG0090, TIG0289",1,rule evaluation error - evaluation dataset failed to build
+SE,CORE-001081,CG0010,1,rule evaluation error - evaluation dataset failed to build
+SUPPAE,CORE-000929,"CG0001, SEND16, TIG0090, TIG0289",1,rule evaluation error - evaluation dataset failed to build
+SUPPAE,CORE-001081,CG0010,1,rule evaluation error - evaluation dataset failed to build
+SUPPDM,CORE-000211,CG0528,963,Population flag is present in SUPPDM
+SUPPDM,CORE-000929,"CG0001, SEND16, TIG0090, TIG0289",1,rule evaluation error - evaluation dataset failed to build
+SUPPDM,CORE-001081,CG0010,1,rule evaluation error - evaluation dataset failed to build
+SUPPDS,CORE-000929,"CG0001, SEND16, TIG0090, TIG0289",1,rule evaluation error - evaluation dataset failed to build
+SUPPDS,CORE-001081,CG0010,1,rule evaluation error - evaluation dataset failed to build
+SV,CORE-000328,,1,The Study Day of Start of Observation (SVSTDY) is not present in the dataset when Start Date/Time of Observation (SVSTDTC) is present.
+SV,CORE-000334,"CG0016, SEND13, TIG0065, TIG0301",1,At least one expected variable is missing from dataset
+SV,CORE-000776,,1,Study Day of End of Observation (SVENDY) variable is missing when End Date/Time of Observation (SVENDTC) is present.
+SV,CORE-000929,"CG0001, SEND16, TIG0090, TIG0289",1,rule evaluation error - evaluation dataset failed to build
+SV,CORE-001081,CG0010,1,rule evaluation error - evaluation dataset failed to build
+TA,CORE-000929,"CG0001, SEND16, TIG0090, TIG0289",1,rule evaluation error - evaluation dataset failed to build
+TA,CORE-001081,CG0010,1,rule evaluation error - evaluation dataset failed to build
+TE,CORE-000929,"CG0001, SEND16, TIG0090, TIG0289",1,rule evaluation error - evaluation dataset failed to build
+TE,CORE-001081,CG0010,1,rule evaluation error - evaluation dataset failed to build
+TI,CORE-000929,"CG0001, SEND16, TIG0090, TIG0289",1,rule evaluation error - evaluation dataset failed to build
+TI,CORE-001081,CG0010,1,rule evaluation error - evaluation dataset failed to build
+TS,CORE-000294,"CG0270, TIG0471",1,TSVAL is not in ISO 8601 format
+TS,CORE-000334,"CG0016, SEND13, TIG0065, TIG0301",1,At least one expected variable is missing from dataset
+TS,CORE-000741,,33,"The set  ('INTMODEL’, 'INTTYPE','PCLASS') is not in the list of TSPARAMCD with TSVAL populated."
+TS,CORE-000929,"CG0001, SEND16, TIG0090, TIG0289",1,rule evaluation error - evaluation dataset failed to build
+TS,CORE-001081,CG0010,1,rule evaluation error - evaluation dataset failed to build
+TV,CORE-000929,"CG0001, SEND16, TIG0090, TIG0289",1,rule evaluation error - evaluation dataset failed to build
+TV,CORE-001081,CG0010,1,rule evaluation error - evaluation dataset failed to build

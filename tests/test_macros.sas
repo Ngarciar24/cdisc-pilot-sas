@@ -4,7 +4,8 @@
 * Purpose     : Unit tests for the utility macros. Each check writes
 *               "NOTE: [test] PASS ..." or "ERROR: [test] FAIL ..." to the log,
 *               so %logcheck fails the run on any failed test.
-* Inputs      : data/reference/sdtm/dm.xpt; specs/sdtm_spec.csv, specs/ct.csv
+* Inputs      : data/reference/sdtm/dm.xpt; specs/pilot_spec.csv,
+*               specs/pilot_ct.csv
 * Outputs     : WORK datasets only; a temporary XPT in the WORK folder
 * Macros      : %iso_dtc %dtc_date %study_day %seq %xpt_import %spec_attrib
 *               %ct_check %xpt_export
@@ -12,6 +13,8 @@
 * Created     : 2026-09-25
 * SAS version : 9.4M8 (SAS OnDemand for Academics)
 * Change log  : 2026-09-25  IGR  Initial version
+*               2026-09-25  IGR  Remove formats with FORMAT _ALL_
+*               2026-09-25  IGR  Test against the pilot spec (spec=pilot)
 *
 * Conditions use EQ/NE, not "=", because they are macro arguments.
 *******************************************************************************/
@@ -115,10 +118,11 @@ data work.t_dm;
 run;
 proc datasets lib=work nolist;
   modify t_dm;
-  attrib _all_ label=' ' format=;
+  attrib _all_ label=' ';
+  format _all_;
 quit;
 
-%spec_attrib(data=work.t_dm, dataset=DM, out=work.t_dm2)
+%spec_attrib(data=work.t_dm, dataset=DM, out=work.t_dm2, spec=pilot)
 
 proc compare base=work.ref_dm compare=work.t_dm2 noprint;
   id studyid usubjid;
@@ -142,7 +146,7 @@ data _null_;
   %check(ds_label eq 'Demographics', spec_attrib sets dataset label)
 run;
 
-%ct_check(data=work.t_dm2, dataset=DM)
+%ct_check(data=work.t_dm2, dataset=DM, spec=pilot)
 data _null_;
   dsid = open('work.ct_findings');
   n = attrn(dsid, 'NLOBS');
@@ -155,7 +159,7 @@ data work.t_dm_bad;
   set work.t_dm2;
   if _n_ eq 1 then sex = 'X';
 run;
-%ct_check(data=work.t_dm_bad, dataset=DM, level=NOTE)
+%ct_check(data=work.t_dm_bad, dataset=DM, spec=pilot, level=NOTE)
 data _null_;
   set work.ct_findings end=eof;
   if eof then do;

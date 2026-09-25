@@ -1,27 +1,29 @@
 domain,variable,source,raw_field,rule,origin,note
 DM,STUDYID,dm_raw,STUDY,As collected,CRF,
-DM,DOMAIN,,,"'DM'",Assigned,
-DM,USUBJID,dm_raw,PATNUM,"'01-' || PATNUM",Derived,"Pilot define.xml says STUDYID-SITEID-SUBJID, but pilot values are 01-<site>-<subject> (e.g. 01-701-1015); follow the values so QC keys match."
+DM,DOMAIN,,,'DM',Assigned,
+DM,USUBJID,dm_raw,PATNUM,'01-' || PATNUM,Derived,"Pilot define.xml says STUDYID-SITEID-SUBJID, but pilot values are 01-<site>-<subject> (e.g. 01-701-1015); follow the values so QC keys match."
 DM,SUBJID,dm_raw,PATNUM,"scan(PATNUM, 2, '-')",CRF,
 DM,SITEID,dm_raw,PATNUM,"scan(PATNUM, 1, '-')",Derived,
 DM,RFSTDTC,ec_raw,IT.ECSTDAT,"Earliest IT.ECSTDAT (DD-MON-YYYY) per patient, as ISO 8601 date",Derived,Matches pilot for all 254 treated patients (Python check).
 DM,RFENDTC,ds_raw,IT.DSSTDAT,"Latest IT.DSSTDAT (MM-DD-YYYY) of the end-of-study disposition record (IT.DSDECOD not blank, not Randomized, not Screen Failure), as ISO 8601 date",Derived,"Pilot define.xml says 'last study drug from EX', but pilot values are the disposition date: 253/254 match; 01-710-1083 (a death: DTHDTC 2013-08-02) is one day later in the pilot. Explain in cSDRG."
 DM,RFXSTDTC,ec_raw,IT.ECSTDAT,= RFSTDTC,Derived,
 DM,RFXENDTC,ec_raw,IT.ECENDAT,"Latest non-missing IT.ECENDAT per patient, as ISO 8601 date",Derived,"Blank for 01-705-1018 and 01-705-1382 (no end date collected), as in the pilot."
-DM,RFICDTC,dm_raw,IC_DT,"IC_DT (MM/DD/YYYY) as ISO 8601 date",CRF,"Blank for all patients in the pilot (not entered in its database); raw data here has it for 254 patients. Expected difference; explain in cSDRG."
-DM,RFPENDTC,ds_raw,"IT.DSSTDAT, DSTMCOL","Date/time of the last disposition event, ISO 8601",Derived,To confirm against pilot when DS is built.
-DM,DTHDTC,ds_raw,DEATHDT,"DEATHDT as ISO 8601 where IT.DSDECOD = 'Death'",Derived,3 deaths in pilot DM. Pilot define says DTHDTC = AEENDTC; check against AE.
-DM,DTHFL,ds_raw,IT.DSDECOD,"'Y' if a disposition record has IT.DSDECOD = 'Death', else blank",Derived,Codelist Y_BLANK.
+DM,RFICDTC,dm_raw,IC_DT,IC_DT (MM/DD/YYYY) as ISO 8601 date,CRF,Blank for all patients in the pilot (not entered in its database); raw data here has it for 254 patients. Expected difference; explain in cSDRG.
+DM,RFPENDTC,ds_raw,"IT.DSSTDAT, DSTMCOL",To be defined: pilot value is not the last DS date (matches 225/306),Derived,Probably the last contact date across DS and SV; confirm when SV is available.
+DM,DTHDTC,ds_raw,DEATHDT,DEATHDT as ISO 8601 where IT.DSDECOD = 'Death',Derived,3 deaths in pilot DM. Pilot define says DTHDTC = AEENDTC; check against AE.
+DM,DTHFL,ds_raw,IT.DSDECOD,"'Y' if a disposition record has IT.DSDECOD = 'Death', else blank",Derived,Codelist NY (was Y_BLANK in the pilot).
 DM,AGE,dm_raw,IT.AGE,As collected,CRF,Pilot define says derived at RFSTDTC; raw age equals pilot AGE for all 306 patients.
-DM,AGEU,,,"'YEARS'",Assigned,
+DM,AGEU,,,'YEARS',Assigned,
 DM,SEX,dm_raw,IT.SEX,"Female -> F, Male -> M (codelist SEX)",CRF,
 DM,RACE,dm_raw,IT.RACE,upcase(IT.RACE),CRF,Codelist RACE; matches pilot for all 306.
 DM,ETHNIC,dm_raw,IT.ETHNIC,upcase(IT.ETHNIC),CRF,Codelist ETHNIC; matches pilot for all 306.
-DM,ARMCD,dm_raw,PLANNED_ARMCD,As collected,Assigned,"Codelist ARMCD (Scrnfail, Pbo, Xan_Lo, Xan_Hi)."
-DM,ARM,dm_raw,PLANNED_ARM,"Decode: Xan High -> Xanomeline High Dose, Xan Low -> Xanomeline Low Dose; Placebo and Screen Failure as collected",Assigned,Codelist ARM.
-DM,ACTARMCD,dm_raw,ACTUAL_ARMCD,As collected,Derived,"The aCRF labels this field ARMCD; it is the actual arm (ACTARMCD/ACTARM). 12 patients planned Xan_Hi received Xan_Lo."
-DM,ACTARM,dm_raw,ACTUAL_ARM,Same decode as ARM,Derived,
+DM,ARMCD,dm_raw,PLANNED_ARMCD,PLANNED_ARMCD; null when PLANNED_ARMCD = 'Scrnfail' (SDTMIG 3.4: reason goes to ARMNRS),Assigned,"Codelist ARMCD (Pbo, Xan_Lo, Xan_Hi). Pilot put 'Scrnfail' here (CORE-000115, -000210)."
+DM,ARM,dm_raw,PLANNED_ARM,"Decode: Xan High -> Xanomeline High Dose, Xan Low -> Xanomeline Low Dose, Placebo as collected; null for screen failures",Assigned,"Codelist ARM. Pilot put 'Screen Failure' here (CORE-000047, -000115)."
+DM,ACTARMCD,dm_raw,ACTUAL_ARMCD,ACTUAL_ARMCD; null for screen failures,Derived,"The aCRF labels this field ARMCD; it is the actual arm. 12 patients planned Xan_Hi received Xan_Lo (CORE-000655: expected, explain in cSDRG)."
+DM,ACTARM,dm_raw,ACTUAL_ARM,Same decode as ARM; null for screen failures,Derived,CORE-000209 in pilot resolved by the null.
+DM,ARMNRS,dm_raw,PLANNED_ARM,"'SCREEN FAILURE' when PLANNED_ARM = 'Screen Failure', else null",Derived,New in SDTMIG 3.4 (Exp). Codelist ARMNULRS.
+DM,ACTARMUD,,,Null (no unplanned treatment in this study),Assigned,New in SDTMIG 3.4 (Exp); only for ARMNRS = UNPLANNED TREATMENT.
 DM,COUNTRY,dm_raw,COUNTRY,As collected,CRF,Codelist COUNTRY.
-DM,DMDTC,dm_raw,COL_DT,"COL_DT (MM/DD/YYYY) as ISO 8601 date",CRF,Matches pilot for all 306.
+DM,DMDTC,dm_raw,COL_DT,COL_DT (MM/DD/YYYY) as ISO 8601 date,CRF,Matches pilot for all 306.
 DM,DMDY,,,"Study day of DMDTC relative to RFSTDTC, no day 0",Derived,Blank for screen failures (no RFSTDTC).
 DM,BRTHDTC,,,Not mapped,,On the aCRF (IT.BRTHDAT) but not in raw data and not in pilot DM.

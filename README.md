@@ -1,30 +1,33 @@
 # cdisc-pilot-sas
 
-SAS programming for a clinical trial, end to end, on the public CDISC pilot
-study (CDISCPILOT01): **raw CRF data → SDTM → ADaM → tables, listings and
-figures**, with independent QC, log discipline and the reviewer's guides a
-submission needs.
+Learning and showing SAS programming for clinical trials on the public CDISC
+pilot study (CDISCPILOT01). The goal is the full chain, **raw CRF data → SDTM →
+ADaM → tables and figures**, with independent QC. **It is at the set-up
+stage:** the framework and checks are written; the SDTM, ADaM and table
+programs are not yet.
 
 Companion repo: [adam-admiral-walkthrough](https://github.com/Ngarciar24/adam-admiral-walkthrough)
-derives the same ADaM datasets in R ({admiral}). That repo is the independent
-double programming: `PROC COMPARE` shows where the SAS and R datasets agree and
-documents where they differ.
+builds ADaM for the same study in R ({admiral}); it will serve as the
+independent build that the SAS datasets are compared against.
 
-> **Status: Phase 0 (setup).** Programs are run in SAS OnDemand for Academics.
-> A program is counted as done only when its log is committed under `logs/`
-> and is clean.
+## Status
 
-## What this repo shows
+A program counts as done only when its log from SAS OnDemand for Academics is
+committed under `logs/` and is clean.
 
-| Area | Where |
-|---|---|
-| SDTM mapping from raw data (DM, AE, DS, EX, TS, SUPPQUAL), ISO 8601 dates, `--SEQ`, `--DY`, `EPOCH` | `programs/sdtm/` *(Phase 1)* |
-| ADaM ADSL, ADAE, ADLB, ADVS, ADTTE, with metadata-driven attributes | `programs/adam/` *(Phase 2)* |
-| TFLs with `PROC REPORT` + ODS RTF, Kaplan–Meier with `PROC LIFETEST`/`SGPLOT` | `programs/tfl/` *(Phase 3)* |
-| Independent QC with `PROC COMPARE` (vs own QC code, vs the R repo, vs the published pilot data) | `qc/`, `outputs/qc/` |
-| Macro language: parameter checks, `%SYSFUNC`, autocall library | `macros/` |
-| Log discipline: strict options + automated log scan in SAS and in CI | `setup.sas`, `macros/logcheck.sas`, `tools/check_logs.py` |
-| Submission documents: cSDRG, ADRG, define.xml, CDISC CORE conformance | `docs/` *(Phase 4)* |
+| Item | Status | Evidence |
+|---|---|---|
+| Set-up: strict log options, one-path config, `run_all.sas`, log check in SAS and CI | Written, **not yet run in SAS** | `setup.sas`, `macros/logcheck.sas`, `tools/check_logs.py` |
+| Utility macros (spec attributes, CT check, ISO 8601 dates, study day, `--SEQ`, XPT export) with 23 unit checks | Written, **not yet run in SAS** | `macros/`, `tests/test_macros.sas` |
+| Smoke test reading raw demographics | Written, **not yet run in SAS** | `programs/hello_raw.sas` |
+| SDTMIG 3.4 target spec and CT, raw-to-DM mapping | Done (generated, checked in Python) | `specs/`, `tools/build_sdtm_spec.py` |
+| Pilot SDTM checked against SDTMIG 3.4 with CDISC CORE | Done | `docs/sdtmig-3.4-upgrade.md`, `outputs/qc/core_pilot_sdtmig34_summary.csv` |
+| SDTM DM from raw | Next | |
+| ADSL, demographics table (`PROC REPORT`, RTF), `PROC COMPARE` of ADSL with the R build | Planned | |
+| ADTTE and Kaplan–Meier figure, time to first dermatologic event | Planned | |
+| Remaining SDTM/ADaM, AE tables, reviewer's guides, define.xml | Planned | |
+
+Order and scope: [docs/roadmap.md](docs/roadmap.md).
 
 ## Log discipline
 
@@ -48,7 +51,9 @@ on every push.
 |---|---|
 | Raw (CRF-like) | [`pharmaverseraw`](https://github.com/pharmaverse/pharmaverseraw) v0.1.1 (commit `e0771af`), exported to `data/raw/*.csv` by `tools/export_raw.py`: dm, ae, ds, ec, vs |
 | SDTM / ADaM reference | PHUSE [`phuse-scripts`](https://github.com/phuse-org/phuse-scripts) (MIT), commit `398a6d3`: pilot SDTM/ADaM XPTs, define.xml, aCRF and data guide in `data/reference/` (see its README) |
-| Specs | `specs/sdtm_spec.csv` and `specs/ct.csv` generated from the pilot SDTM define.xml by `tools/define_to_specs.py`; `specs/sdtm_mapping.csv` maps raw fields to SDTM (DM so far) |
+| Target standards | SDTMIG 3.4, CDISC CT 2026-03-27, Define-XML 2.1. `specs/sdtm_spec.csv` and `specs/sdtm_ct.csv` are built from SDTMIG 3.4 metadata by `tools/build_sdtm_spec.py`; [docs/sdtmig-3.4-upgrade.md](docs/sdtmig-3.4-upgrade.md) lists what changes from the pilot (SDTMIG 3.1.2) and why, checked with CDISC CORE |
+| Pilot metadata | `specs/pilot_spec.csv` and `specs/pilot_ct.csv` from the pilot define.xml (`tools/define_to_specs.py`), for QC against the pilot |
+| Mapping | `specs/sdtm_mapping.csv`: raw fields to SDTM (DM so far) |
 
 Raw DM has 306 patients (254 randomised, 52 screen failures).
 
@@ -77,8 +82,8 @@ tests/           unit tests for the macros (PASS/FAIL lines in the log)
 data/raw/        raw CSV (input)
 data/sdtm/, data/adam/   XPT v5 outputs (committed)
 logs/, lst/, outputs/    evidence from the SAS runs (committed)
-tools/           Python helpers: raw export, CI log check
-docs/            plan, SAP, TLF shells, reviewer's guides
+tools/           helpers: raw export, spec builders, CORE runner, CI log check
+docs/            roadmap, SDTMIG 3.4 upgrade notes; later SAP, TLF shells, reviewer's guides
 ```
 
 ## Limits

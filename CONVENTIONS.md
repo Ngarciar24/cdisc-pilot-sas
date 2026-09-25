@@ -1,4 +1,4 @@
-# CLAUDE.md — cdisc-pilot-sas
+# Conventions — cdisc-pilot-sas
 
 ## What this repo is
 SAS programming portfolio on the public CDISC pilot study (CDISCPILOT01):
@@ -8,9 +8,8 @@ Companion repo: `Ngarciar24/adam-admiral-walkthrough` (R/admiral ADaM, used as
 independent QC).
 
 ## Hard constraints
-- SAS is NOT available in the Claude Code container. Never claim a SAS program
-  runs or produces a result unless its log is committed under `logs/`. Read the
-  committed logs to debug.
+- SAS does not run in CI. A SAS program counts as run only when its log is
+  committed under `logs/`; debug from the committed logs.
 - Do not fabricate logs, outputs, counts or PROC COMPARE results.
 - Never commit credentials. The CDISC Library API key lives only in the GitHub
   secret `CDISC_LIBRARY_API_KEY`.
@@ -37,7 +36,10 @@ independent QC).
   copy production code); they end with `PROC COMPARE` and their `.lst` is
   committed.
 - Names follow CDISC and XPT v5 limits: variable names ≤ 8, labels ≤ 40, character
-  values ≤ 200 bytes.
+  values ≤ 200 bytes, ASCII text only.
+- Targets: SDTMIG 3.4, CDISC CT 2026-03-27, Define-XML 2.1. `specs/sdtm_spec.csv`
+  is the target; `specs/pilot_spec.csv` describes the pilot (SDTMIG 3.1.2) and is
+  used only for QC and tests. Differences are listed in `docs/sdtmig-3.4-upgrade.md`.
 
 ## Workflow
 1. Work on a branch; one phase or sub-phase per PR.
@@ -47,7 +49,6 @@ independent QC).
 4. Merge only with clean logs for every changed program and CI green.
 
 ## Ownership
-The owner is learning and must be able to explain every line. For core
-derivations (DM, ADSL, ADAE, TEAE table) prefer reviewing and explaining the
-owner's code over writing it from scratch; when writing, keep it plain and
-idiomatic rather than clever.
+Every line must be explainable by the author. Core derivations (DM, ADSL,
+ADAE, TEAE table) are written by hand; keep code plain and idiomatic rather
+than clever.

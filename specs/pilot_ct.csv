@@ -1,0 +1,389 @@
+codelist,code,extensible,source,order,term,decode
+AECAUS,,,pilot define.xml,1,NONE,NONE
+AECAUS,,,pilot define.xml,2,POSSIBLE,POSSIBLE
+AECAUS,,,pilot define.xml,3,PROBABLE,PROBABLE
+AECAUS,,,pilot define.xml,4,REMOTE,REMOTE
+AGESPAN,,,pilot define.xml,1,CHILDREN (2-11 YEARS),CHILDREN (2-11 YEARS)
+AGESPAN,,,pilot define.xml,2,ADOLESCENT (12-17 YEARS),ADOLESCENT (12-17 YEARS)
+AGESPAN,,,pilot define.xml,3,ADULT (18-65),ADULT (18-65)
+AGESPAN,,,pilot define.xml,4,ELDERLY (> 65),ELDERLY (> 65)
+AGEU,,,pilot define.xml,1,YEARS,YEARS
+ARM,,,pilot define.xml,1,Screen Failure,Screen Failure
+ARM,,,pilot define.xml,2,Placebo,Placebo
+ARM,,,pilot define.xml,3,Xanomeline Low Dose,Xanomeline Low Dose
+ARM,,,pilot define.xml,4,Xanomeline High Dose,Xanomeline High Dose
+ARMCD,,,pilot define.xml,1,Scrnfail,Screen Failure
+ARMCD,,,pilot define.xml,2,Pbo,Placebo
+ARMCD,,,pilot define.xml,3,Xan_Lo,Xanomeline Low Dose
+ARMCD,,,pilot define.xml,4,Xan_Hi,Xanomeline High Dose
+CIBIC,,,pilot define.xml,1,1,Marked improvement
+CIBIC,,,pilot define.xml,2,2,Moderate improvement
+CIBIC,,,pilot define.xml,3,3,Minimal improvement
+CIBIC,,,pilot define.xml,4,4,No Change
+CIBIC,,,pilot define.xml,5,5,Minimal worsening
+CIBIC,,,pilot define.xml,6,6,Moderate worsening
+CIBIC,,,pilot define.xml,7,7,Marked worsening
+CMFREQ,,,pilot define.xml,1,BID,BID
+CMFREQ,,,pilot define.xml,2,EVERY MORNING,EVERY MORNING
+CMFREQ,,,pilot define.xml,3,EVERY NIGHT,EVERY NIGHT
+CMFREQ,,,pilot define.xml,4,ONCE,ONCE
+CMFREQ,,,pilot define.xml,5,OTHER,OTHER
+CMFREQ,,,pilot define.xml,6,PRN,PRN
+CMFREQ,,,pilot define.xml,7,Q3H,Q3H
+CMFREQ,,,pilot define.xml,8,Q4H,Q4H
+CMFREQ,,,pilot define.xml,9,Q6H,Q6H
+CMFREQ,,,pilot define.xml,10,Q4S,Q4S
+CMFREQ,,,pilot define.xml,11,QD,QD
+CMFREQ,,,pilot define.xml,12,QID,QID
+CMFREQ,,,pilot define.xml,13,QM,QM
+CMFREQ,,,pilot define.xml,14,QOD,QOD
+CMFREQ,,,pilot define.xml,15,QS,QS
+CMFREQ,,,pilot define.xml,16,TID,TID
+CMFREQ,,,pilot define.xml,17,TIS,TIS
+CMFREQ,,,pilot define.xml,18,TWICE,TWICE
+CMROUTE,,,pilot define.xml,1,AURICULAR (OTIC),AURICULAR (OTIC)
+CMROUTE,,,pilot define.xml,2,INTRAMUSCULAR,INTRAMUSCULAR
+CMROUTE,,,pilot define.xml,3,INTRAVENOUS,INTRAVENOUS
+CMROUTE,,,pilot define.xml,4,NASAL,NASAL
+CMROUTE,,,pilot define.xml,5,OPHTHALMIC,OPHTHALMIC
+CMROUTE,,,pilot define.xml,6,ORAL,ORAL
+CMROUTE,,,pilot define.xml,7,RESPIRATORY (INHALATION),RESPIRATORY (INHALATION)
+CMROUTE,,,pilot define.xml,8,RECTAL,RECTAL
+CMROUTE,,,pilot define.xml,9,SUBCUTANEOUS,SUBCUTANEOUS
+CMROUTE,,,pilot define.xml,10,SUBLINGUAL,SUBLINGUAL
+CMROUTE,,,pilot define.xml,11,TOPICAL,TOPICAL
+CMROUTE,,,pilot define.xml,12,TRANSDERMAL,TRANSDERMAL
+CMROUTE,,,pilot define.xml,13,VAGINAL,VAGINAL
+COLOR,,,pilot define.xml,1,N,Normal
+COLOR,,,pilot define.xml,2,A,Abnormal
+COUNTRY,,,pilot define.xml,1,USA,USA
+DISCCD,,,pilot define.xml,1,COMPLETED,COMPLETED
+DISCCD,,,pilot define.xml,2,ADVERSE EVENT,ADVERSE EVENT
+DISCCD,,,pilot define.xml,3,DEATH,DEATH
+DISCCD,,,pilot define.xml,4,LACK OF EFFICACY,LACK OF EFFICACY
+DISCCD,,,pilot define.xml,5,LOST TO FOLLOW-UP,LOST TO FOLLOW-UP
+DISCCD,,,pilot define.xml,6,WITHDRAWAL BY SUBJECT,WITHDRAWAL BY SUBJECT
+DISCCD,,,pilot define.xml,7,SCREEN FAILURE,SCREEN FAILURE
+DISCCD,,,pilot define.xml,8,STUDY TERMINATED BY SPONSOR,STUDY TERMINATED BY SPONSOR
+DISCCD,,,pilot define.xml,9,PHYSICIAN DECISION,PHYSICIAN DECISION
+DISCCD,,,pilot define.xml,10,PROTOCOL VIOLATION,PROTOCOL VIOLATION
+DISCCD,,,pilot define.xml,11,FINAL LAB VISIT,FINAL LAB VISIT
+DISCCD,,,pilot define.xml,12,FINAL RETRIEVAL VISIT,FINAL RETRIEVAL VISIT
+DISTSC,,,pilot define.xml,1,0,0
+DISTSC,,,pilot define.xml,2,1,1
+DISTSC,,,pilot define.xml,3,2,2
+DISTSC,,,pilot define.xml,4,3,3
+DISTSC,,,pilot define.xml,5,4,4
+DISTSC,,,pilot define.xml,6,5,5
+DSCAT,,,pilot define.xml,1,DISPOSITION EVENT,DISPOSITION EVENT
+DSCAT,,,pilot define.xml,2,OTHER EVENT,OTHER EVENT
+ELEMENT,,,pilot define.xml,1,Screen,Screen
+ELEMENT,,,pilot define.xml,2,Placebo,Placebo
+ELEMENT,,,pilot define.xml,3,Low,Low
+ELEMENT,,,pilot define.xml,4,High_Start,High_Start
+ELEMENT,,,pilot define.xml,5,High_Middle,High_Middle
+ELEMENT,,,pilot define.xml,6,High_End,High_End
+ELEMENT,,,pilot define.xml,7,Follow_up,Follow_up
+EPOCH,,,pilot define.xml,1,Screening,Screening
+EPOCH,,,pilot define.xml,2,Treatment,Treatment
+ETCD,,,pilot define.xml,1,SCRN,Screen
+ETCD,,,pilot define.xml,2,PBO,Placebo
+ETCD,,,pilot define.xml,3,LO,Low
+ETCD,,,pilot define.xml,4,HIS,High_Start
+ETCD,,,pilot define.xml,5,HIM,High_Middle
+ETCD,,,pilot define.xml,6,HIE,High_End
+ETCD,,,pilot define.xml,7,FOLO,Follow_up
+ETCD,,,pilot define.xml,8,UNPLAN,Unplanned
+ETHNIC,,,pilot define.xml,1,NOT HISPANIC OR LATINO,NOT HISPANIC OR LATINO
+ETHNIC,,,pilot define.xml,2,HISPANIC OR LATINO,HISPANIC OR LATINO
+EXDOSEU,,,pilot define.xml,1,mg,mg
+EXDOSFRM,,,pilot define.xml,1,PATCH,PATCH
+EXFREQ,,,pilot define.xml,1,QD,QD
+EXROUTE,,,pilot define.xml,1,TRANSDERMAL,TRANSDERMAL
+EXTRT,,,pilot define.xml,1,PLACEBO,PLACEBO
+EXTRT,,,pilot define.xml,2,XANOMELINE,XANOMELINE
+FREQSC,,,pilot define.xml,1,1,1
+FREQSC,,,pilot define.xml,2,2,2
+FREQSC,,,pilot define.xml,3,3,3
+FREQSC,,,pilot define.xml,4,4,4
+IECAT,,,pilot define.xml,1,INCLUSION,INCLUSION
+IECAT,,,pilot define.xml,2,EXCLUSION,EXCLUSION
+IETEST,,,pilot define.xml,1,Males and postmenopausal females at least 50 years of age.,Males and postmenopausal females at least 50 years of age.
+IETEST,,,pilot define.xml,2,Diagnosis of probable AD as defined by NINCDS and the ADRDA guidelines (Protocol Attachment LZZT.7).,Diagnosis of probable AD as defined by NINCDS and the ADRDA guidelines (Protocol Attachment LZZT.7).
+IETEST,,,pilot define.xml,3,MMSE score of 10 to 23.,MMSE score of 10 to 23.
+IETEST,,,pilot define.xml,4,Modified Hachinski Ischemic Scale score of <= 4. (Protocol Attachment LZZT.8).,Modified Hachinski Ischemic Scale score of <= 4. (Protocol Attachment LZZT.8).
+IETEST,,,pilot define.xml,5,CNS imaging (CT scan or MRI of brain) compatible with AD within past 1 year.,CNS imaging (CT scan or MRI of brain) compatible with AD within past 1 year.
+IETEST,,,pilot define.xml,6,Investigator has obtained informed consent signed by the patient (and/or legal representative) and by the caregiver.,Investigator has obtained informed consent signed by the patient (and/or legal representative) and by the caregiver.
+IETEST,,,pilot define.xml,7,Geographic proximity to investigator's site that allows adequate follow-up.,Geographic proximity to investigator's site that allows adequate follow-up.
+IETEST,,,pilot define.xml,8,"Caregiverwill monitor administration of prescribed medications, and will be responsible for the overall care of the patient at home.","Caregiverwill monitor administration of prescribed medications, and will be responsible for the overall care of the patient at home."
+IETEST,,,pilot define.xml,9,Persons who have previously completed or withdrawn from this study or any other investigating xanomeline TTS or the oral formulation of xanomeline.,Persons who have previously completed or withdrawn from this study or any other investigating xanomeline TTS or the oral formulation of xanomeline.
+IETEST,,,pilot define.xml,10,Use of any investigational agent or approved Alzheimer's therapeutic medication within 30 days prior to enrollment into the study.,Use of any investigational agent or approved Alzheimer's therapeutic medication within 30 days prior to enrollment into the study.
+IETEST,,,pilot define.xml,11,Serious illness which required hospitalization within 3 months of screening.,Serious illness which required hospitalization within 3 months of screening.
+IETEST,,,pilot define.xml,12,Diagnosis of serious neurological conditions.,Diagnosis of serious neurological conditions.
+IETEST,,,pilot define.xml,13,Episode of depression meeting DSM-IV criteria within 3 months of screening.,Episode of depression meeting DSM-IV criteria within 3 months of screening.
+IETEST,,,pilot define.xml,14,A history of mental illness within the last 5 years.,A history of mental illness within the last 5 years.
+IETEST,,,pilot define.xml,15,A history of syncope within the last 5 years.,A history of syncope within the last 5 years.
+IETEST,,,pilot define.xml,16,Evidence from ECG recording at screening of any listed condition.,Evidence from ECG recording at screening of any listed condition.
+IETEST,,,pilot define.xml,17,A history within the last 5 years of a serious cardiovascular disorder.,A history within the last 5 years of a serious cardiovascular disorder.
+IETEST,,,pilot define.xml,18,A history within the last 5 years of a serious gastrointestinal disorder.,A history within the last 5 years of a serious gastrointestinal disorder.
+IETEST,,,pilot define.xml,19,A history within the last 5 years of a serious endocrine disorder.,A history within the last 5 years of a serious endocrine disorder.
+IETEST,,,pilot define.xml,20,A history within the last 5 years of a serious respiratory disorder (see list).,A history within the last 5 years of a serious respiratory disorder (see list).
+IETEST,,,pilot define.xml,21,A history within the last 5 years of a serious genitourinary disorder.,A history within the last 5 years of a serious genitourinary disorder.
+IETEST,,,pilot define.xml,22,A history within the last 5 years of a serious rheumatologic disorder.,A history within the last 5 years of a serious rheumatologic disorder.
+IETEST,,,pilot define.xml,23,A known history of human immunodeficiency virus (HIV) within the last 5 years.,A known history of human immunodeficiency virus (HIV) within the last 5 years.
+IETEST,,,pilot define.xml,24,A history within the last 5 years of a serious infectious disease (see list in protocol).,A history within the last 5 years of a serious infectious disease (see list in protocol).
+IETEST,,,pilot define.xml,25,"A history within the last 5 years of a primary or recurrent malignant disease (with exceptions, see list in protocol).","A history within the last 5 years of a primary or recurrent malignant disease (with exceptions, see list in protocol)."
+IETEST,,,pilot define.xml,26,"Visual, hearing, or communication disabilities impairing the ability to participate in the study; (for example, inability to speak or understand English, illiteracy).","Visual, hearing, or communication disabilities impairing the ability to participate in the study; (for example, inability to speak or understand English, illiteracy)."
+IETEST,,,pilot define.xml,27,"Laboratory test values exceeding the Lilly Reference Range III for the patient's age in any of the following analytes: creatinine, total bilirubin, SGOT, SGPT, etc.","Laboratory test values exceeding the Lilly Reference Range III for the patient's age in any of the following analytes: creatinine, total bilirubin, SGOT, SGPT, etc."
+IETEST,,,pilot define.xml,28,"Central laboratory test values below reference range for folate, and vitamin B12, and outside reference range for thyroid function tests.","Central laboratory test values below reference range for folate, and vitamin B12, and outside reference range for thyroid function tests."
+IETEST,,,pilot define.xml,29,Positive syphilis screening with confirmatory testing.,Positive syphilis screening with confirmatory testing.
+IETEST,,,pilot define.xml,30,Central laboratory test value above reference range for glycosylated hemoglobin (A1C) (insulin dependent diabetes mellitus patients only).,Central laboratory test value above reference range for glycosylated hemoglobin (A1C) (insulin dependent diabetes mellitus patients only).
+IETEST,,,pilot define.xml,31,Treatment with medications within 1 month prior to enrollment (see list).,Treatment with medications within 1 month prior to enrollment (see list).
+IETESTCD,,,pilot define.xml,1,INCL01,Males and postmenopausal females at least 50 years of age.
+IETESTCD,,,pilot define.xml,2,INCL02,Diagnosis of probable AD as defined by NINCDS and the ADRDA guidelines (Protocol Attachment LZZT.7).
+IETESTCD,,,pilot define.xml,3,INCL03,MMSE score of 10 to 23.
+IETESTCD,,,pilot define.xml,4,INCL04,Modified Hachinski Ischemic Scale score of <= 4. (Protocol Attachment LZZT.8).
+IETESTCD,,,pilot define.xml,5,INCL05,CNS imaging (CT scan or MRI of brain) compatible with AD within past 1 year.
+IETESTCD,,,pilot define.xml,6,INCL06,Investigator has obtained informed consent signed by the patient (and/or legal representative) and by the caregiver.
+IETESTCD,,,pilot define.xml,7,INCL07,Geographic proximity to investigator's site that allows adequate follow-up.
+IETESTCD,,,pilot define.xml,8,INCL08,"Caregiverwill monitor administration of prescribed medications, and will be responsible for the overall care of the patient at home."
+IETESTCD,,,pilot define.xml,9,EXCL09,Persons who have previously completed or withdrawn from this study or any other investigating xanomeline TTS or the oral formulation of xanomeline.
+IETESTCD,,,pilot define.xml,10,EXCL10,Use of any investigational agent or approved Alzheimer's therapeutic medication within 30 days prior to enrollment into the study.
+IETESTCD,,,pilot define.xml,11,EXCL11,Serious illness which required hospitalization within 3 months of screening.
+IETESTCD,,,pilot define.xml,12,EXCL12,Diagnosis of serious neurological conditions.
+IETESTCD,,,pilot define.xml,13,EXCL13,Episode of depression meeting DSM-IV criteria within 3 months of screening.
+IETESTCD,,,pilot define.xml,14,EXCL14,A history of mental illness within the last 5 years.
+IETESTCD,,,pilot define.xml,15,EXCL15,A history of syncope within the last 5 years.
+IETESTCD,,,pilot define.xml,16,EXCL16,Evidence from ECG recording at screening of any listed condition.
+IETESTCD,,,pilot define.xml,17,EXCL17,A history within the last 5 years of a serious cardiovascular disorder.
+IETESTCD,,,pilot define.xml,18,EXCL18,A history within the last 5 years of a serious gastrointestinal disorder.
+IETESTCD,,,pilot define.xml,19,EXCL19,A history within the last 5 years of a serious endocrine disorder.
+IETESTCD,,,pilot define.xml,20,EXCL20,A history within the last 5 years of a serious respiratory disorder (see list).
+IETESTCD,,,pilot define.xml,21,EXCL21,A history within the last 5 years of a serious genitourinary disorder.
+IETESTCD,,,pilot define.xml,22,EXCL22,A history within the last 5 years of a serious rheumatologic disorder.
+IETESTCD,,,pilot define.xml,23,EXCL23,A known history of human immunodeficiency virus (HIV) within the last 5 years.
+IETESTCD,,,pilot define.xml,24,EXCL24,A history within the last 5 years of a serious infectious disease (see list in protocol).
+IETESTCD,,,pilot define.xml,25,EXCL25,"A history within the last 5 years of a primary or recurrent malignant disease (with exceptions, see list in protocol)."
+IETESTCD,,,pilot define.xml,26,EXCL26,"Visual, hearing, or communication disabilities impairing the ability to participate in the study; (for example, inability to speak or understand English, illiteracy)."
+IETESTCD,,,pilot define.xml,27,EXCL27,"Laboratory test values exceeding the Lilly Reference Range III for the patient's age in any of the following analytes: creatinine, total bilirubin, SGOT, SGPT, etc."
+IETESTCD,,,pilot define.xml,28,EXCL28,"Central laboratory test values below reference range for folate, and vitamin B12, and outside reference range for thyroid function tests."
+IETESTCD,,,pilot define.xml,29,EXCL29,Positive syphilis screening with confirmatory testing.
+IETESTCD,,,pilot define.xml,30,EXCL30,Central laboratory test value above reference range for glycosylated hemoglobin (A1C) (insulin dependent diabetes mellitus patients only).
+IETESTCD,,,pilot define.xml,31,EXCL31,Treatment with medications within 1 month prior to enrollment (see list).
+LBCAT,,,pilot define.xml,1,CHEMISTRY,CHEMISTRY
+LBCAT,,,pilot define.xml,2,HEMATOLOGY,HEMATOLOGY
+LBCAT,,,pilot define.xml,3,OTHER,OTHER
+LBCAT,,,pilot define.xml,4,URINALYSIS,URINALYSIS
+LBNRIND,,,pilot define.xml,1,LOW,LOW
+LBNRIND,,,pilot define.xml,2,NORMAL,NORMAL
+LBNRIND,,,pilot define.xml,3,HIGH,HIGH
+LBNRIND,,,pilot define.xml,4,ABNORMAL,ABNORMAL
+LBUNIT,,,pilot define.xml,1,1,1
+LBUNIT,,,pilot define.xml,2,GI/L,GI/L
+LBUNIT,,,pilot define.xml,3,TI/L,TI/L
+LBUNIT,,,pilot define.xml,4,U/L,U/L
+LBUNIT,,,pilot define.xml,5,fL,fL
+LBUNIT,,,pilot define.xml,6,fmol(Fe),fmol(Fe)
+LBUNIT,,,pilot define.xml,7,g/L,g/L
+LBUNIT,,,pilot define.xml,8,mU/L,mU/L
+LBUNIT,,,pilot define.xml,9,mmol/L,mmol/L
+LBUNIT,,,pilot define.xml,10,pmol/L,pmol/L
+LBUNIT,,,pilot define.xml,11,umol/L,umol/L
+MHCAT,,,pilot define.xml,1,HISTORICAL DIAGNOSIS,HISTORICAL DIAGNOSIS
+MHCAT,,,pilot define.xml,2,PRIMARY DIAGNOSIS,PRIMARY DIAGNOSIS
+MHCAT,,,pilot define.xml,3,SIGNIFICANT PRE-EXISTING CONDITION,SIGNIFICANT PRE-EXISTING CONDITION
+ND,,,pilot define.xml,1,NOT DONE,NOT DONE
+NYNAN,,,pilot define.xml,1,0,NO
+NYNAN,,,pilot define.xml,2,1,YES
+NYNAN,,,pilot define.xml,3,96,NOT APPLICABLE
+OUT,,,pilot define.xml,1,RECOVERED/RESOLVED,RECOVERED/RESOLVED
+OUT,,,pilot define.xml,2,NOT RECOVERED/NOT RESOLVED,NOT RECOVERED/NOT RESOLVED
+OUT,,,pilot define.xml,3,FATAL,FATAL
+PRESABSA,,,pilot define.xml,1,0,ABSENT
+PRESABSA,,,pilot define.xml,2,1,PRESENT
+PRESABSB,,,pilot define.xml,1,0,ABSENT
+PRESABSB,,,pilot define.xml,2,2,PRESENT
+PRESSC,,,pilot define.xml,1,0,ABSENT
+PRESSC,,,pilot define.xml,2,96,NOT APPLICABLE
+QEVAL,,,pilot define.xml,1,CLINICAL STUDY SPONSOR,CLINICAL STUDY SPONSOR
+QSCAT,,,pilot define.xml,1,ALZHEIMER'S DISEASE ASSESSMENT SCALE,ALZHEIMER'S DISEASE ASSESSMENT SCALE
+QSCAT,,,pilot define.xml,2,CLINICIAN'S INTERVIEW-BASED IMPRESSION OF CHANGE (CIBIC+),CLINICIAN'S INTERVIEW-BASED IMPRESSION OF CHANGE (CIBIC+)
+QSCAT,,,pilot define.xml,3,DISABILITY ASSESSMENT FOR DEMENTIA (DAD),DISABILITY ASSESSMENT FOR DEMENTIA (DAD)
+QSCAT,,,pilot define.xml,4,MINI-MENTAL STATE,MINI-MENTAL STATE
+QSCAT,,,pilot define.xml,5,MODIFIED HACHINSKI ISCHEMIC SCORE,MODIFIED HACHINSKI ISCHEMIC SCORE
+QSCAT,,,pilot define.xml,6,NEUROPSYCHIATRIC INVENTORY - REVISED (NPI-X),NEUROPSYCHIATRIC INVENTORY - REVISED (NPI-X)
+QSUNIT,,,pilot define.xml,1,sec,sec
+RACE,,,pilot define.xml,1,WHITE,WHITE
+RACE,,,pilot define.xml,2,BLACK OR AFRICAN AMERICAN,BLACK OR AFRICAN AMERICAN
+RACE,,,pilot define.xml,3,AMERICAN INDIAN OR ALASKA NATIVE,AMERICAN INDIAN OR ALASKA NATIVE
+RACE,,,pilot define.xml,4,ASIAN,ASIAN
+ROLES,,,pilot define.xml,1,GROUPING QUALIFIER,GROUPING QUALIFIER
+ROLES,,,pilot define.xml,2,IDENTIFIER,IDENTIFIER
+ROLES,,,pilot define.xml,3,QUALIFIER,QUALIFIER
+ROLES,,,pilot define.xml,4,RECORD QUALIFIER,RECORD QUALIFIER
+ROLES,,,pilot define.xml,5,RESULT,RESULT
+ROLES,,,pilot define.xml,6,RESULT QUALIFIER,RESULT QUALIFIER
+ROLES,,,pilot define.xml,7,RULE,RULE
+ROLES,,,pilot define.xml,8,SYNONYM QUALIFIER,SYNONYM QUALIFIER
+ROLES,,,pilot define.xml,9,TIMING,TIMING
+ROLES,,,pilot define.xml,10,TOPIC,TOPIC
+ROLES,,,pilot define.xml,11,VARIABLE QUALIFIER,VARIABLE QUALIFIER
+SCCAT,,,pilot define.xml,1,EDUCATION,EDUCATION
+SCORE3V,,,pilot define.xml,1,1,1
+SCORE3V,,,pilot define.xml,2,2,2
+SCORE3V,,,pilot define.xml,3,3,3
+SCORE5V,,,pilot define.xml,1,1,1
+SCORE5V,,,pilot define.xml,2,2,2
+SCORE5V,,,pilot define.xml,3,3,3
+SCORE5V,,,pilot define.xml,4,4,4
+SCORE5V,,,pilot define.xml,5,5,5
+SCORE9V,,,pilot define.xml,1,1,1
+SCORE9V,,,pilot define.xml,2,2,2
+SCORE9V,,,pilot define.xml,3,3,3
+SCORE9V,,,pilot define.xml,4,4,4
+SCORE9V,,,pilot define.xml,5,5,5
+SCORE9V,,,pilot define.xml,6,6,6
+SCORE9V,,,pilot define.xml,7,7,7
+SCORE9V,,,pilot define.xml,8,8,8
+SCORE9V,,,pilot define.xml,9,9,9
+SCUNIT,,,pilot define.xml,1,YEARS,YEARS
+SEV,,,pilot define.xml,1,MILD,MILD
+SEV,,,pilot define.xml,2,MODERATE,MODERATE
+SEV,,,pilot define.xml,3,SEVERE,SEVERE
+SEVSC,,,pilot define.xml,1,1,1
+SEVSC,,,pilot define.xml,2,2,2
+SEVSC,,,pilot define.xml,3,3,3
+SEX,,,pilot define.xml,1,F,Female
+SEX,,,pilot define.xml,2,M,Male
+SEX,,,pilot define.xml,3,U,Unknown
+SEXPOP,,,pilot define.xml,1,BOTH,Both
+SEXPOP,,,pilot define.xml,2,F,Female
+SEXPOP,,,pilot define.xml,3,M,Male
+TBLIND,,,pilot define.xml,1,DOUBLE BLIND,Double Blind Study
+TBLIND,,,pilot define.xml,2,OPEN LABEL,Open Label Study
+TBLIND,,,pilot define.xml,3,SINGLE BLIND,Single Blind Study
+TCNTRL,,,pilot define.xml,1,ACTIVE,ACTIVE
+TCNTRL,,,pilot define.xml,2,NONE,NONE
+TCNTRL,,,pilot define.xml,3,PLACEBO,PLACEBO
+TINDTP,,,pilot define.xml,1,CURE,Cure Study
+TINDTP,,,pilot define.xml,2,DIAGNOSIS,Diagnosis Study
+TINDTP,,,pilot define.xml,3,MITIGATION,Adverse Effect Mitigation Study
+TINDTP,,,pilot define.xml,4,PREVENTION,Prevention Study
+TINDTP,,,pilot define.xml,5,TREATMENT,Treatment Study
+TPHASE,,,pilot define.xml,1,Phase I Trial,Phase I Trial
+TPHASE,,,pilot define.xml,2,Phase I/II Trial,Phase I/II Trial
+TPHASE,,,pilot define.xml,3,Phase II Trial,Phase II Trial
+TPHASE,,,pilot define.xml,4,Phase II/III Trial,Phase II/III Trial
+TPHASE,,,pilot define.xml,5,Phase IIa Trial,Phase IIa Trial
+TPHASE,,,pilot define.xml,6,Phase IIb Trial,Phase IIb Trial
+TPHASE,,,pilot define.xml,7,Phase III Trial,Phase III Trial
+TPHASE,,,pilot define.xml,8,Phase IIIa Trial,Phase IIIa Trial
+TPHASE,,,pilot define.xml,9,Phase IIIb Trial,Phase IIIb Trial
+TPHASE,,,pilot define.xml,10,Phase IV Trial,Phase IV Trial
+TPHASE,,,pilot define.xml,11,Phase V Trial,Phase V Trial
+TPHASE,,,pilot define.xml,12,NA,NA
+TTYPE,,,pilot define.xml,1,BIO-AVAILABILITY,Bioavailability Study
+TTYPE,,,pilot define.xml,2,BIO-EQUIVALENCE,Therapeutic Equivalency Study
+TTYPE,,,pilot define.xml,3,EFFICACY,Efficacy Study
+TTYPE,,,pilot define.xml,4,PHARMACODYNAMIC,Pharmacodynamic Study
+TTYPE,,,pilot define.xml,5,PHARMACOECONOMIC,Pharmacoeconomic Study
+TTYPE,,,pilot define.xml,6,PHARMACOGENOMIC,Pharmacogenomic Study
+TTYPE,,,pilot define.xml,7,PHARMACOKINETIC,Pharmacokinetic Study
+TTYPE,,,pilot define.xml,8,SAFETY,Safety Study
+VISIT,,,pilot define.xml,1,SCREENING 1,SCREENING 1
+VISIT,,,pilot define.xml,2,UNSCHEDULED 1.1,UNSCHEDULED 1.1
+VISIT,,,pilot define.xml,3,UNSCHEDULED 1.2,UNSCHEDULED 1.2
+VISIT,,,pilot define.xml,4,UNSCHEDULED 1.3,UNSCHEDULED 1.3
+VISIT,,,pilot define.xml,5,SCREENING 2,SCREENING 2
+VISIT,,,pilot define.xml,6,BASELINE,BASELINE
+VISIT,,,pilot define.xml,7,UNSCHEDULED 3.1,UNSCHEDULED 3.1
+VISIT,,,pilot define.xml,8,AMBUL ECG PLACEMENT,AMBUL ECG PLACEMENT
+VISIT,,,pilot define.xml,9,WEEK 2,WEEK 2
+VISIT,,,pilot define.xml,10,UNSCHEDULED 4.1,UNSCHEDULED 4.1
+VISIT,,,pilot define.xml,11,UNSCHEDULED 4.2,UNSCHEDULED 4.2
+VISIT,,,pilot define.xml,12,WEEK 4,WEEK 4
+VISIT,,,pilot define.xml,13,UNSCHEDULED 5.1,UNSCHEDULED 5.1
+VISIT,,,pilot define.xml,14,AMBUL ECG REMOVAL,AMBUL ECG REMOVAL
+VISIT,,,pilot define.xml,15,UNSCHEDULED 6.1,UNSCHEDULED 6.1
+VISIT,,,pilot define.xml,16,WEEK 6,WEEK 6
+VISIT,,,pilot define.xml,17,UNSCHEDULED 7.1,UNSCHEDULED 7.1
+VISIT,,,pilot define.xml,18,WEEK 8,WEEK 8
+VISIT,,,pilot define.xml,19,WEEK 10 (T),WEEK 10 (T)
+VISIT,,,pilot define.xml,20,UNSCHEDULED 8.2,UNSCHEDULED 8.2
+VISIT,,,pilot define.xml,21,WEEK 12,WEEK 12
+VISIT,,,pilot define.xml,22,WEEK 14 (T),WEEK 14 (T)
+VISIT,,,pilot define.xml,23,UNSCHEDULED 9.2,UNSCHEDULED 9.2
+VISIT,,,pilot define.xml,24,UNSCHEDULED 9.3,UNSCHEDULED 9.3
+VISIT,,,pilot define.xml,25,WEEK 16,WEEK 16
+VISIT,,,pilot define.xml,26,WEEK 18 (T),WEEK 18 (T)
+VISIT,,,pilot define.xml,27,UNSCHEDULED 10.2,UNSCHEDULED 10.2
+VISIT,,,pilot define.xml,28,WEEK 20,WEEK 20
+VISIT,,,pilot define.xml,29,WEEK 22 (T),WEEK 22 (T)
+VISIT,,,pilot define.xml,30,UNSCHEDULED 11.2,UNSCHEDULED 11.2
+VISIT,,,pilot define.xml,31,WEEK 24,WEEK 24
+VISIT,,,pilot define.xml,32,UNSCHEDULED 12.1,UNSCHEDULED 12.1
+VISIT,,,pilot define.xml,33,WEEK 26,WEEK 26
+VISIT,,,pilot define.xml,34,UNSCHEDULED 13.1,UNSCHEDULED 13.1
+VISIT,,,pilot define.xml,35,AE FOLLOW-UP,AE FOLLOW-UP
+VISIT,,,pilot define.xml,36,RETRIEVAL,RETRIEVAL
+VISIT,,,pilot define.xml,37,Rash followup,Rash followup
+VISITNUM,,,pilot define.xml,1,1,SCREENING 1
+VISITNUM,,,pilot define.xml,2,1.1,UNSCHEDULED 1.1
+VISITNUM,,,pilot define.xml,3,1.2,UNSCHEDULED 1.2
+VISITNUM,,,pilot define.xml,4,1.3,UNSCHEDULED 1.3
+VISITNUM,,,pilot define.xml,5,2,SCREENING 2
+VISITNUM,,,pilot define.xml,6,3,BASELINE
+VISITNUM,,,pilot define.xml,7,3.1,UNSCHEDULED 3.1
+VISITNUM,,,pilot define.xml,8,3.5,AMBUL ECG PLACEMENT
+VISITNUM,,,pilot define.xml,9,4,WEEK 2
+VISITNUM,,,pilot define.xml,10,4.1,UNSCHEDULED 4.1
+VISITNUM,,,pilot define.xml,11,4.2,UNSCHEDULED 4.2
+VISITNUM,,,pilot define.xml,12,5,WEEK 4
+VISITNUM,,,pilot define.xml,13,5.1,UNSCHEDULED 5.1
+VISITNUM,,,pilot define.xml,14,6,AMBUL ECG REMOVAL
+VISITNUM,,,pilot define.xml,15,6.1,UNSCHEDULED 6.1
+VISITNUM,,,pilot define.xml,16,7,WEEK 6
+VISITNUM,,,pilot define.xml,17,7.1,UNSCHEDULED 7.1
+VISITNUM,,,pilot define.xml,18,8,WEEK 8
+VISITNUM,,,pilot define.xml,19,8.1,WEEK 10 (T)
+VISITNUM,,,pilot define.xml,20,8.2,UNSCHEDULED 8.2
+VISITNUM,,,pilot define.xml,21,9,WEEK 12
+VISITNUM,,,pilot define.xml,22,9.1,WEEK 14 (T)
+VISITNUM,,,pilot define.xml,23,9.2,UNSCHEDULED 9.2
+VISITNUM,,,pilot define.xml,24,9.3,UNSCHEDULED 9.3
+VISITNUM,,,pilot define.xml,25,10,WEEK 16
+VISITNUM,,,pilot define.xml,26,10.1,WEEK 18 (T)
+VISITNUM,,,pilot define.xml,27,10.2,UNSCHEDULED 10.2
+VISITNUM,,,pilot define.xml,28,11,WEEK 20
+VISITNUM,,,pilot define.xml,29,11.1,WEEK 22 (T)
+VISITNUM,,,pilot define.xml,30,11.2,UNSCHEDULED 11.2
+VISITNUM,,,pilot define.xml,31,12,WEEK 24
+VISITNUM,,,pilot define.xml,32,12.1,UNSCHEDULED 12.1
+VISITNUM,,,pilot define.xml,33,13,WEEK 26
+VISITNUM,,,pilot define.xml,34,13.1,UNSCHEDULED 13.1
+VISITNUM,,,pilot define.xml,35,101,AE FOLLOW-UP
+VISITNUM,,,pilot define.xml,36,201,RETRIEVAL
+VISITNUM,,,pilot define.xml,37,501,Rash followup
+VSLOC,,,pilot define.xml,1,ORAL CAVITY,ORAL CAVITY
+VSLOC,,,pilot define.xml,2,EAR,EAR
+VSPOS,,,pilot define.xml,1,STANDING,STANDING
+VSPOS,,,pilot define.xml,2,SUPINE,SUPINE
+VSTPT,,,pilot define.xml,1,AFTER LYING DOWN FOR 5 MINUTES,AFTER LYING DOWN FOR 5 MINUTES
+VSTPT,,,pilot define.xml,2,AFTER STANDING FOR 1 MINUTE,AFTER STANDING FOR 1 MINUTE
+VSTPT,,,pilot define.xml,3,AFTER STANDING FOR 3 MINUTES,AFTER STANDING FOR 3 MINUTES
+VSTPTNUM,,,pilot define.xml,1,815,AFTER LYING DOWN FOR 5 MINUTES
+VSTPTNUM,,,pilot define.xml,2,816,AFTER STANDING FOR 1 MINUTE
+VSTPTNUM,,,pilot define.xml,3,817,AFTER STANDING FOR 3 MINUTES
+VSTPTREF,,,pilot define.xml,1,PATIENT STANDING,PATIENT STANDING
+VSTPTREF,,,pilot define.xml,2,PATIENT SUPINE,PATIENT SUPINE
+VSUNIT,,,pilot define.xml,1,C,C
+VSUNIT,,,pilot define.xml,2,F,F
+VSUNIT,,,pilot define.xml,3,BEATS/MIN,BEATS/MIN
+VSUNIT,,,pilot define.xml,4,cm,cm
+VSUNIT,,,pilot define.xml,5,IN,IN
+VSUNIT,,,pilot define.xml,6,LB,LB
+VSUNIT,,,pilot define.xml,7,kg,kg
+VSUNIT,,,pilot define.xml,8,mmHg,mmHg
+YN,,,pilot define.xml,1,N,No
+YN,,,pilot define.xml,2,Y,Yes
+Y_BLANK,,,pilot define.xml,1,Y,Yes
