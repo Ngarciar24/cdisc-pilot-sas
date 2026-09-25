@@ -1,0 +1,389 @@
+codelist,datatype,order,term,decode
+AECAUS,text,1,NONE,NONE
+AECAUS,text,2,POSSIBLE,POSSIBLE
+AECAUS,text,3,PROBABLE,PROBABLE
+AECAUS,text,4,REMOTE,REMOTE
+AGESPAN,text,1,CHILDREN (2-11 YEARS),CHILDREN (2-11 YEARS)
+AGESPAN,text,2,ADOLESCENT (12-17 YEARS),ADOLESCENT (12-17 YEARS)
+AGESPAN,text,3,ADULT (18-65),ADULT (18-65)
+AGESPAN,text,4,ELDERLY (> 65),ELDERLY (> 65)
+AGEU,text,1,YEARS,YEARS
+ARM,text,1,Screen Failure,Screen Failure
+ARM,text,2,Placebo,Placebo
+ARM,text,3,Xanomeline Low Dose,Xanomeline Low Dose
+ARM,text,4,Xanomeline High Dose,Xanomeline High Dose
+ARMCD,text,1,Scrnfail,Screen Failure
+ARMCD,text,2,Pbo,Placebo
+ARMCD,text,3,Xan_Lo,Xanomeline Low Dose
+ARMCD,text,4,Xan_Hi,Xanomeline High Dose
+CIBIC,integer,1,1,Marked improvement
+CIBIC,integer,2,2,Moderate improvement
+CIBIC,integer,3,3,Minimal improvement
+CIBIC,integer,4,4,No Change
+CIBIC,integer,5,5,Minimal worsening
+CIBIC,integer,6,6,Moderate worsening
+CIBIC,integer,7,7,Marked worsening
+CMFREQ,text,1,BID,BID
+CMFREQ,text,2,EVERY MORNING,EVERY MORNING
+CMFREQ,text,3,EVERY NIGHT,EVERY NIGHT
+CMFREQ,text,4,ONCE,ONCE
+CMFREQ,text,5,OTHER,OTHER
+CMFREQ,text,6,PRN,PRN
+CMFREQ,text,7,Q3H,Q3H
+CMFREQ,text,8,Q4H,Q4H
+CMFREQ,text,9,Q6H,Q6H
+CMFREQ,text,10,Q4S,Q4S
+CMFREQ,text,11,QD,QD
+CMFREQ,text,12,QID,QID
+CMFREQ,text,13,QM,QM
+CMFREQ,text,14,QOD,QOD
+CMFREQ,text,15,QS,QS
+CMFREQ,text,16,TID,TID
+CMFREQ,text,17,TIS,TIS
+CMFREQ,text,18,TWICE,TWICE
+CMROUTE,text,1,AURICULAR (OTIC),AURICULAR (OTIC)
+CMROUTE,text,2,INTRAMUSCULAR,INTRAMUSCULAR
+CMROUTE,text,3,INTRAVENOUS,INTRAVENOUS
+CMROUTE,text,4,NASAL,NASAL
+CMROUTE,text,5,OPHTHALMIC,OPHTHALMIC
+CMROUTE,text,6,ORAL,ORAL
+CMROUTE,text,7,RESPIRATORY (INHALATION),RESPIRATORY (INHALATION)
+CMROUTE,text,8,RECTAL,RECTAL
+CMROUTE,text,9,SUBCUTANEOUS,SUBCUTANEOUS
+CMROUTE,text,10,SUBLINGUAL,SUBLINGUAL
+CMROUTE,text,11,TOPICAL,TOPICAL
+CMROUTE,text,12,TRANSDERMAL,TRANSDERMAL
+CMROUTE,text,13,VAGINAL,VAGINAL
+COLOR,text,1,N,Normal
+COLOR,text,2,A,Abnormal
+COUNTRY,text,1,USA,USA
+DISCCD,text,1,COMPLETED,COMPLETED
+DISCCD,text,2,ADVERSE EVENT,ADVERSE EVENT
+DISCCD,text,3,DEATH,DEATH
+DISCCD,text,4,LACK OF EFFICACY,LACK OF EFFICACY
+DISCCD,text,5,LOST TO FOLLOW-UP,LOST TO FOLLOW-UP
+DISCCD,text,6,WITHDRAWAL BY SUBJECT,WITHDRAWAL BY SUBJECT
+DISCCD,text,7,SCREEN FAILURE,SCREEN FAILURE
+DISCCD,text,8,STUDY TERMINATED BY SPONSOR,STUDY TERMINATED BY SPONSOR
+DISCCD,text,9,PHYSICIAN DECISION,PHYSICIAN DECISION
+DISCCD,text,10,PROTOCOL VIOLATION,PROTOCOL VIOLATION
+DISCCD,text,11,FINAL LAB VISIT,FINAL LAB VISIT
+DISCCD,text,12,FINAL RETRIEVAL VISIT,FINAL RETRIEVAL VISIT
+DISTSC,integer,1,0,0
+DISTSC,integer,2,1,1
+DISTSC,integer,3,2,2
+DISTSC,integer,4,3,3
+DISTSC,integer,5,4,4
+DISTSC,integer,6,5,5
+DSCAT,text,1,DISPOSITION EVENT,DISPOSITION EVENT
+DSCAT,text,2,OTHER EVENT,OTHER EVENT
+ELEMENT,text,1,Screen,Screen
+ELEMENT,text,2,Placebo,Placebo
+ELEMENT,text,3,Low,Low
+ELEMENT,text,4,High_Start,High_Start
+ELEMENT,text,5,High_Middle,High_Middle
+ELEMENT,text,6,High_End,High_End
+ELEMENT,text,7,Follow_up,Follow_up
+EPOCH,text,1,Screening,Screening
+EPOCH,text,2,Treatment,Treatment
+ETCD,text,1,SCRN,Screen
+ETCD,text,2,PBO,Placebo
+ETCD,text,3,LO,Low
+ETCD,text,4,HIS,High_Start
+ETCD,text,5,HIM,High_Middle
+ETCD,text,6,HIE,High_End
+ETCD,text,7,FOLO,Follow_up
+ETCD,text,8,UNPLAN,Unplanned
+ETHNIC,text,1,NOT HISPANIC OR LATINO,NOT HISPANIC OR LATINO
+ETHNIC,text,2,HISPANIC OR LATINO,HISPANIC OR LATINO
+EXDOSEU,text,1,mg,mg
+EXDOSFRM,text,1,PATCH,PATCH
+EXFREQ,text,1,QD,QD
+EXROUTE,text,1,TRANSDERMAL,TRANSDERMAL
+EXTRT,text,1,PLACEBO,PLACEBO
+EXTRT,text,2,XANOMELINE,XANOMELINE
+FREQSC,integer,1,1,1
+FREQSC,integer,2,2,2
+FREQSC,integer,3,3,3
+FREQSC,integer,4,4,4
+IECAT,text,1,INCLUSION,INCLUSION
+IECAT,text,2,EXCLUSION,EXCLUSION
+IETEST,text,1,Males and postmenopausal females at least 50 years of age.,Males and postmenopausal females at least 50 years of age.
+IETEST,text,2,Diagnosis of probable AD as defined by NINCDS and the ADRDA guidelines (Protocol Attachment LZZT.7).,Diagnosis of probable AD as defined by NINCDS and the ADRDA guidelines (Protocol Attachment LZZT.7).
+IETEST,text,3,MMSE score of 10 to 23.,MMSE score of 10 to 23.
+IETEST,text,4,Modified Hachinski Ischemic Scale score of <= 4. (Protocol Attachment LZZT.8).,Modified Hachinski Ischemic Scale score of <= 4. (Protocol Attachment LZZT.8).
+IETEST,text,5,CNS imaging (CT scan or MRI of brain) compatible with AD within past 1 year.,CNS imaging (CT scan or MRI of brain) compatible with AD within past 1 year.
+IETEST,text,6,Investigator has obtained informed consent signed by the patient (and/or legal representative) and by the caregiver.,Investigator has obtained informed consent signed by the patient (and/or legal representative) and by the caregiver.
+IETEST,text,7,Geographic proximity to investigator's site that allows adequate follow-up.,Geographic proximity to investigator's site that allows adequate follow-up.
+IETEST,text,8,"Caregiverwill monitor administration of prescribed medications, and will be responsible for the overall care of the patient at home.","Caregiverwill monitor administration of prescribed medications, and will be responsible for the overall care of the patient at home."
+IETEST,text,9,Persons who have previously completed or withdrawn from this study or any other investigating xanomeline TTS or the oral formulation of xanomeline.,Persons who have previously completed or withdrawn from this study or any other investigating xanomeline TTS or the oral formulation of xanomeline.
+IETEST,text,10,Use of any investigational agent or approved Alzheimer's therapeutic medication within 30 days prior to enrollment into the study.,Use of any investigational agent or approved Alzheimer's therapeutic medication within 30 days prior to enrollment into the study.
+IETEST,text,11,Serious illness which required hospitalization within 3 months of screening.,Serious illness which required hospitalization within 3 months of screening.
+IETEST,text,12,Diagnosis of serious neurological conditions.,Diagnosis of serious neurological conditions.
+IETEST,text,13,Episode of depression meeting DSM-IV criteria within 3 months of screening.,Episode of depression meeting DSM-IV criteria within 3 months of screening.
+IETEST,text,14,A history of mental illness within the last 5 years.,A history of mental illness within the last 5 years.
+IETEST,text,15,A history of syncope within the last 5 years.,A history of syncope within the last 5 years.
+IETEST,text,16,Evidence from ECG recording at screening of any listed condition.,Evidence from ECG recording at screening of any listed condition.
+IETEST,text,17,A history within the last 5 years of a serious cardiovascular disorder.,A history within the last 5 years of a serious cardiovascular disorder.
+IETEST,text,18,A history within the last 5 years of a serious gastrointestinal disorder.,A history within the last 5 years of a serious gastrointestinal disorder.
+IETEST,text,19,A history within the last 5 years of a serious endocrine disorder.,A history within the last 5 years of a serious endocrine disorder.
+IETEST,text,20,A history within the last 5 years of a serious respiratory disorder (see list).,A history within the last 5 years of a serious respiratory disorder (see list).
+IETEST,text,21,A history within the last 5 years of a serious genitourinary disorder.,A history within the last 5 years of a serious genitourinary disorder.
+IETEST,text,22,A history within the last 5 years of a serious rheumatologic disorder.,A history within the last 5 years of a serious rheumatologic disorder.
+IETEST,text,23,A known history of human immunodeficiency virus (HIV) within the last 5 years.,A known history of human immunodeficiency virus (HIV) within the last 5 years.
+IETEST,text,24,A history within the last 5 years of a serious infectious disease (see list in protocol).,A history within the last 5 years of a serious infectious disease (see list in protocol).
+IETEST,text,25,"A history within the last 5 years of a primary or recurrent malignant disease (with exceptions, see list in protocol).","A history within the last 5 years of a primary or recurrent malignant disease (with exceptions, see list in protocol)."
+IETEST,text,26,"Visual, hearing, or communication disabilities impairing the ability to participate in the study; (for example, inability to speak or understand English, illiteracy).","Visual, hearing, or communication disabilities impairing the ability to participate in the study; (for example, inability to speak or understand English, illiteracy)."
+IETEST,text,27,"Laboratory test values exceeding the Lilly Reference Range III for the patient's age in any of the following analytes: creatinine, total bilirubin, SGOT, SGPT, etc.","Laboratory test values exceeding the Lilly Reference Range III for the patient's age in any of the following analytes: creatinine, total bilirubin, SGOT, SGPT, etc."
+IETEST,text,28,"Central laboratory test values below reference range for folate, and vitamin B12, and outside reference range for thyroid function tests.","Central laboratory test values below reference range for folate, and vitamin B12, and outside reference range for thyroid function tests."
+IETEST,text,29,Positive syphilis screening with confirmatory testing.,Positive syphilis screening with confirmatory testing.
+IETEST,text,30,Central laboratory test value above reference range for glycosylated hemoglobin (A1C) (insulin dependent diabetes mellitus patients only).,Central laboratory test value above reference range for glycosylated hemoglobin (A1C) (insulin dependent diabetes mellitus patients only).
+IETEST,text,31,Treatment with medications within 1 month prior to enrollment (see list).,Treatment with medications within 1 month prior to enrollment (see list).
+IETESTCD,text,1,INCL01,Males and postmenopausal females at least 50 years of age.
+IETESTCD,text,2,INCL02,Diagnosis of probable AD as defined by NINCDS and the ADRDA guidelines (Protocol Attachment LZZT.7).
+IETESTCD,text,3,INCL03,MMSE score of 10 to 23.
+IETESTCD,text,4,INCL04,Modified Hachinski Ischemic Scale score of <= 4. (Protocol Attachment LZZT.8).
+IETESTCD,text,5,INCL05,CNS imaging (CT scan or MRI of brain) compatible with AD within past 1 year.
+IETESTCD,text,6,INCL06,Investigator has obtained informed consent signed by the patient (and/or legal representative) and by the caregiver.
+IETESTCD,text,7,INCL07,Geographic proximity to investigator's site that allows adequate follow-up.
+IETESTCD,text,8,INCL08,"Caregiverwill monitor administration of prescribed medications, and will be responsible for the overall care of the patient at home."
+IETESTCD,text,9,EXCL09,Persons who have previously completed or withdrawn from this study or any other investigating xanomeline TTS or the oral formulation of xanomeline.
+IETESTCD,text,10,EXCL10,Use of any investigational agent or approved Alzheimer's therapeutic medication within 30 days prior to enrollment into the study.
+IETESTCD,text,11,EXCL11,Serious illness which required hospitalization within 3 months of screening.
+IETESTCD,text,12,EXCL12,Diagnosis of serious neurological conditions.
+IETESTCD,text,13,EXCL13,Episode of depression meeting DSM-IV criteria within 3 months of screening.
+IETESTCD,text,14,EXCL14,A history of mental illness within the last 5 years.
+IETESTCD,text,15,EXCL15,A history of syncope within the last 5 years.
+IETESTCD,text,16,EXCL16,Evidence from ECG recording at screening of any listed condition.
+IETESTCD,text,17,EXCL17,A history within the last 5 years of a serious cardiovascular disorder.
+IETESTCD,text,18,EXCL18,A history within the last 5 years of a serious gastrointestinal disorder.
+IETESTCD,text,19,EXCL19,A history within the last 5 years of a serious endocrine disorder.
+IETESTCD,text,20,EXCL20,A history within the last 5 years of a serious respiratory disorder (see list).
+IETESTCD,text,21,EXCL21,A history within the last 5 years of a serious genitourinary disorder.
+IETESTCD,text,22,EXCL22,A history within the last 5 years of a serious rheumatologic disorder.
+IETESTCD,text,23,EXCL23,A known history of human immunodeficiency virus (HIV) within the last 5 years.
+IETESTCD,text,24,EXCL24,A history within the last 5 years of a serious infectious disease (see list in protocol).
+IETESTCD,text,25,EXCL25,"A history within the last 5 years of a primary or recurrent malignant disease (with exceptions, see list in protocol)."
+IETESTCD,text,26,EXCL26,"Visual, hearing, or communication disabilities impairing the ability to participate in the study; (for example, inability to speak or understand English, illiteracy)."
+IETESTCD,text,27,EXCL27,"Laboratory test values exceeding the Lilly Reference Range III for the patient's age in any of the following analytes: creatinine, total bilirubin, SGOT, SGPT, etc."
+IETESTCD,text,28,EXCL28,"Central laboratory test values below reference range for folate, and vitamin B12, and outside reference range for thyroid function tests."
+IETESTCD,text,29,EXCL29,Positive syphilis screening with confirmatory testing.
+IETESTCD,text,30,EXCL30,Central laboratory test value above reference range for glycosylated hemoglobin (A1C) (insulin dependent diabetes mellitus patients only).
+IETESTCD,text,31,EXCL31,Treatment with medications within 1 month prior to enrollment (see list).
+LBCAT,text,1,CHEMISTRY,CHEMISTRY
+LBCAT,text,2,HEMATOLOGY,HEMATOLOGY
+LBCAT,text,3,OTHER,OTHER
+LBCAT,text,4,URINALYSIS,URINALYSIS
+LBNRIND,text,1,LOW,LOW
+LBNRIND,text,2,NORMAL,NORMAL
+LBNRIND,text,3,HIGH,HIGH
+LBNRIND,text,4,ABNORMAL,ABNORMAL
+LBUNIT,text,1,1,1
+LBUNIT,text,2,GI/L,GI/L
+LBUNIT,text,3,TI/L,TI/L
+LBUNIT,text,4,U/L,U/L
+LBUNIT,text,5,fL,fL
+LBUNIT,text,6,fmol(Fe),fmol(Fe)
+LBUNIT,text,7,g/L,g/L
+LBUNIT,text,8,mU/L,mU/L
+LBUNIT,text,9,mmol/L,mmol/L
+LBUNIT,text,10,pmol/L,pmol/L
+LBUNIT,text,11,umol/L,umol/L
+MHCAT,text,1,HISTORICAL DIAGNOSIS,HISTORICAL DIAGNOSIS
+MHCAT,text,2,PRIMARY DIAGNOSIS,PRIMARY DIAGNOSIS
+MHCAT,text,3,SIGNIFICANT PRE-EXISTING CONDITION,SIGNIFICANT PRE-EXISTING CONDITION
+ND,text,1,NOT DONE,NOT DONE
+NYNAN,integer,1,0,NO
+NYNAN,integer,2,1,YES
+NYNAN,integer,3,96,NOT APPLICABLE
+OUT,text,1,RECOVERED/RESOLVED,RECOVERED/RESOLVED
+OUT,text,2,NOT RECOVERED/NOT RESOLVED,NOT RECOVERED/NOT RESOLVED
+OUT,text,3,FATAL,FATAL
+PRESABSA,integer,1,0,ABSENT
+PRESABSA,integer,2,1,PRESENT
+PRESABSB,integer,1,0,ABSENT
+PRESABSB,integer,2,2,PRESENT
+PRESSC,integer,1,0,ABSENT
+PRESSC,integer,2,96,NOT APPLICABLE
+QEVAL,text,1,CLINICAL STUDY SPONSOR,CLINICAL STUDY SPONSOR
+QSCAT,text,1,ALZHEIMER'S DISEASE ASSESSMENT SCALE,ALZHEIMER'S DISEASE ASSESSMENT SCALE
+QSCAT,text,2,CLINICIAN'S INTERVIEW-BASED IMPRESSION OF CHANGE (CIBIC+),CLINICIAN'S INTERVIEW-BASED IMPRESSION OF CHANGE (CIBIC+)
+QSCAT,text,3,DISABILITY ASSESSMENT FOR DEMENTIA (DAD),DISABILITY ASSESSMENT FOR DEMENTIA (DAD)
+QSCAT,text,4,MINI-MENTAL STATE,MINI-MENTAL STATE
+QSCAT,text,5,MODIFIED HACHINSKI ISCHEMIC SCORE,MODIFIED HACHINSKI ISCHEMIC SCORE
+QSCAT,text,6,NEUROPSYCHIATRIC INVENTORY - REVISED (NPI-X),NEUROPSYCHIATRIC INVENTORY - REVISED (NPI-X)
+QSUNIT,text,1,sec,sec
+RACE,text,1,WHITE,WHITE
+RACE,text,2,BLACK OR AFRICAN AMERICAN,BLACK OR AFRICAN AMERICAN
+RACE,text,3,AMERICAN INDIAN OR ALASKA NATIVE,AMERICAN INDIAN OR ALASKA NATIVE
+RACE,text,4,ASIAN,ASIAN
+ROLES,text,1,GROUPING QUALIFIER,GROUPING QUALIFIER
+ROLES,text,2,IDENTIFIER,IDENTIFIER
+ROLES,text,3,QUALIFIER,QUALIFIER
+ROLES,text,4,RECORD QUALIFIER,RECORD QUALIFIER
+ROLES,text,5,RESULT,RESULT
+ROLES,text,6,RESULT QUALIFIER,RESULT QUALIFIER
+ROLES,text,7,RULE,RULE
+ROLES,text,8,SYNONYM QUALIFIER,SYNONYM QUALIFIER
+ROLES,text,9,TIMING,TIMING
+ROLES,text,10,TOPIC,TOPIC
+ROLES,text,11,VARIABLE QUALIFIER,VARIABLE QUALIFIER
+SCCAT,text,1,EDUCATION,EDUCATION
+SCORE3V,integer,1,1,1
+SCORE3V,integer,2,2,2
+SCORE3V,integer,3,3,3
+SCORE5V,integer,1,1,1
+SCORE5V,integer,2,2,2
+SCORE5V,integer,3,3,3
+SCORE5V,integer,4,4,4
+SCORE5V,integer,5,5,5
+SCORE9V,integer,1,1,1
+SCORE9V,integer,2,2,2
+SCORE9V,integer,3,3,3
+SCORE9V,integer,4,4,4
+SCORE9V,integer,5,5,5
+SCORE9V,integer,6,6,6
+SCORE9V,integer,7,7,7
+SCORE9V,integer,8,8,8
+SCORE9V,integer,9,9,9
+SCUNIT,text,1,YEARS,YEARS
+SEV,text,1,MILD,MILD
+SEV,text,2,MODERATE,MODERATE
+SEV,text,3,SEVERE,SEVERE
+SEVSC,integer,1,1,1
+SEVSC,integer,2,2,2
+SEVSC,integer,3,3,3
+SEX,text,1,F,Female
+SEX,text,2,M,Male
+SEX,text,3,U,Unknown
+SEXPOP,text,1,BOTH,Both
+SEXPOP,text,2,F,Female
+SEXPOP,text,3,M,Male
+TBLIND,text,1,DOUBLE BLIND,Double Blind Study
+TBLIND,text,2,OPEN LABEL,Open Label Study
+TBLIND,text,3,SINGLE BLIND,Single Blind Study
+TCNTRL,text,1,ACTIVE,ACTIVE
+TCNTRL,text,2,NONE,NONE
+TCNTRL,text,3,PLACEBO,PLACEBO
+TINDTP,text,1,CURE,Cure Study
+TINDTP,text,2,DIAGNOSIS,Diagnosis Study
+TINDTP,text,3,MITIGATION,Adverse Effect Mitigation Study
+TINDTP,text,4,PREVENTION,Prevention Study
+TINDTP,text,5,TREATMENT,Treatment Study
+TPHASE,text,1,Phase I Trial,Phase I Trial
+TPHASE,text,2,Phase I/II Trial,Phase I/II Trial
+TPHASE,text,3,Phase II Trial,Phase II Trial
+TPHASE,text,4,Phase II/III Trial,Phase II/III Trial
+TPHASE,text,5,Phase IIa Trial,Phase IIa Trial
+TPHASE,text,6,Phase IIb Trial,Phase IIb Trial
+TPHASE,text,7,Phase III Trial,Phase III Trial
+TPHASE,text,8,Phase IIIa Trial,Phase IIIa Trial
+TPHASE,text,9,Phase IIIb Trial,Phase IIIb Trial
+TPHASE,text,10,Phase IV Trial,Phase IV Trial
+TPHASE,text,11,Phase V Trial,Phase V Trial
+TPHASE,text,12,NA,NA
+TTYPE,text,1,BIO-AVAILABILITY,Bioavailability Study
+TTYPE,text,2,BIO-EQUIVALENCE,Therapeutic Equivalency Study
+TTYPE,text,3,EFFICACY,Efficacy Study
+TTYPE,text,4,PHARMACODYNAMIC,Pharmacodynamic Study
+TTYPE,text,5,PHARMACOECONOMIC,Pharmacoeconomic Study
+TTYPE,text,6,PHARMACOGENOMIC,Pharmacogenomic Study
+TTYPE,text,7,PHARMACOKINETIC,Pharmacokinetic Study
+TTYPE,text,8,SAFETY,Safety Study
+VISIT,text,1,SCREENING 1,SCREENING 1
+VISIT,text,2,UNSCHEDULED 1.1,UNSCHEDULED 1.1
+VISIT,text,3,UNSCHEDULED 1.2,UNSCHEDULED 1.2
+VISIT,text,4,UNSCHEDULED 1.3,UNSCHEDULED 1.3
+VISIT,text,5,SCREENING 2,SCREENING 2
+VISIT,text,6,BASELINE,BASELINE
+VISIT,text,7,UNSCHEDULED 3.1,UNSCHEDULED 3.1
+VISIT,text,8,AMBUL ECG PLACEMENT,AMBUL ECG PLACEMENT
+VISIT,text,9,WEEK 2,WEEK 2
+VISIT,text,10,UNSCHEDULED 4.1,UNSCHEDULED 4.1
+VISIT,text,11,UNSCHEDULED 4.2,UNSCHEDULED 4.2
+VISIT,text,12,WEEK 4,WEEK 4
+VISIT,text,13,UNSCHEDULED 5.1,UNSCHEDULED 5.1
+VISIT,text,14,AMBUL ECG REMOVAL,AMBUL ECG REMOVAL
+VISIT,text,15,UNSCHEDULED 6.1,UNSCHEDULED 6.1
+VISIT,text,16,WEEK 6,WEEK 6
+VISIT,text,17,UNSCHEDULED 7.1,UNSCHEDULED 7.1
+VISIT,text,18,WEEK 8,WEEK 8
+VISIT,text,19,WEEK 10 (T),WEEK 10 (T)
+VISIT,text,20,UNSCHEDULED 8.2,UNSCHEDULED 8.2
+VISIT,text,21,WEEK 12,WEEK 12
+VISIT,text,22,WEEK 14 (T),WEEK 14 (T)
+VISIT,text,23,UNSCHEDULED 9.2,UNSCHEDULED 9.2
+VISIT,text,24,UNSCHEDULED 9.3,UNSCHEDULED 9.3
+VISIT,text,25,WEEK 16,WEEK 16
+VISIT,text,26,WEEK 18 (T),WEEK 18 (T)
+VISIT,text,27,UNSCHEDULED 10.2,UNSCHEDULED 10.2
+VISIT,text,28,WEEK 20,WEEK 20
+VISIT,text,29,WEEK 22 (T),WEEK 22 (T)
+VISIT,text,30,UNSCHEDULED 11.2,UNSCHEDULED 11.2
+VISIT,text,31,WEEK 24,WEEK 24
+VISIT,text,32,UNSCHEDULED 12.1,UNSCHEDULED 12.1
+VISIT,text,33,WEEK 26,WEEK 26
+VISIT,text,34,UNSCHEDULED 13.1,UNSCHEDULED 13.1
+VISIT,text,35,AE FOLLOW-UP,AE FOLLOW-UP
+VISIT,text,36,RETRIEVAL,RETRIEVAL
+VISIT,text,37,Rash followup,Rash followup
+VISITNUM,float,1,1,SCREENING 1
+VISITNUM,float,2,1.1,UNSCHEDULED 1.1
+VISITNUM,float,3,1.2,UNSCHEDULED 1.2
+VISITNUM,float,4,1.3,UNSCHEDULED 1.3
+VISITNUM,float,5,2,SCREENING 2
+VISITNUM,float,6,3,BASELINE
+VISITNUM,float,7,3.1,UNSCHEDULED 3.1
+VISITNUM,float,8,3.5,AMBUL ECG PLACEMENT
+VISITNUM,float,9,4,WEEK 2
+VISITNUM,float,10,4.1,UNSCHEDULED 4.1
+VISITNUM,float,11,4.2,UNSCHEDULED 4.2
+VISITNUM,float,12,5,WEEK 4
+VISITNUM,float,13,5.1,UNSCHEDULED 5.1
+VISITNUM,float,14,6,AMBUL ECG REMOVAL
+VISITNUM,float,15,6.1,UNSCHEDULED 6.1
+VISITNUM,float,16,7,WEEK 6
+VISITNUM,float,17,7.1,UNSCHEDULED 7.1
+VISITNUM,float,18,8,WEEK 8
+VISITNUM,float,19,8.1,WEEK 10 (T)
+VISITNUM,float,20,8.2,UNSCHEDULED 8.2
+VISITNUM,float,21,9,WEEK 12
+VISITNUM,float,22,9.1,WEEK 14 (T)
+VISITNUM,float,23,9.2,UNSCHEDULED 9.2
+VISITNUM,float,24,9.3,UNSCHEDULED 9.3
+VISITNUM,float,25,10,WEEK 16
+VISITNUM,float,26,10.1,WEEK 18 (T)
+VISITNUM,float,27,10.2,UNSCHEDULED 10.2
+VISITNUM,float,28,11,WEEK 20
+VISITNUM,float,29,11.1,WEEK 22 (T)
+VISITNUM,float,30,11.2,UNSCHEDULED 11.2
+VISITNUM,float,31,12,WEEK 24
+VISITNUM,float,32,12.1,UNSCHEDULED 12.1
+VISITNUM,float,33,13,WEEK 26
+VISITNUM,float,34,13.1,UNSCHEDULED 13.1
+VISITNUM,float,35,101,AE FOLLOW-UP
+VISITNUM,float,36,201,RETRIEVAL
+VISITNUM,float,37,501,Rash followup
+VSLOC,text,1,ORAL CAVITY,ORAL CAVITY
+VSLOC,text,2,EAR,EAR
+VSPOS,text,1,STANDING,STANDING
+VSPOS,text,2,SUPINE,SUPINE
+VSTPT,text,1,AFTER LYING DOWN FOR 5 MINUTES,AFTER LYING DOWN FOR 5 MINUTES
+VSTPT,text,2,AFTER STANDING FOR 1 MINUTE,AFTER STANDING FOR 1 MINUTE
+VSTPT,text,3,AFTER STANDING FOR 3 MINUTES,AFTER STANDING FOR 3 MINUTES
+VSTPTNUM,integer,1,815,AFTER LYING DOWN FOR 5 MINUTES
+VSTPTNUM,integer,2,816,AFTER STANDING FOR 1 MINUTE
+VSTPTNUM,integer,3,817,AFTER STANDING FOR 3 MINUTES
+VSTPTREF,text,1,PATIENT STANDING,PATIENT STANDING
+VSTPTREF,text,2,PATIENT SUPINE,PATIENT SUPINE
+VSUNIT,text,1,C,C
+VSUNIT,text,2,F,F
+VSUNIT,text,3,BEATS/MIN,BEATS/MIN
+VSUNIT,text,4,cm,cm
+VSUNIT,text,5,IN,IN
+VSUNIT,text,6,LB,LB
+VSUNIT,text,7,kg,kg
+VSUNIT,text,8,mmHg,mmHg
+YN,text,1,N,No
+YN,text,2,Y,Yes
+Y_BLANK,text,1,Y,Yes
