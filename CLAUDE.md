@@ -37,7 +37,10 @@ independent QC).
   copy production code); they end with `PROC COMPARE` and their `.lst` is
   committed.
 - Names follow CDISC and XPT v5 limits: variable names ≤ 8, labels ≤ 40, character
-  values ≤ 200 bytes.
+  values ≤ 200 bytes, ASCII text only.
+- Targets: SDTMIG 3.4, CDISC CT 2026-03-27, Define-XML 2.1. `specs/sdtm_spec.csv`
+  is the target; `specs/pilot_spec.csv` describes the pilot (SDTMIG 3.1.2) and is
+  used only for QC and tests. Differences are listed in `docs/sdtmig-3.4-upgrade.md`.
 
 ## Workflow
 1. Work on a branch; one phase or sub-phase per PR.

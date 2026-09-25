@@ -146,6 +146,10 @@ Each phase is one or more PRs with clean committed logs.
   finding from the `%logcheck` list, or if a program has no log.
 
 ### Phase 1 — SDTM from raw (2–3 sessions)
+Target SDTMIG 3.4 and CDISC CT 2026-03-27 (decided 2026-09-25); what changes
+from the pilot is in `docs/sdtmig-3.4-upgrade.md`.
+- Trial design TA, TE, TV, TI from the pilot (upper-case EPOCH) and SE from
+  EX/DS dates: SE is needed to derive EPOCH in AE, DS and EX.
 - `specs/sdtm_mapping.csv` from the aCRF: one row per raw field.
 - DM (with `RFSTDTC`, `RFENDTC`, `RFXSTDTC`, `RFXENDTC`, `RFICDTC`, `DTHDTC`,
   `ARM`/`ACTARM`, `AGE`/`AGEU`), SUPPDM.
@@ -156,9 +160,10 @@ Each phase is one or more PRs with clean committed logs.
 - Export XPT v5 with `%xpt_export`.
 - QC: `PROC COMPARE` vs PHUSE pilot SDTM; `docs/csdrg.md` explains each
   difference.
-- CI job 2: CDISC CORE on `data/sdtm/*.xpt` against SDTMIG (the version the
-  pilot uses; check), report committed, findings triaged in `docs/csdrg.md`.
-  Needs the free CDISC Library API key as a GitHub secret.
+- CI job 2: CDISC CORE on `data/sdtm/*.xpt` against SDTMIG 3.4 and CT
+  2026-03-27 with `tools/run_core.sh`, report committed, findings triaged in
+  `docs/csdrg.md`. The bundled rules cache is used, so no CDISC Library key is
+  needed.
 
 ### Phase 2 — ADaM (3–4 sessions)
 - ADSL: populations (`SAFFL`, `ITTFL`, `EFFFL`, `COMP24FL`), `TRT01P/A(N)`,
@@ -266,8 +271,9 @@ the two repos from contradicting each other:
   re-investigated.
 - **Conformance.** CDISC CORE rules (checked in the rules cache) cover SDTMIG
   3.2, 3.3 and 3.4 only: no ADaM rules and no SDTMIG 3.1.2, the version of the
-  pilot define.xml. Decide the SDTMIG target before Phase 1 CI (see
-  `specs/`); ADaM conformance uses the R repo's documented ADaMIG checks.
+  pilot define.xml. Decision: target SDTMIG 3.4 (see
+  `docs/sdtmig-3.4-upgrade.md`); ADaM conformance uses the R repo's documented
+  ADaMIG checks.
 - **Python reading XPT.** pandas decodes exact zeros in XPT files as about
   5.4e-79; any Python check here must round before testing for 0.
 - **define.xml.** Reuse the R repo's Define-XML 2.1 generator and XSD

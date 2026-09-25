@@ -1,0 +1,2119 @@
+codelist,code,extensible,source,order,term,decode
+ACN,C66767,false,CDISC CT sdtmct-2026-03-27,1,DOSE INCREASED,Dose Increased
+ACN,C66767,false,CDISC CT sdtmct-2026-03-27,2,DOSE NOT CHANGED,Dose Not Changed
+ACN,C66767,false,CDISC CT sdtmct-2026-03-27,3,DOSE RATE REDUCED,Dose Rate Reduced
+ACN,C66767,false,CDISC CT sdtmct-2026-03-27,4,DOSE REDUCED,Dose Reduced
+ACN,C66767,false,CDISC CT sdtmct-2026-03-27,5,DRUG INTERRUPTED,Drug Interrupted
+ACN,C66767,false,CDISC CT sdtmct-2026-03-27,6,DRUG WITHDRAWN,Drug Withdrawn
+ACN,C66767,false,CDISC CT sdtmct-2026-03-27,7,NOT APPLICABLE,Not Applicable
+ACN,C66767,false,CDISC CT sdtmct-2026-03-27,8,UNKNOWN,Unknown
+AESEV,C66769,false,CDISC CT sdtmct-2026-03-27,1,MILD,Mild Adverse Event
+AESEV,C66769,false,CDISC CT sdtmct-2026-03-27,2,MODERATE,Moderate Adverse Event
+AESEV,C66769,false,CDISC CT sdtmct-2026-03-27,3,SEVERE,Severe Adverse Event
+AGEU,C66781,false,CDISC CT sdtmct-2026-03-27,1,DAYS,Day
+AGEU,C66781,false,CDISC CT sdtmct-2026-03-27,2,HOURS,Hour
+AGEU,C66781,false,CDISC CT sdtmct-2026-03-27,3,MONTHS,Month
+AGEU,C66781,false,CDISC CT sdtmct-2026-03-27,4,WEEKS,Week
+AGEU,C66781,false,CDISC CT sdtmct-2026-03-27,5,YEARS,Year
+ARMNULRS,C142179,true,CDISC CT sdtmct-2026-03-27,1,"ASSIGNED, NOT TREATED",Subject Assigned to Arm But Not Treated
+ARMNULRS,C142179,true,CDISC CT sdtmct-2026-03-27,2,NOT ASSIGNED,Subject Not Assigned to Arm
+ARMNULRS,C142179,true,CDISC CT sdtmct-2026-03-27,3,SCREEN FAILURE,Trial Screen Failure
+ARMNULRS,C142179,true,CDISC CT sdtmct-2026-03-27,4,SCREENING NOT COMPLETED,Screening Not Completed
+ARMNULRS,C142179,true,CDISC CT sdtmct-2026-03-27,5,UNPLANNED TREATMENT,Subject Received Unplanned Treatment
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,1,CDISC CT,Clinical Data Interchange Standards Consortium Controlled Terminology
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,2,ClinicalTrials.gov,ClinicalTrials.gov
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,3,COSTART,Thesaurus of Adverse Reaction Term Coding Symbols
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,4,CTCAE,Common Terminology Criteria for Adverse Events
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,5,CTIS,EMA Clinical Trials Information System
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,6,D-U-N-S NUMBER,Data Universal Numbering System
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,7,EudraCT,European Union Drug Regulating Authorities Clinical Trials Database
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,8,EUDRAVIGILANCE,EudraVigilance
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,9,GENC,"Geopolitical Entities, Names, and Codes"
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,10,ICD,International Classification of Diseases
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,11,ICD-O,International Classification of Diseases for Oncology
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,12,ISO 21090,ISO 21090
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,13,ISO 3166,ISO 3166
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,14,jRCT,Japan Registry of Clinical Trials
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,15,LOINC,Logical Observation Identifiers Names and Codes
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,16,MED-RT,Medication Reference Terminology
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,17,MedDRA,MedDRA
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,18,MeSH,Medical Subject Headings
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,19,PubMed,PubMed
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,20,SNOMED,Systematized Nomenclature of Medicine
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,21,UNII,Substance Registration System-Unique Ingredient Identifier
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,22,WHO ATC CLASSIFICATION SYSTEM,Anatomical Therapeutic Chemical Classification System
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,23,WHOART,World Health Organization Adverse Reaction Terminology
+DICTNAM,C66788,true,CDISC CT sdtmct-2026-03-27,24,WHODD,World Health Organization Drug Dictionary
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,1,AE,Adverse Event Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,2,AG,Procedure Agents Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,3,APRELSUB,Relationship between Associated Persons and Subjects Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,4,BE,Biospecimen Events Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,5,BS,Biospecimen Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,6,CE,Clinical Events Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,7,CM,Concomitant Medication Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,8,CO,Comment Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,9,CP,Cell Phenotype Findings Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,10,CV,Cardiovascular System Findings Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,11,DA,Product Accountability Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,12,DC,Demographics for Multiple Participations Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,13,DD,Death Diagnosis Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,14,DE,Device Events Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,15,DI,Device Identifiers Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,16,DM,Demographics Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,17,DO,Device Properties Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,18,DR,Device to Subject Relationship Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,19,DS,Disposition Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,20,DT,Device Tracking and Disposition Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,21,DU,Device-In-Use Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,22,DV,Protocol Deviations Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,23,DX,Device Exposure Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,24,EA,Event Adjudication Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,25,EC,Exposure as Collected Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,26,ED,Endocrine System Findings Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,27,EG,Electrocardiogram Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,28,ES,Environmental Storage Conditions Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,29,EX,Exposure Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,30,FA,Findings About Events or Interventions Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,31,FT,Functional Tests Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,32,GF,Genomics Findings Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,33,GI,Digestive System Findings Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,34,HM,Hematopoietic System Findings Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,35,HO,Healthcare Encounters Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,36,IE,Inclusion Exclusion Criteria Not Met Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,37,IG,Integumentary System Findings Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,38,IN,Non-Tobacco Ingredients Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,39,IQ,Ingredient Quantities by Component Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,40,IS,Immunogenicity Specimen Assessments Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,41,IT,Tobacco Ingredients Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,42,LB,Laboratory Data Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,43,MB,Microbiology Specimen Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,44,MH,Medical History Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,45,MI,Microscopic Findings Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,46,MK,"Musculoskeletal Findings, Connective and Soft Tissue Findings Domain"
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,47,ML,Meal Data Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,48,MS,Microbiology Susceptibility Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,49,NV,Nervous System Findings Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,50,OE,Ophthalmic Examinations Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,51,OI,Non-host Organism Identifiers Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,52,PC,Pharmacokinetic Concentration Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,53,PD,Tobacco Product Design Parameters Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,54,PE,Physical Exam Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,55,POOLDEF,Pool Definition Dataset
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,56,PP,Pharmacokinetic Parameters Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,57,PR,Procedure Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,58,PT,Tobacco Product Testing Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,59,QS,Questionnaire Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,60,RE,Respiratory Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,61,RELREC,Related Records Dataset
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,62,RELSPEC,Related Specimens Dataset
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,63,RELSUB,Related Subjects Dataset
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,64,RP,Reproductive System Findings Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,65,RS,Disease Response Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,66,SA,Serious Adverse Events Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,67,SC,Subject Characteristics Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,68,SE,Subject Element Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,69,SM,Subject Disease Milestones Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,70,SR,Skin Response Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,71,SS,Subject Status Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,72,SU,Substance Use Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,73,SV,Subject Visits Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,74,TA,Trial Arms Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,75,TD,Trial Disease Assessments Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,76,TE,Trial Elements Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,77,TI,Trial Inclusion and Exclusion Criteria Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,78,TM,Trial Disease Milestones Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,79,TO,Tobacco Product Identifiers and Descriptors Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,80,TR,Tumor Results Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,81,TS,Trial Summary Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,82,TU,Tumor Identifier Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,83,TV,Trial Visits Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,84,UR,Urinary System Findings Domain
+DOMAIN,C66734,true,CDISC CT sdtmct-2026-03-27,85,VS,Vital Signs Domain
+DSCAT,C74558,false,CDISC CT sdtmct-2026-03-27,1,DISPOSITION EVENT,Protocol Disposition Event
+DSCAT,C74558,false,CDISC CT sdtmct-2026-03-27,2,OTHER EVENT,Non-Protocol Disposition Event
+DSCAT,C74558,false,CDISC CT sdtmct-2026-03-27,3,PROTOCOL MILESTONE,Protocol Milestone
+EPOCH,C99079,true,CDISC CT sdtmct-2026-03-27,1,BASELINE,Baseline Epoch
+EPOCH,C99079,true,CDISC CT sdtmct-2026-03-27,2,BLINDED TREATMENT,Blinded Treatment Epoch
+EPOCH,C99079,true,CDISC CT sdtmct-2026-03-27,3,CONTINUATION TREATMENT,Continuation Therapy Epoch
+EPOCH,C99079,true,CDISC CT sdtmct-2026-03-27,4,FOLLOW-UP,Follow-Up Epoch
+EPOCH,C99079,true,CDISC CT sdtmct-2026-03-27,5,INDUCTION TREATMENT,Induction Therapy Epoch
+EPOCH,C99079,true,CDISC CT sdtmct-2026-03-27,6,INTERVENTION,Investigational Intervention Epoch
+EPOCH,C99079,true,CDISC CT sdtmct-2026-03-27,7,LONG-TERM FOLLOW-UP,Long-term Follow-up Epoch
+EPOCH,C99079,true,CDISC CT sdtmct-2026-03-27,8,OBSERVATION,Observation Study Epoch
+EPOCH,C99079,true,CDISC CT sdtmct-2026-03-27,9,OPEN LABEL TREATMENT,Open Label Treatment Epoch
+EPOCH,C99079,true,CDISC CT sdtmct-2026-03-27,10,PRE-SCREENING,Pre-Screening Epoch
+EPOCH,C99079,true,CDISC CT sdtmct-2026-03-27,11,PRODUCT EXPOSURE,Product Exposure Epoch
+EPOCH,C99079,true,CDISC CT sdtmct-2026-03-27,12,RUN-IN,Run-in Period
+EPOCH,C99079,true,CDISC CT sdtmct-2026-03-27,13,SCREENING,Screening Epoch
+EPOCH,C99079,true,CDISC CT sdtmct-2026-03-27,14,TREATMENT,Treatment Epoch
+EPOCH,C99079,true,CDISC CT sdtmct-2026-03-27,15,WASHOUT,Washout Period
+ETHNIC,C66790,false,CDISC CT sdtmct-2025-09-26 (not in sdtmct-2026-03-27),1,HISPANIC OR LATINO,Hispanic or Latino
+ETHNIC,C66790,false,CDISC CT sdtmct-2025-09-26 (not in sdtmct-2026-03-27),2,NOT HISPANIC OR LATINO,Not Hispanic or Latino
+ETHNIC,C66790,false,CDISC CT sdtmct-2025-09-26 (not in sdtmct-2026-03-27),3,NOT REPORTED,Not Reported
+ETHNIC,C66790,false,CDISC CT sdtmct-2025-09-26 (not in sdtmct-2026-03-27),4,UNKNOWN,Unknown
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,1,ADJUDICATION COMMITTEE,Adjudication Committee
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,2,ADJUDICATOR,Adjudicator
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,3,AUDIOLOGIST,Audiologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,4,CARDIOLOGIST,Cardiologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,5,CAREGIVER,Caregiver
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,6,CERTIFIED ASSESSOR,Certified Assessor
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,7,CHILD,Child Relation
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,8,CLINICAL PATHOLOGIST,Clinical Pathologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,9,CLINICAL RESEARCH ASSOCIATE,Clinical Research Associate
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,10,CLINICAL RESEARCH COORDINATOR,Clinical Coordinator
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,11,CLINICAL STUDY SPONSOR,Clinical Study Sponsor
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,12,DERMATOLOGIST,Dermatologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,13,DEVELOPMENTAL BEHAVIORAL PEDIATRICIAN,Developmental Behavioral Pediatrician
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,14,DEVELOPMENTAL PSYCHOLOGIST,Developmental Psychologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,15,DOMESTIC PARTNER,Domestic Partnership
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,16,ENDOCRINOLOGIST,Endocrinologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,17,EPIDEMIOLOGIST,Epidemiologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,18,FAMILY MEMBER,Family Member
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,19,FAMILY PRACTITIONER,General Practitioner
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,20,FORENSIC PATHOLOGIST,Forensic Pathologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,21,FRIEND,Friend
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,22,GUARDIAN,Guardian
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,23,GYNECOLOGIST,Gynecologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,24,HEALTH CARE PROFESSIONAL,Health Care Professional
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,25,HEMATOLOGIST,Hematologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,26,INDEPENDENT ASSESSOR,Independent Rater
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,27,INTERNIST,Internal Medicine Physician
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,28,INTERVIEWER,Interviewer
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,29,INVESTIGATOR,Investigator
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,30,MICROSCOPIST,Microscopist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,31,MIDWIFE,Midwife
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,32,NEUROLOGIST,Neurologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,33,NEUROONCOLOGIST,Neuro-oncologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,34,NEURORADIOLOGIST,Neuroradiologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,35,NON-HEALTH CARE PROFESSIONAL,Non-Healthcare Professional
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,36,NUCLEAR MEDICINE PHYSICIAN,Nuclear Medicine Physician
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,37,NURSE PRACTITIONER,Nurse Practitioner
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,38,OBSTETRICIAN,Obstetrician
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,39,ONCOLOGIST,Oncologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,40,OPHTHALMOLOGIST,Ophthalmologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,41,OPTOMETRIST,Optometrist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,42,OTOLARYNGOLOGIST,Otolaryngologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,43,PARENT,Parent
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,44,PATHOLOGIST,Pathologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,45,PEDIATRIC CARDIOLOGIST,Pediatric Cardiologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,46,PEDIATRIC NEUROLOGIST,Pediatric Neurologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,47,PEDIATRICIAN,Pediatrician
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,48,PHARMACOKINETICIST,Pharmacokineticist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,49,PHYSIOTHERAPIST,Physical Therapist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,50,PRIMARY CARE PHYSICIAN,Primary Care Provider
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,51,PRINCIPAL INVESTIGATOR,Principal Investigator
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,52,PROXY,Proxy
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,53,RADIOLOGIST,Radiologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,54,RATER,Rater
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,55,READER,Reader
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,56,SIBLING,Sibling
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,57,SIGNIFICANT OTHER,Significant Other
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,58,SONOGRAPHER,Sonographer
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,59,SPOUSE,Spouse
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,60,STATISTICIAN,Statistician
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,61,STUDY PHYSICIAN,Clinical Trial Physician
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,62,STUDY SUBJECT,Study Subject
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,63,SUBINVESTIGATOR,Subinvestigator
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,64,UROLOGIST,Urologist
+EVAL,C78735,true,CDISC CT sdtmct-2026-03-27,65,VENDOR,Vendor
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,1,1 TIME PER WEEK,Once Weekly
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,2,10 DAYS PER MONTH,Ten Days Per Month
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,3,2 TIMES PER CYCLE,Two Times Per Cycle
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,4,2 TIMES PER WEEK,Twice Weekly
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,5,2 TIMES PER YEAR,Two Times Yearly
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,6,3 TIMES PER CYCLE,Three Times Per Cycle
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,7,3 TIMES PER MONTH,Three Times Monthly
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,8,3 TIMES PER WEEK,Three Times Weekly
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,9,3 TIMES PER YEAR,Three Times Yearly
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,10,4 TIMES PER MONTH,Four Times Monthly
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,11,4 TIMES PER WEEK,Four Times Weekly
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,12,4 TIMES PER YEAR,Four Times Yearly
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,13,5 TIMES PER DAY,Five Times Daily
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,14,5 TIMES PER MONTH,Five Times Monthly
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,15,5 TIMES PER WEEK,Five Times Weekly
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,16,5 TIMES PER YEAR,Five Times Yearly
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,17,6 TIMES PER DAY,Six Times Daily
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,18,6 TIMES PER MONTH,Six Times Monthly
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,19,6 TIMES PER WEEK,Six Times Weekly
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,20,6 TIMES PER YEAR,Six Times Yearly
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,21,7 TIMES PER DAY,Seven Times Per Day
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,22,7 TIMES PER WEEK,Seven Times Weekly
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,23,8 TIMES PER DAY,Eight Times Per Day
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,24,9 TIMES PER DAY,Nine Times Per Day
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,25,AD LIBITUM,As Much as Desired
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,26,BID,Twice Daily
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,27,BIM,Twice Per Month
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,28,CONTINUOUS,Continue
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,29,EVERY 10 WEEKS,Every Ten Weeks
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,30,EVERY 10 YEARS,Every Ten Years
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,31,EVERY 12 WEEKS,Every Twelve Weeks
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,32,EVERY 13 WEEKS,Every Thirteen Weeks
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,33,EVERY 16 WEEKS,Every Sixteen Weeks
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,34,EVERY 2 WEEKS,Every Two Weeks
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,35,EVERY 3 WEEKS,Every Three Weeks
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,36,EVERY 3 YEARS,Every Three Years
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,37,EVERY 4 WEEKS,Every Four Weeks
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,38,EVERY 4 YEARS,Every Four Years
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,39,EVERY 5 WEEKS,Every Five Weeks
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,40,EVERY 5 YEARS,Every Five Years
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,41,EVERY 6 WEEKS,Every Six Weeks
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,42,EVERY 7 WEEKS,Every Seven Weeks
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,43,EVERY 8 WEEKS,Every Eight Weeks
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,44,EVERY 8 YEARS,Every Eight Years
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,45,EVERY AFTERNOON,Every Afternoon
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,46,EVERY EVENING,Every Evening
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,47,EVERY WEEK,Weekly
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,48,INTERMITTENT,Intermittent
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,49,OCCASIONAL,Infrequent
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,50,ONCE,Once
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,51,PA,Per Year
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,52,PRN,As Needed
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,53,Q10H,Every Ten Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,54,Q11H,Every Eleven Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,55,Q12H,Every Twelve Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,56,Q13H,Every Thirteen Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,57,Q14H,Every Fourteen Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,58,Q15H,Every Fifteen Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,59,Q16H,Every Sixteen Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,60,Q17H,Every Seventeen Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,61,Q18H,Every Eighteen Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,62,Q19H,Every Nineteen Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,63,Q20H,Every Twenty Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,64,Q21H,Every Twenty-One Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,65,Q22H,Every Twenty-Two Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,66,Q23H,Every Twenty-Three Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,67,Q24H,Every Twenty-Four Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,68,Q2H,Every Two Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,69,Q2M,Every Two Months
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,70,Q36H,Every Thirty-six Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,71,Q3D,Every Three Days
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,72,Q3H,Every Three Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,73,Q3M,Every Three Months
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,74,Q45MIN,Every Forty-Five Minutes
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,75,Q48H,Every Forty-eight Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,76,Q4D,Every Four Days
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,77,Q4H,Every Four Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,78,Q4M,Every Four Months
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,79,Q5D,Every Five Days
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,80,Q5H,Every Five Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,81,Q6D,Every Six Days
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,82,Q6H,Every Six Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,83,Q6M,Every Six Months
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,84,Q72H,Every Seventy Two Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,85,Q7D,Every Seven Days
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,86,Q7H,Every Seven Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,87,Q8H,Every Eight Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,88,Q96H,Every Ninety-Six Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,89,Q9H,Every Nine Hours
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,90,QAM,QAM
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,91,QD,Daily
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,92,QH,Every Hour
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,93,QHS,Hour of Sleep
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,94,QID,Four Times Daily
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,95,QM,Monthly
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,96,QN,Every Night
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,97,QOD,Every Other Day
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,98,QPM,QPM
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,99,THRICE,Thrice
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,100,TID,Three Times Daily
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,101,TWICE,Twice
+FREQ,C71113,true,CDISC CT sdtmct-2026-03-27,102,UNKNOWN,Unknown
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,1,AEROSOL,Aerosol Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,2,"AEROSOL, FOAM",Aerosol Foam Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,3,"AEROSOL, METERED",Metered Aerosol Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,4,"AEROSOL, POWDER",Powder Aerosol Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,5,"AEROSOL, SPRAY",Aerosol Spray Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,6,"BAR, CHEWABLE",Chewable Bar Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,7,BEAD,Bead Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,8,"BEAD, IMPLANT, EXTENDED RELEASE",Extended Release Bead Implant Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,9,BLOCK,Block Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,10,CAPLET,Caplet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,11,CAPSULE,Capsule Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,12,"CAPSULE, COATED PELLETS",Coated Pellet in Capsule Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,13,"CAPSULE, COATED",Coated Capsule Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,14,"CAPSULE, COATED, EXTENDED RELEASE",Extended Release Coated Capsule Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,15,"CAPSULE, DELAYED RELEASE PELLETS",Delayed Release Pellet in Capsule Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,16,"CAPSULE, DELAYED RELEASE",Delayed Release Capsule Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,17,"CAPSULE, EXTENDED RELEASE",Extended Release Capsule Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,18,"CAPSULE, FILM COATED, EXTENDED RELEASE",Extended Release Film Coated Capsule Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,19,"CAPSULE, GELATIN COATED",Gelatin Coated Capsule Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,20,"CAPSULE, HARD, EXTENDED RELEASE","Extended Release Capsule, Hard Dosage Form"
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,21,"CAPSULE, IMMEDIATE RELEASE",Immediate Release Capsule Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,22,"CAPSULE, LIQUID FILLED",Liquid Filled Capsule Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,23,"CAPSULE, SOFTGEL",Capsule Softgel Pharmaceutical Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,24,"CAPSULE, SOFTGEL, EXTENDED RELEASE","Extended Release Capsule, Softgel Dosage Form"
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,25,CEMENT,Cement Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,26,CIGARETTE,Cigarette Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,27,CLOTH,Cloth Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,28,CONCENTRATE,Concentrated Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,29,CONE,Cone Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,30,"CORE, EXTENDED RELEASE",Extended Release Core Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,31,CREAM,Cream Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,32,"CREAM, AUGMENTED",Augmented Cream Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,33,CRYSTAL,Crystal Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,34,CULTURE,Culture Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,35,DEPOT,Extended Release Depot Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,36,DIAPHRAGM,Vaginal Diaphragm Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,37,DISC,Disc Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,38,DOUCHE,Douche Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,39,DRESSING,Dressing Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,40,DRUG DELIVERY SYSTEM,Drug Delivery System
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,41,ELIXIR,Elixir Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,42,EMULSION,Emulsion Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,43,ENEMA,Enema Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,44,EXTRACT,Extract Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,45,"FIBER, EXTENDED RELEASE",Extended Release Fiber Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,46,FILM,Film Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,47,"FILM, EXTENDED RELEASE",Extended Release Film Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,48,"FILM, SOLUBLE",Soluble Film Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,49,FOR SOLUTION,Dosage Form for Solution
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,50,FOR SUSPENSION,Dosage Form for Suspension
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,51,"FOR SUSPENSION, EXTENDED RELEASE",Extended Release Dosage Form for Suspension
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,52,GAS,Gas Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,53,GEL,Gel Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,54,"GEL, CHEWABLE",Chewable Gel Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,55,"GEL, DENTIFRICE",Dentifrice Gel Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,56,"GEL, METERED",Metered Gel Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,57,GENERATOR,Generator Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,58,GLOBULE,Globule Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,59,GRAFT,Graft Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,60,GRANULE,Granule Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,61,"GRANULE, COATED",Coated Granules Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,62,"GRANULE, DELAYED RELEASE",Delayed Release Granules Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,63,"GRANULE, EFFERVESCENT",Effervescent Granules Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,64,"GRANULE, FOR SOLUTION",Granule for Solution Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,65,"GRANULE, FOR SUSPENSION",Granule for Suspension Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,66,"GRANULE, FOR SUSPENSION, EXTENDED RELEASE",Extended Release Granule for Suspension Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,67,GUM,Gum Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,68,"GUM, CHEWING",Chewing Gum Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,69,"GUM, RESIN",Resin Gum Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,70,IMPLANT,Implant Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,71,INHALANT,Inhalant Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,72,"INHALATION VAPOR, CAPSULE","Inhalation Vapor, Capsule Dosage Form"
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,73,"INJECTABLE, LIPOSOMAL",Liposomal Injection Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,74,INJECTION,Injectable Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,75,"INJECTION, EMULSION",Emulsion for Injection Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,76,"INJECTION, LIPID COMPLEX",Injectable Lipid Complex Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,77,"INJECTION, POWDER, FOR SOLUTION",Powder for Injectable Solution Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,78,"INJECTION, POWDER, FOR SUSPENSION",Powder for Injectable Suspension Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,79,"INJECTION, POWDER, FOR SUSPENSION, EXTENDED RELEASE",Powder for Injectable Extended Release Suspension Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,80,"INJECTION, POWDER, LYOPHILIZED, FOR LIPOSOMAL SUSPENSION",Lyophilized Powder for Injectable Liposomal Suspension Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,81,"INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION",Lyophilized Powder for Injectable Solution Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,82,"INJECTION, POWDER, LYOPHILIZED, FOR SUSPENSION",Lyophilized Powder for Injectable Suspension Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,83,"INJECTION, POWDER, LYOPHILIZED, FOR SUSPENSION, EXTENDED RELEASE",Lyophilized Powder for Extended Release Injectable Suspension Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,84,"INJECTION, SOLUTION",Injectable Solution Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,85,"INJECTION, SOLUTION, CONCENTRATE",Concentrated Injectable Solution Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,86,"INJECTION, SUSPENSION",Injectable Suspension Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,87,"INJECTION, SUSPENSION, EXTENDED RELEASE",Injectable Extended Release Suspension Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,88,"INJECTION, SUSPENSION, LIPOSOMAL",Injectable Liposomal Suspension Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,89,"INJECTION, SUSPENSION, SONICATED",Injectable Sonicated Suspension Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,90,INSERT,Insert Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,91,"INSERT, EXTENDED RELEASE",Extended Release Insert Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,92,INTRAUTERINE DEVICE,Intrauterine Device Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,93,IRRIGANT,Irrigant Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,94,JELLY,Jelly Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,95,KIT,Kit Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,96,"LINER, DENTAL",Dental Liner Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,97,LINIMENT,Liniment Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,98,LIPSTICK,Lipstick Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,99,LIQUID,Liquid Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,100,"LIQUID, EXTENDED RELEASE",Extended Release Liquid Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,101,LOTION,Lotion Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,102,"LOTION, AUGMENTED",Augmented Lotion Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,103,LOTION/SHAMPOO,Lotion Shampoo Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,104,LOZENGE,Lozenge Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,105,MOUTHWASH,Mouthwash Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,106,NANOSUSPENSION,Nanosuspension Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,107,NOT APPLICABLE,Dosage Form Not Applicable
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,108,OIL,Oil Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,109,OINTMENT,Ointment Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,110,"OINTMENT, AUGMENTED",Augmented Ointment Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,111,PACKING,Packing Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,112,PASTE,Paste Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,113,"PASTE, DENTIFRICE",Dentifrice Paste Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,114,PASTILLE,Pastille Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,115,PATCH,Patch Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,116,"PATCH, EXTENDED RELEASE",Extended Release Patch Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,117,"PATCH, EXTENDED RELEASE, ELECTRICALLY CONTROLLED",Electrically Controlled Extended Release Patch Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,118,PELLET,Pellet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,119,"PELLET, IMPLANTABLE",Implantable Pellet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,120,"PELLETS, COATED, EXTENDED RELEASE",Extended Release Coated Pellet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,121,PILL,Pill Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,122,PLASTER,Plaster Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,123,POULTICE,Poultice Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,124,POWDER,Powder Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,125,"POWDER, DENTIFRICE",Dentifrice Powder Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,126,"POWDER, FOR SOLUTION",Powder for Solution Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,127,"POWDER, FOR SUSPENSION",Powder for Suspension Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,128,"POWDER, LYOPHILIZED",Lyophilized Powder Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,129,"POWDER, METERED",Metered Powder Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,130,RING,Ring Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,131,RINSE,Rinse Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,132,SALVE,Salve Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,133,SHAMPOO,Shampoo Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,134,"SHAMPOO, SUSPENSION",Shampoo Suspension Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,135,SOAP,Soap Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,136,SOLID,Solid Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,137,SOLUTION,Solution Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,138,"SOLUTION, CONCENTRATE",Concentrated Solution Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,139,"SOLUTION, FOR SLUSH",Solution for Slush Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,140,"SOLUTION, GEL FORMING / DROPS",Gel Forming Drop Solution Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,141,"SOLUTION, GEL FORMING, EXTENDED RELEASE",Extended Release Gel Forming Solution Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,142,SOLUTION/ DROPS,Drop Solution Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,143,SPONGE,Sponge Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,144,SPRAY,Spray Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,145,"SPRAY, METERED",Metered Spray Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,146,"SPRAY, SUSPENSION",Spray Suspension Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,147,STICK,Stick Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,148,STRIP,Strip Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,149,SUPPOSITORY,Suppository Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,150,"SUPPOSITORY, EXTENDED RELEASE",Extended Release Suppository Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,151,SUSPENSION,Suspension Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,152,"SUSPENSION, EXTENDED RELEASE",Extended Release Suspension Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,153,SUSPENSION/DROPS,Drop Suspension Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,154,SUTURE,Suture Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,155,SWAB,Swab Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,156,SYRUP,Syrup Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,157,TABLET,Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,158,"TABLET, CHEWABLE",Chewable Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,159,"TABLET, COATED PARTICLES",Tablet Coated Particle Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,160,"TABLET, COATED",Coated Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,161,"TABLET, CRUSHED",Crushed Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,162,"TABLET, DELAYED RELEASE PARTICLES",Delayed Release Particle Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,163,"TABLET, DELAYED RELEASE",Delayed Release Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,164,"TABLET, EFFERVESCENT",Effervescent Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,165,"TABLET, EXTENDED RELEASE",Extended Release Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,166,"TABLET, FILM COATED",Film Coated Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,167,"TABLET, FILM COATED, EXTENDED RELEASE",Film Coated Extended Release Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,168,"TABLET, FILM COATED, IMMEDIATE RELEASE",Film Coated Immediate Release Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,169,"TABLET, FILM COATED, IMMEDIATE RELEASE, CRUSHED",Film Coated Immediate Release Crushed Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,170,"TABLET, FOR SOLUTION",Tablet for Solution Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,171,"TABLET, FOR SUSPENSION",Tablet for Suspension Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,172,"TABLET, GASTRORETENTIVE",Gastroretentive Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,173,"TABLET, IMMEDIATE RELEASE",Immediate Release Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,174,"TABLET, IMMEDIATE RELEASE, SOLID DISPERSION",Solid Dispersion Immediate Release Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,175,"TABLET, MODIFIED RELEASE",Modified Release Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,176,"TABLET, MODIFIED RELEASE, BILAYER (1:1)",Modified Release Bilayer Tablet 1:1 Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,177,"TABLET, MODIFIED RELEASE, BILAYER (1:2)",Modified Release Bilayer Tablet 1:2 Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,178,"TABLET, MODIFIED RELEASE, BILAYER",Modified Release Bilayer Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,179,"TABLET, MODIFIED RELEASE, EXTRUDABLE CORE SYSTEM",Modified Release Extrudable Core System Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,180,"TABLET, MODIFIED RELEASE, LONG DURATION",Long Modified Release Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,181,"TABLET, MODIFIED RELEASE, MATRIX",Modified Release Matrix Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,182,"TABLET, MODIFIED RELEASE, SHORT DURATION",Short Modified Release Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,183,"TABLET, MULTILAYER",Multilayered Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,184,"TABLET, MULTILAYER, EXTENDED RELEASE",Multilayered Extended Release Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,185,"TABLET, ORALLY DISINTEGRATING",Orally Disintegrating Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,186,"TABLET, ORALLY DISINTEGRATING, DELAYED RELEASE",Orally Disintegrating Delayed Release Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,187,"TABLET, SOLUBLE",Soluble Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,188,"TABLET, SUGAR COATED",Sugar Coated Tablet Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,189,TAMPON,Tampon Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,190,TAPE,Tape Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,191,TINCTURE,Tincture Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,192,TROCHE,Troche Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,193,UNASSIGNED,Unassigned Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,194,UNKNOWN,Unknown Dosage Form Category
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,195,VAGINAL RING,Vaginal Ring Dosage Form
+FRM,C66726,true,CDISC CT sdtmct-2026-03-27,196,WAFER,Wafer Dosage Form
+IECAT,C66797,false,CDISC CT sdtmct-2026-03-27,1,EXCLUSION,Exclusion Criteria
+IECAT,C66797,false,CDISC CT sdtmct-2026-03-27,2,INCLUSION,Inclusion Criteria
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,1,ADVERSE EVENT,Adverse Event
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,2,APPROVED DRUG AVAILABLE FOR INDICATION,Approved Drug Available For Indication
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,3,COMPLETED,Complete
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,4,DEATH,Dead
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,5,DISEASE RELAPSE,Recurrent Disease
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,6,FAILURE TO MEET CONTINUATION CRITERIA,Failure To Meet Continuation Criteria
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,7,FAILURE TO MEET RANDOMIZATION CRITERIA,Failure to Meet Randomization Criteria
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,8,INVESTIGATOR DECISION,Investigator Decision
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,9,LACK OF EFFICACY,Lack of Efficacy
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,10,LOGISTICAL PROBLEM,Logistical Problem With Clinical Study
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,11,LOST TO FOLLOW-UP,Lost To Follow-Up
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,12,MET ELIGIBILITY CRITERIA BUT NOT NEEDED,Subject Met Eligibility Criteria But Was Not Needed
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,13,NEVER DOSED,Never Dosed
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,14,NO LONGER CLINICALLY BENEFITING,No Longer Clinically Benefiting
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,15,NON-COMPLIANCE WITH NON-STUDY DEVICE,Non-Compliance With Non-Study Device
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,16,NON-COMPLIANCE WITH STUDY DEVICE,Non-Compliance With Study Device
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,17,NON-COMPLIANCE WITH STUDY DRUG,Non-Compliance With Study Drug
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,18,NON-COMPLIANCE WITH STUDY SCHEDULE,Non-Compliance With Study Schedule
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,19,NON-COMPLIANCE,Subject Noncompliance
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,20,PARTNER PREGNANCY,Partner Pregnancy
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,21,PHYSICIAN DECISION,Physician Decision
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,22,PREGNANCY,Pregnant Subject
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,23,PROGRESSIVE DISEASE,Progressive Disease
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,24,PROTOCOL DEVIATION,Protocol Deviation
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,25,PROTOCOL VIOLATION,Protocol Violation
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,26,PROTOCOL-SPECIFIED WITHDRAWAL CRITERION MET,Protocol-Specified Withdrawal Criterion Met
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,27,RANDOMIZED BY MISTAKE WITH STUDY TREATMENT,Randomized By Mistake With Study Treatment
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,28,RANDOMIZED BY MISTAKE WITHOUT STUDY TREATMENT,Randomized By Mistake Without Study Treatment
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,29,RANDOMIZED BY MISTAKE,Randomized By Mistake
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,30,RECOVERY,Recovery
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,31,REQUIRES PROHIBITED MEDICATION,Requires Prohibited Medication
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,32,REQUIRES PROHIBITED PROCEDURE,Requires Prohibited Procedure
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,33,SCREEN FAILURE,Trial Screen Failure
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,34,SCREENING NOT COMPLETED,Screening Not Completed
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,35,SERIOUS ADVERSE EVENT,Serious Adverse Event
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,36,SITE TERMINATED BY SPONSOR,Trial Site Terminated by Sponsor
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,37,SPONSOR REQUEST,Subject Removed at Sponsor Request
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,38,STUDY TERMINATED BY SPONSOR,Study Terminated By Sponsor
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,39,TECHNICAL PROBLEMS,Technical Problem
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,40,UNDERWENT PROHIBITED PROCEDURE,Underwent Prohibited Procedure
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,41,USED PROHIBITED MEDICATION,Used Prohibited Medication Indicator
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,42,WITHDRAWAL BY PARENT/GUARDIAN,Study Subject Withdrawal by Parent or Guardian
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,43,WITHDRAWAL BY SUBJECT,Withdrawal by Subject
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,44,WITHDRAWAL OF ASSENT,Withdrawal of Assent
+NCOMPLT,C66727,true,CDISC CT sdtmct-2026-03-27,45,WITHDRAWAL OF CONSENT,Study Consent Withdrawn
+NY,C66742,false,CDISC CT sdtmct-2026-03-27,1,N,No
+NY,C66742,false,CDISC CT sdtmct-2026-03-27,2,NA,Not Applicable
+NY,C66742,false,CDISC CT sdtmct-2026-03-27,3,U,Unknown
+NY,C66742,false,CDISC CT sdtmct-2026-03-27,4,Y,Yes
+OTHEVENT,C150811,true,CDISC CT sdtmct-2026-03-27,1,SITE TRANSFER,Study Site Transfer
+OTHEVENT,C150811,true,CDISC CT sdtmct-2026-03-27,2,SUBJECT ENTERED ADDITIONAL RESEARCH STUDY,Subject Entered Additional Research Study
+OTHEVENT,C150811,true,CDISC CT sdtmct-2026-03-27,3,TREATMENT UNBLINDED,Unblinding
+OTHEVENT,C150811,true,CDISC CT sdtmct-2026-03-27,4,WITHDRAWAL OF CONSENT FROM PROTOCOL-SPECIFIED ACTIVITY,Withdrawal of Consent From Protocol-Specified Activity
+OUT,C66768,false,CDISC CT sdtmct-2026-03-27,1,FATAL,Death Related to Adverse Event
+OUT,C66768,false,CDISC CT sdtmct-2026-03-27,2,NOT RECOVERED/NOT RESOLVED,Not Recovered from Adverse Event
+OUT,C66768,false,CDISC CT sdtmct-2026-03-27,3,RECOVERED/RESOLVED WITH SEQUELAE,Recovered from Adverse Event with Sequelae
+OUT,C66768,false,CDISC CT sdtmct-2026-03-27,4,RECOVERED/RESOLVED,Recovered from Adverse Event
+OUT,C66768,false,CDISC CT sdtmct-2026-03-27,5,RECOVERING/RESOLVING,Recovering or Resolving
+OUT,C66768,false,CDISC CT sdtmct-2026-03-27,6,UNKNOWN,Unknown
+PROTMLST,C114118,true,CDISC CT sdtmct-2026-03-27,1,DECLINED TO CONTINUE INTO NEXT TRIAL ELEMENT,Declined to Continue Into Next Trial Element
+PROTMLST,C114118,true,CDISC CT sdtmct-2026-03-27,2,DECLINED TO CONTINUE INTO SURVIVAL FOLLOW-UP,Declined To Continue Into Survival Follow-Up
+PROTMLST,C114118,true,CDISC CT sdtmct-2026-03-27,3,ELIGIBILITY CRITERIA MET,Eligibility Criteria Met By Subject
+PROTMLST,C114118,true,CDISC CT sdtmct-2026-03-27,4,ELIGIBILITY CRITERIA NOT MET,Did Not Meet Eligibility Criteria
+PROTMLST,C114118,true,CDISC CT sdtmct-2026-03-27,5,ENTERED INTO TRIAL,Subject Entered Into Trial
+PROTMLST,C114118,true,CDISC CT sdtmct-2026-03-27,6,INFORMED ASSENT OBTAINED,Informed Assent
+PROTMLST,C114118,true,CDISC CT sdtmct-2026-03-27,7,INFORMED CONSENT DECLINED FOR PROTOCOL-SPECIFIED ACTIVITY,Informed Consent Declined For Protocol-Specified Activity
+PROTMLST,C114118,true,CDISC CT sdtmct-2026-03-27,8,INFORMED CONSENT OBTAINED FOR PROTOCOL-SPECIFIED ACTIVITY,Informed Consent Obtained For Protocol-Specified Activity
+PROTMLST,C114118,true,CDISC CT sdtmct-2026-03-27,9,INFORMED CONSENT OBTAINED,Informed Consent
+PROTMLST,C114118,true,CDISC CT sdtmct-2026-03-27,10,OPTED TO CONTINUE INTO NEXT TRIAL ELEMENT,Opted to Continue Into Next Trial Element
+PROTMLST,C114118,true,CDISC CT sdtmct-2026-03-27,11,OPTED TO CONTINUE INTO SURVIVAL FOLLOW-UP,Opted To Continue Into Survival Follow-Up
+PROTMLST,C114118,true,CDISC CT sdtmct-2026-03-27,12,RANDOMIZED,Subject is Randomized
+PROTMLST,C114118,true,CDISC CT sdtmct-2026-03-27,13,RE-RANDOMIZED,Re-randomized
+RACE,C74457,false,CDISC CT sdtmct-2025-09-26 (not in sdtmct-2026-03-27),1,AMERICAN INDIAN OR ALASKA NATIVE,American Indian or Alaska Native
+RACE,C74457,false,CDISC CT sdtmct-2025-09-26 (not in sdtmct-2026-03-27),2,ASIAN,Asian
+RACE,C74457,false,CDISC CT sdtmct-2025-09-26 (not in sdtmct-2026-03-27),3,BLACK OR AFRICAN AMERICAN,Black or African American
+RACE,C74457,false,CDISC CT sdtmct-2025-09-26 (not in sdtmct-2026-03-27),4,NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER,Native Hawaiian or Other Pacific Islander
+RACE,C74457,false,CDISC CT sdtmct-2025-09-26 (not in sdtmct-2026-03-27),5,NOT REPORTED,Not Reported
+RACE,C74457,false,CDISC CT sdtmct-2025-09-26 (not in sdtmct-2026-03-27),6,OTHER,Other
+RACE,C74457,false,CDISC CT sdtmct-2025-09-26 (not in sdtmct-2026-03-27),7,UNKNOWN,Unknown
+RACE,C74457,false,CDISC CT sdtmct-2025-09-26 (not in sdtmct-2026-03-27),8,WHITE,White
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,1,AURICULAR (OTIC),Auricular Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,2,BUCCAL,Buccal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,3,CONJUNCTIVAL,Conjunctival Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,4,CUTANEOUS,Cutaneous Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,5,DENTAL,Dental Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,6,DIETARY,Dietary Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,7,ELECTRO-OSMOSIS,Electro-osmosis Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,8,ENDOCERVICAL,Endocervical Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,9,ENDOSINUSIAL,Endosinusial Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,10,ENDOTRACHEAL,Endotracheal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,11,ENTERAL,Enteral Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,12,EPIDURAL,Epidural Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,13,EXTRA-AMNIOTIC,Extraamniotic Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,14,EXTRACORPOREAL,Extracorporeal Circulation Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,15,GASTROJEJUNAL,Gastrojejunal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,16,HEMODIALYSIS,Administration via Hemodialysis
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,17,IMMERSION,Immersion Route of Exposure
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,18,INFILTRATION,Infiltration Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,19,INTERSTITIAL,Interstitial Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,20,INTRA-ABDOMINAL,Intraabdominal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,21,INTRA-AMNIOTIC,Intraamniotic Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,22,INTRA-ARTERIAL,Intraarterial Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,23,INTRA-ARTICULAR,Intraarticular Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,24,INTRABILIARY,Intrabiliary Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,25,INTRABRONCHIAL,Intrabronchial Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,26,INTRABURSAL,Intrabursal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,27,INTRACAMERAL,Intracameral Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,28,INTRACARDIAC,Intracardiac Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,29,INTRACARTILAGINOUS,Intracartilaginous Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,30,INTRACAUDAL,Intracaudal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,31,INTRACAVERNOUS,Intracavernous Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,32,INTRACAVITARY,Intracavitary Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,33,INTRACEREBRAL,Intracerebral Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,34,INTRACISTERNAL,Intracisternal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,35,INTRACOCHLEAR,Intracochlear Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,36,INTRACORNEAL,Intracorneal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,37,"INTRACORONAL, DENTAL",Intracoronal Dental Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,38,INTRACORONARY,Intracoronary Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,39,INTRACORPORUS CAVERNOSUM,Intracorpus Cavernosum Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,40,INTRADERMAL,Intradermal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,41,INTRADISCAL,Intradiscal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,42,INTRADUCTAL,Intraductal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,43,INTRADUODENAL,Intraduodenal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,44,INTRADURAL,Intradural Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,45,INTRAEPIDERMAL,Intraepidermal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,46,INTRAESOPHAGEAL,Intraesophageal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,47,INTRAGASTRIC,Intragastric Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,48,INTRAGINGIVAL,Intragingival Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,49,INTRAHEPATIC,Intrahepatic Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,50,INTRAILEAL,Intraileal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,51,INTRAJEJUNAL,Intrajejunal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,52,INTRALESIONAL,Intralesional Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,53,INTRALUMINAL,Intraluminal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,54,INTRALYMPHATIC,Intralymphatic Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,55,INTRAMAMMARY,Intramammary Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,56,INTRAMANDIBULAR,Intramandibular Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,57,INTRAMEDULLARY,Intramedullary Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,58,INTRAMENINGEAL,Intrameningeal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,59,INTRAMUSCULAR,Intramuscular Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,60,INTRANODAL,Intranodal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,61,INTRAOCULAR,Intraocular Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,62,INTRAOSSEOUS,Intraosseous Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,63,INTRAOVARIAN,Intraovarian Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,64,INTRAPALATAL,Intrapalatal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,65,INTRAPARENCHYMAL,Intraparenchymal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,66,INTRAPERICARDIAL,Intrapericardial Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,67,INTRAPERITONEAL,Intraperitoneal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,68,INTRAPLEURAL,Intrapleural Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,69,INTRAPROSTATIC,Intraprostatic Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,70,INTRAPULMONARY,Intrapulmonary Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,71,INTRARUMINAL,Intraruminal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,72,INTRASINAL,Intrasinal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,73,INTRASPINAL,Intraspinal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,74,INTRASTOMAL,Administration via Stoma
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,75,INTRASURGICAL SITE,Intrasurgical Site Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,76,INTRASYNOVIAL,Intrasynovial Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,77,INTRATENDINOUS,Intratendinous Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,78,INTRATESTICULAR,Intratesticular Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,79,INTRATHALAMIC,Intrathalamic Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,80,INTRATHECAL,Intrathecal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,81,INTRATHORACIC,Endothoracic Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,82,INTRATUBULAR,Intratubular Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,83,INTRATUMOR,Intratumoral Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,84,INTRATYMPANIC,Intratympanic Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,85,INTRAUTERINE,Intrauterine Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,86,INTRAVAGINAL,Intravaginal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,87,INTRAVASCULAR,Intravascular Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,88,INTRAVENOUS BOLUS,Intravenous Bolus
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,89,INTRAVENOUS DRIP,Intravenous Drip
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,90,INTRAVENOUS,Intravenous Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,91,INTRAVENTRICULAR,Intraventricular Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,92,INTRAVESICAL,Intravesical Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,93,INTRAVITREAL,Intravitreal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,94,IONTOPHORESIS,Iontophoresis Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,95,IRRIGATION,Irrigation Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,96,LARYNGEAL,Laryngeal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,97,MICRODIALYSIS,Microdialysis Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,98,NASAL,Nasal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,99,NASODUODENAL,Nasoduodenal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,100,NASOGASTRIC,Nasogastric Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,101,NASOJEJUNAL,Nasojejunal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,102,NOT APPLICABLE,Route of Administration Not Applicable
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,103,OCCLUSIVE DRESSING TECHNIQUE,Occlusive Dressing Technique
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,104,OPHTHALMIC,Ophthalmic Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,105,ORAL GAVAGE,Oral Gavage Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,106,ORAL,Oral Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,107,OROGASTRIC,Orogastric Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,108,OROMUCOSAL,Oromucosal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,109,OROPHARYNGEAL,Oropharyngeal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,110,PARENTERAL,Parenteral Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,111,PERCUTANEOUS,Percutaneous Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,112,PERIARTICULAR,Periarticular Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,113,PERIDURAL,Peridural Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,114,PERINEURAL,Perineural Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,115,PERIODONTAL,Periodontal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,116,PERIVENOUS,Perivenous Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,117,PHARYNGEAL,Pharyngeal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,118,RECTAL,Rectal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,119,RESPIRATORY (INHALATION),Inhalation Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,120,RETROBULBAR,Retrobulbar Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,121,SOFT TISSUE,Soft Tissue Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,122,SUBARACHNOID,Subarachnoid Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,123,SUBCONJUNCTIVAL,Subconjunctival Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,124,SUBCUTANEOUS,Subcutaneous Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,125,SUBDURAL,Subdural Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,126,SUBLINGUAL,Sublingual Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,127,SUBMUCOSAL,Submucosal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,128,SUBRETINAL,Subretinal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,129,SUBTENON,Subtenon Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,130,SUPRACHOROIDAL,Suprachoroidal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,131,TOPICAL,Topical Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,132,TRANSDERMAL,Transdermal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,133,TRANSFORAMINAL,Transforaminal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,134,TRANSMAMMARY,Transmammary Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,135,TRANSMUCOSAL,Mucosal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,136,TRANSPLACENTAL,Transplacental Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,137,TRANSTRACHEAL,Transtracheal Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,138,TRANSTYMPANIC,Transtympanic Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,139,UNASSIGNED,Unassigned Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,140,UNKNOWN,Unknown Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,141,URETERAL,Ureteral Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,142,URETHRAL,Intraurethral Route of Administration
+ROUTE,C66729,true,CDISC CT sdtmct-2026-03-27,143,VAGINAL,Vaginal Route of Administration
+SEX,C66731,false,CDISC CT sdtmct-2026-03-27,1,F,Female
+SEX,C66731,false,CDISC CT sdtmct-2026-03-27,2,INTERSEX,Intersex
+SEX,C66731,false,CDISC CT sdtmct-2026-03-27,3,M,Male
+SEX,C66731,false,CDISC CT sdtmct-2026-03-27,4,U,Unknown
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,1,Actual Number of Subjects,Actual Subject Number
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,2,Adaptive Design,Adaptive Study Design Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,3,Added on to Existing Treatments,Test Product Added to Existing Treatment
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,4,Additional Outcome Measure,Additional Outcome Measure
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,5,Applicant,US FDA Tobacco Product Applicant
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,6,Biospecimen Retention Contains DNA Ind,Retained Biospecimen Contains DNA Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,7,Biospecimen Retention Indicator,Biospecimen Retention Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,8,CDISC Therapeutic Area User Guide,CDISC Therapeutic Area User Guide Name and Version
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,9,Challenge Agent Name,Challenge Agent Name
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,10,Citation Used in Study,Clinical Study Citation
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,11,Clinical Study Report Archive Date,Clinical Study Report Archive Date
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,12,Clinical Study Sponsor,Clinical Study Sponsor
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,13,Commercial Sponsor Status,Sponsor Commercial Status
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,14,Comparative Treatment Name,Active Comparator Drug
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,15,Confirmed Response Minimum Duration,Confirmed Response Minimum Duration
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,16,Contact E-Mail Address,Study Contact E-mail Address
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,17,Contact Mailing Address,Study Contact Postal Address
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,18,Contact Name,Study Contact Name
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,19,Contact Phone Number,Study Contact Telephone Number
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,20,Contact Role,Study Contact Role
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,21,Control Type,Control Type
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,22,Country of Manufacture,Country of Manufacture
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,23,Current Therapy or Treatment,Current Therapy
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,24,Data Cutoff Date,Data Cutoff Date
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,25,Data Cutoff Description,Data Cutoff Date Description
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,26,Data Monitoring Committee Indicator,Data Monitoring Committee Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,27,Delayed Graft Function Dx Criteria,Delayed Graft Function Diagnostic Criteria Name
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,28,Diagnosis Group,Diagnosis Group
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,29,Diagnostic Criteria,Diagnostic Criteria
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,30,Dose Form,Pharmaceutical Dosage Form
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,31,Dose per Administration,Dose
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,32,Dose Regimen,Dose Regimen
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,33,Dose Units,Dosage Form Unit
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,34,Dosing Frequency,Dose Frequency
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,35,ECG Continuous Monitoring,ECG Continuous Monitoring Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,36,ECG Planned Primary Lead,ECG Planned Primary Lead for Study
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,37,ECG Read Method,ECG Read Method Degree of Automation
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,38,ECG Reading Blinded,ECG Evaluator Blinding Parameters
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,39,ECG Replicates at Baseline,ECG Replicates at Baseline Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,40,ECG Replicates On-Treatment,ECG Replicates On-Treatment Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,41,ECG Twave Algorithm,ECG T Wave Algorithm
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,42,ECG Used Same Lead,ECG Used Same Lead Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,43,EMA Decision Number for PIP,EMA Decision Number for Pediatric Investigation Plan
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,44,Email Address for XML File,E-mail Address for XML File Feedback
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,45,Epi/Pandemic Related Disruption Ind,Epidemic or Pandemic Related Disruption Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,46,EudraCT Resubmission Indicator,EudraCT Resubmission Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,47,EudraVigilance Sender ID,EudraVigilance Sender Identifier
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,48,EudraVigilance Sender Organization,EudraVigilance Sender Organization
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,49,Expanded Access Record NCT Number,Clinicaltrials.gov NCT Number for the Expanded Access Record
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,50,Expanded Access Status,Trial Expanded Access Status
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,51,Exploratory Outcome Measure,Exploratory Outcome Measure
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,52,Extension Trial Indicator,Extension Trial Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,53,FDA Technical Specification,FDA Technical Specification Name and Version
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,54,FDA-Regulated Device Study Indicator,FDA-Regulated Device Study Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,55,FDA-Regulated Drug Study Indicator,FDA-Regulated Drug Study Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,56,Healthy Subject Indicator,Healthy Subject Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,57,Intervention Model,Intervention Model
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,58,Intervention Type,Intervention Type
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,59,Investigational Therapy or Treatment,Protocol Agent
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,60,Multiple Site EU State Trial Indicator,Multiple Site European Union State Trial Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,61,Name of Epi/Pandemic,Name of Epidemic or Pandemic
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,62,Number of Groups/Cohorts,Number of Groups or Cohorts
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,63,Number of Trial Sites EU State,Number of Trial Sites within European Union State
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,64,Obs Study Population Description,Observational Study Population Description
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,65,Obs Study Sampling Method Description,Observational Study Sampling Method Description
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,66,Observational Model,Observational Model
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,67,Observational Study Sampling Method,Observational Study Sampling Method
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,68,Observational Time Perspective,Observational Time Perspective of Study
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,69,Ongoing Study Indicator,Ongoing Study Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,70,Pediatric Investigation Plan Indicator,Pediatric Investigation Plan Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,71,Pediatric Postmarket Study Indicator,Pediatric Postmarket Study Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,72,Pediatric Study Indicator,Pediatric Study Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,73,Pharmacologic Class,Pharmacological Class of Investigational Therapy
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,74,Planned Country of Investigational Sites,Planned Country of Investigational Site
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,75,Planned Maximum Age of Subjects,Planned Maximum Age of Subjects
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,76,Planned Minimum Age of Subjects,Planned Minimum Age of Subjects
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,77,Planned Number of Arms,Planned Number of Arms
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,78,Planned Number of Subjects,Planned Subject Number
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,79,Planned Treatment Duration,Planned Treatment Duration
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,80,Planned Trial Duration,Planned Trial Duration
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,81,Post Authorization Safety Study Ind,Post Authorization Safety Study Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,82,Primary Outcome Measure,Primary Outcome Measure
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,83,Protocol Keyword,Protocol Keyword
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,84,Protocol Risk Assessment,Protocol Risk Assessment
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,85,PubMed ID for Citation Used in Study,PubMed Unique Identifier
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,86,Randomization Quotient,Randomization Quotient
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,87,Rare Disease Indicator,Rare Disease Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,88,Registry Identifier,Clinical Trial Registry Identifier
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,89,Relapse Criteria,Relapse Criteria
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,90,Request for XML Copy of Study Indicator,Study Saved as XML Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,91,Resubmission Letter,Resubmission Letter
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,92,Retained Biospecimen Description,Retained Biospecimen Description
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,93,Route of Administration,Route of Administration
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,94,SDTM IG Version,Study Data Tabulation Model Implementation Guide Version
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,95,SDTM Version,Study Data Tabulation Model Version
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,96,SDTMIG Medical Device Version,SDTM Implementation Guide Medical Device Version
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,97,Secondary Outcome Measure,Secondary Outcome Measure
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,98,Secure Delivery XML Required Indicator,Requires Secure Email Delivery of XML Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,99,Severity Criteria,Severity Criteria
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,100,Sex of Participants,Sex of Study Group
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,101,Single Site EU State Trial Indicator,Single Site European Union State Trial Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,102,Sponsor's Study Reference ID,Sponsor Study Reference Identifier
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,103,Stable Disease Minimum Duration,Stable Disease Minimum Duration
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,104,Stratification Factor,Stratification Factors
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,105,Study End Date,Clinical Study End Date
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,106,Study Start Date,Study Start Date
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,107,Study Stop Rules,Study Stop Rule
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,108,Study Type,Study Type
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,109,Substudy Details,Substudy Details
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,110,Substudy Planned Indicator,Substudy Planned Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,111,SUSAR Reporting to EVCTM Indicator,SUSAR Reporting to EudraVigiliance Clinical Trial Module Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,112,SUSAR Reporting to NCA Indicator,SUSAR Reporting to National Competent Authority Indicator
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,113,Target Follow-Up Duration,Planned Follow-Up Duration
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,114,Therapeutic Area,Therapeutic Area
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,115,Tobacco IG Version,CDISC Tobacco Implementation Guide Version
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,116,Tobacco Product,Tobacco Product
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,117,Trial Blinding Schema,Trial Blinding Schema
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,118,Trial Disease/Condition Indication,Trial Indication
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,119,Trial Exploratory Objective,Trial Exploratory Objective
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,120,Trial Intent Type,Clinical Study by Intent
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,121,Trial is Randomized,Randomization
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,122,Trial Length,Trial Length
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,123,Trial Phase Classification,Trial Phase
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,124,Trial Primary Objective,Trial Primary Objective
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,125,Trial Secondary Objective,Trial Secondary Objective
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,126,Trial Title,Trial Title
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,127,Trial Type,Trial Type
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,128,URL Related to Study Description,Study Protocol Uniform Resource Locator Description
+TSPARM,C67152,true,CDISC CT sdtmct-2026-03-27,129,URL Related to Study,Study Protocol Uniform Resource Locator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,1,ACTSUB,Actual Subject Number
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,2,ADAPT,Adaptive Study Design Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,3,ADDON,Test Product Added to Existing Treatment
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,4,AGEMAX,Planned Maximum Age of Subjects
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,5,AGEMIN,Planned Minimum Age of Subjects
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,6,APPLCNT,US FDA Tobacco Product Applicant
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,7,BRDNAIND,Retained Biospecimen Contains DNA Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,8,BRIND,Biospecimen Retention Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,9,CAGTNAM,Challenge Agent Name
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,10,CITNSTDY,Clinical Study Citation
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,11,CMSPSTAT,Sponsor Commercial Status
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,12,COMPTRT,Active Comparator Drug
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,13,CONEMAIL,Study Contact E-mail Address
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,14,CONMAIL,Study Contact Postal Address
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,15,CONNAME,Study Contact Name
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,16,CONPHONE,Study Contact Telephone Number
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,17,CONROLE,Study Contact Role
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,18,CRMDUR,Confirmed Response Minimum Duration
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,19,CSRARDTC,Clinical Study Report Archive Date
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,20,CTAUG,CDISC Therapeutic Area User Guide Name and Version
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,21,CURTRT,Current Therapy
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,22,DCUTDESC,Data Cutoff Date Description
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,23,DCUTDTC,Data Cutoff Date
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,24,DGFCRIT,Delayed Graft Function Diagnostic Criteria Name
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,25,DMCIND,Data Monitoring Committee Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,26,DOSE,Dose
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,27,DOSFRM,Pharmaceutical Dosage Form
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,28,DOSFRQ,Dose Frequency
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,29,DOSRGM,Dose Regimen
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,30,DOSU,Dosage Form Unit
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,31,DXCRIT,Diagnostic Criteria
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,32,EGBLIND,ECG Evaluator Blinding Parameters
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,33,EGCTMON,ECG Continuous Monitoring Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,34,EGLEADPR,ECG Planned Primary Lead for Study
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,35,EGLEADSM,ECG Used Same Lead Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,36,EGRDMETH,ECG Read Method Degree of Automation
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,37,EGREPLBL,ECG Replicates at Baseline Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,38,EGREPLTR,ECG Replicates On-Treatment Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,39,EGTWVALG,ECG T Wave Algorithm
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,40,EMAILXML,E-mail Address for XML File Feedback
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,41,EMPIPDCN,EMA Decision Number for Pediatric Investigation Plan
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,42,EPDISIND,Epidemic or Pandemic Related Disruption Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,43,EPIDEMIC,Name of Epidemic or Pandemic
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,44,EURSBIND,EudraCT Resubmission Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,45,EVSNDID,EudraVigilance Sender Identifier
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,46,EVSNDORG,EudraVigilance Sender Organization
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,47,EXPARECN,Clinicaltrials.gov NCT Number for the Expanded Access Record
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,48,EXPASTAT,Trial Expanded Access Status
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,49,EXTTIND,Extension Trial Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,50,FCNTRY,Planned Country of Investigational Site
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,51,FDADEIND,FDA-Regulated Device Study Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,52,FDADRIND,FDA-Regulated Drug Study Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,53,FDATCHSP,FDA Technical Specification Name and Version
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,54,HLTSUBJI,Healthy Subject Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,55,INDIC,Trial Indication
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,56,INTMODEL,Intervention Model
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,57,INTTYPE,Intervention Type
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,58,KEYWORD,Protocol Keyword
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,59,LENGTH,Trial Length
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,60,MNFCNTRY,Country of Manufacture
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,61,MSEUTIND,Multiple Site European Union State Trial Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,62,NARMS,Planned Number of Arms
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,63,NCOHORT,Number of Groups or Cohorts
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,64,NUMSEUST,Number of Trial Sites within European Union State
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,65,OBJEXP,Trial Exploratory Objective
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,66,OBJPRIM,Trial Primary Objective
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,67,OBJSEC,Trial Secondary Objective
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,68,OBSMODEL,Observational Model
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,69,OBSTIMP,Observational Time Perspective of Study
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,70,OBSTPOPD,Observational Study Population Description
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,71,OBSTSMM,Observational Study Sampling Method
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,72,OBSTSMMD,Observational Study Sampling Method Description
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,73,ONGOSIND,Ongoing Study Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,74,OUTMSADD,Additional Outcome Measure
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,75,OUTMSEXP,Exploratory Outcome Measure
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,76,OUTMSPRI,Primary Outcome Measure
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,77,OUTMSSEC,Secondary Outcome Measure
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,78,PASSIND,Post Authorization Safety Study Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,79,PCLAS,Pharmacological Class of Investigational Therapy
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,80,PDPSTIND,Pediatric Postmarket Study Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,81,PDSTIND,Pediatric Study Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,82,PIPIND,Pediatric Investigation Plan Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,83,PLANSUB,Planned Subject Number
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,84,PLNTRDUR,Planned Trial Duration
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,85,PROTRSK,Protocol Risk Assessment
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,86,PTRTDUR,Planned Treatment Duration
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,87,PUBMEDID,PubMed Unique Identifier
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,88,RANDOM,Randomization
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,89,RANDQT,Randomization Quotient
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,90,RDIND,Rare Disease Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,91,REGID,Clinical Trial Registry Identifier
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,92,RESUBLTR,Resubmission Letter
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,93,RLPSCRIT,Relapse Criteria
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,94,ROUTE,Route of Administration
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,95,RTSPCDES,Retained Biospecimen Description
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,96,RXMLCIND,Study Saved as XML Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,97,SDMDUR,Stable Disease Minimum Duration
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,98,SDTIGVER,Study Data Tabulation Model Implementation Guide Version
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,99,SDTMDVER,SDTM Implementation Guide Medical Device Version
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,100,SDTMVER,Study Data Tabulation Model Version
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,101,SDXMLIND,Requires Secure Email Delivery of XML Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,102,SENDTC,Clinical Study End Date
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,103,SEVCRIT,Severity Criteria
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,104,SEXPOP,Sex of Study Group
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,105,SPONSOR,Clinical Study Sponsor
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,106,SPREFID,Sponsor Study Reference Identifier
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,107,SREVIND,SUSAR Reporting to EudraVigiliance Clinical Trial Module Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,108,SRNCAIND,SUSAR Reporting to National Competent Authority Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,109,SSEUTIND,Single Site European Union State Trial Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,110,SSTDTC,Study Start Date
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,111,SSTDYDTL,Substudy Details
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,112,SSTDYIND,Substudy Planned Indicator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,113,STOPRULE,Study Stop Rule
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,114,STRATFCT,Stratification Factors
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,115,STYPE,Study Type
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,116,TBLIND,Trial Blinding Schema
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,117,TBPRD,Tobacco Product
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,118,TCNTRL,Control Type
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,119,TDIGRP,Diagnosis Group
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,120,THERAREA,Therapeutic Area
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,121,TIGVER,CDISC Tobacco Implementation Guide Version
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,122,TINDTP,Clinical Study by Intent
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,123,TITLE,Trial Title
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,124,TPHASE,Trial Phase
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,125,TRGFUDUR,Planned Follow-Up Duration
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,126,TRT,Protocol Agent
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,127,TTYPE,Trial Type
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,128,URLSTDY,Study Protocol Uniform Resource Locator
+TSPARMCD,C66738,true,CDISC CT sdtmct-2026-03-27,129,URLSTDYD,Study Protocol Uniform Resource Locator Description
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,1,% INHIBITION,Percent Inhibition
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,2,%,Percentage
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,3,%(v/v),Percent Volume per Volume
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,4,%(w/v),Percent Mass per Volume
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,5,%(w/w),Percent Mass per Mass
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,6,%*min/h,Percentage times Minute per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,7,%/min,Percent per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,8,%/s,Percent per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,9,(mmHg*min/L)*m2,Millimeter Mercury times Minute per Liter times Square Meter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,10,/10 HPFs,Per 10 High Powered Fields
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,11,/100 Cells,Per 100 Cells
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,12,/100 Enterocytes,per 100 Enterocytes
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,13,/100 HPFs,Per 100 High Powered Fields
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,14,/100 RBC,Per 100 Red Blood Cells
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,15,/100 WBC,Per 100 White Blood Cells
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,16,/100x FIELD,Per 100x Field
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,17,/10^3 RBC,Per Thousand Red Blood Cells
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,18,/10^3,Per Thousand
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,19,/10^4,Per Ten Thousand
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,20,/10^5,Per Hundred Thousand
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,21,/10^6,Per Million
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,22,/2 mm2,Per Two Square Millimeters
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,23,/200 HPFs,Per 200 High Powered Fields
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,24,/2000 RBC,Per 2000 Red Blood Cells
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,25,/2500 WBC,Per 2500 White Blood Cells
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,26,/4.0 mL,per 4.0 Milliliters
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,27,/40 HPFs,Per 40 High Powered Fields
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,28,/400 Cells,Per 400 Cells
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,29,/50 Cells,Per 50 Cells
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,30,/500 WBC,Per 500 White Blood Cells
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,31,/5x10^4 WBC,"Per 50,000 White Blood Cells"
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,32,/7.5 mL,per 7.5 Milliliters
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,33,/animal,Per Animal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,34,/Cell,Per Cell
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,35,/cm3,Per Cubic Centimeter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,36,/cmH2O,Per Centimeter of Water
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,37,/day,Daily
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,38,/EXOME,Per Exome
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,39,/g,Per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,40,/h,Per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,41,/HPF,Per High Powered Field
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,42,/kg,Per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,43,/LPF,Per Low Powered Field
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,44,/LSQN,Per Large Square Neubauer Chamber
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,45,/MBP,Per Megabase Pair
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,46,/min,Per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,47,/mm,Per Millimeter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,48,/mm2,per Square Millimeter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,49,/month,Monthly
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,50,/ms,Per Millisecond
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,51,/PLATE,Per Plate
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,52,/s,Per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,53,/um2,per Square Micrometer
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,54,/VF,Per Visual Field
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,55,/WELL,Per Culture Plate Well
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,56,/wk,Weekly
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,57,1/(s*kPa),One per Second Times Kilopascal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,58,10 copies/mL,Ten Copies per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,59,10 IU/mL,Ten International Units per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,60,100 copies/mL,Hundred Copies per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,61,100 IU/mL,100 International Units per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,62,10^10 copies/mL,Ten Billion Copies per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,63,10^10 IU/mL,Ten Billion International Units per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,64,10^10 vp/dose,Ten Billion Viral Particles per Dose
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,65,10^10 vp/mL,Ten Billion Viral Particles per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,66,10^10/L,Ten Billion Per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,67,10^11/L,Hundred Billion Per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,68,10^12 IU/L,Tera International Unit Per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,69,10^12/L,Million per Microliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,70,10^3 CFU,Thousand Colony Forming Units
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,71,10^3 CFU/g,Thousand Colony Forming Units per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,72,10^3 CFU/mL,Thousand Colony Forming Units per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,73,10^3 copies/mL,Thousand Copies per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,74,10^3 DNA copies/mL,Thousand DNA Copies per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,75,10^3 IU/mL,Thousand International Units per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,76,10^3 organisms,Thousand Organisms
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,77,10^3 organisms/g,Thousand Organisms per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,78,10^3 organisms/mL,Thousand Organisms per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,79,10^3 RNA copies/mL,Thousand RNA Copies per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,80,10^3 Therapeutic Cells,Thousand Therapeutic Cells Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,81,10^3/hpf,Thousand per High Powered Field
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,82,10^3/L,Thousand Per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,83,10^4 CFU,Ten Thousand Colony Forming Units
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,84,10^4 CFU/mL,Ten Thousand Colony Forming Units Per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,85,10^4 copies/mL,Ten Thousand Copies per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,86,10^4 IU/mL,Ten Thousand International Units per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,87,10^4/hpf,Ten Thousand per High Powered Field
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,88,10^4/L,Thousand per Deciliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,89,10^5 CFU,Hundred Thousand Colony Forming Units
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,90,10^5 CFU/mL,Hundred Thousand Colony Forming Units per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,91,10^5 copies/mL,Hundred Thousand Copies per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,92,10^5 IU/mL,Hundred Thousand International Units
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,93,10^5 Therapeutic Cells,Hundred Thousand Therapeutic Cells Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,94,10^5/hpf,Hundred Thousand per High Powered Field
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,95,10^5/kg,Hundred Thousand Per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,96,10^5/L,Hundred Thousand Per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,97,10^6 CFU,Million Colony Forming Units
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,98,10^6 CFU/g,Million Colony Forming Units per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,99,10^6 CFU/mL,Million Colony Forming Units per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,100,10^6 copies/mL,Million Copies per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,101,10^6 DNA copies/mL,Million DNA Copies per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,102,10^6 IU,Million International Units
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,103,10^6 IU/mL,Million International Units per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,104,10^6 organisms,Million Organisms
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,105,10^6 organisms/g,Million Organisms per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,106,10^6 organisms/mg,Million Organisms per Milligram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,107,10^6 organisms/mL,Million Organisms per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,108,10^6 PFU,Million Plaque Forming Units
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,109,10^6 RNA copies/mL,Million RNA Copies per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,110,10^6 TCID 50/dose,Million Tissue Culture Infectious Dose 50%
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,111,10^6 Therapeutic Cells,Million Therapeutic Cells Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,112,10^6 U,Million Units
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,113,10^6/Ejaculate U,Million Per Ejaculate Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,114,10^6/g,Million per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,115,10^6/hpf,Million per High Powered Field
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,116,10^6/kg,Million per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,117,10^6/L,Thousand per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,118,10^7 CFU,Ten Million Colony Forming Units
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,119,10^7 CFU/mL,Ten Million Colony Forming Units Per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,120,10^7 copies/mL,Ten Million Copies per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,121,10^7 IU/mL,Ten Million International Units per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,122,10^7 PFU,Ten Million Plaque Forming Units
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,123,10^7 TCID 50/dose,Ten Million Tissue Culture Infectious Dose 50%
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,124,10^7/kg,Ten Million Per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,125,10^7/L,Ten Million per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,126,10^8 CFU,Hundred Million Colony Forming Units
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,127,10^8 copies/mL,One Hundred Million Copies per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,128,10^8 IU,Hundred Million International Units
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,129,10^8 IU/mL,One Hundred Million International Units per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,130,10^8 PFU,Hundred Million Plaque Forming Units
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,131,10^8 TCID 50/dose,Hundred Million Tissue Culture Infectious Dose 50%
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,132,10^8/L,Hundred Million Per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,133,10^9 CFU,Billion Colony Forming Units
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,134,10^9 CFU/g,Billion Colony Forming Units per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,135,10^9 CFU/mL,Billion Colony Forming Units per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,136,10^9 copies/mL,Billion Copies per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,137,10^9 IU/mL,Billion International Units per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,138,10^9 organisms,Billion Organisms
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,139,10^9 organisms/g,Billion Organisms per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,140,10^9 organisms/mg,Billion Organisms per Milligram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,141,10^9 organisms/mL,Billion Organisms per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,142,10^9 PFU,Billion Plaque Forming Units
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,143,10^9 Therapeutic Cells,Billion Therapeutic Cells Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,144,10^9/dose,Billion per Dose
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,145,10^9/g,Billion per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,146,10^9/L,Billion per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,147,10^9/uL,Billion per Microliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,148,ABC,Antibody Binding Capacity Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,149,Absorbance U,Absorbance Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,150,Absorbance U/min,Absorbance Unit per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,151,Absorbance U/mL,Absorbance Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,152,ACTUATION,Actuation Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,153,AFU,Arbitrary Fluorescence Units
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,154,ag,Attogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,155,AGGREGATION UNIT,Aggregation Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,156,AgU/mL,Antigen Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,157,aMFI,Arithmetic Mean Fluorescence Intensity Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,158,amol,Attomole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,159,amp,Ampere
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,160,AMPULE,Ampule Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,161,amu,Atomic Mass Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,162,Anson U,Anson Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,163,anti-Xa IU,Anti-Xa Activity International Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,164,anti-Xa IU/mL,Anti-Xa Activity International Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,165,Antibody Unit,Antibody Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,166,APL U,IgA Phospholipid Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,167,APL U/mL,Immunoglobin A Phospholipid Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,168,APPLICATION,Application Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,169,APS U,Phosphatidylserine IgA Antibody Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,170,APS U/mL,Phosphatidylserine IgA Antibody Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,171,Arbitrary U,Arbitrary Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,172,Arbitrary U/mL,Arbitrary Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,173,ARMOUR UNIT,Armour Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,174,atm,Atmosphere
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,175,AU/mL,Allergy Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,176,BAG,Bag Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,177,BAR,Bar Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,178,BAU,Bioequivalent Allergy Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,179,BAU/mL,Bioequivalent Allergy Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,180,BE/mL,Biological Allergy Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,181,BEAM BREAKS,Beam Break Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,182,beats/min,Beats per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,183,bel,Bel
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,184,Binding Ab Unit,Binding Antibody Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,185,Binding Ab Unit/mL,Binding Antibody Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,186,BISCUIT,Biscuit Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,187,BLOCKS,Block Unit of Distance
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,188,BOLUS,Bolus Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,189,BOTTLE,Bottle Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,190,BOWL,Bowl Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,191,BOX,Box Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,192,BP,Base Pair Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,193,Bq,Becquerel
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,194,Bq/g,Becquerel per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,195,Bq/kg,Becquerel per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,196,Bq/L,Becquerel per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,197,Bq/mg,Becquerel per Milligram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,198,Bq/mL,Becquerel per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,199,Bq/ug,Becquerel per Microgram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,200,Bq/uL,Becquerel per Microliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,201,breaths/30 s,Breaths per Thirty Seconds
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,202,breaths/min,Breaths per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,203,BU,Bethesda Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,204,BU/mL,Bethesda Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,205,C,Degree Celsius
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,206,CAE Unit,Complement Activity Enzyme Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,207,cal,calorie
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,208,CAN,Can Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,209,CAPFUL,Capful Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,210,CAPLET,Caplet Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,211,CAPSULE,Capsule Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,212,CARTRIDGE,Cartridge Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,213,CCID 50/dose,50 Percent Cell Culture Infective Dose per Dose
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,214,CCID 50/mL,50 Percent Cell Culture Infective Dose per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,215,cd,Candela
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,216,cd*s/m2,Candela Second per Square Meter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,217,cd/m2,Candela per Square Meter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,218,CFU/g,Colony Forming Unit per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,219,CFU/mL,Colony Forming Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,220,cg,Centigram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,221,CGE,Cobalt Gray Equivalent
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,222,cGy,Centigray
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,223,Ci,Curie
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,224,Ci/g,Curie per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,225,Ci/kg,Curie per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,226,Ci/L,Curie per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,227,Ci/mg,Curie per Milligram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,228,Ci/mL,Curie per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,229,Ci/mmol,Curie per Millimole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,230,Ci/ug,Curie per Microgram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,231,Ci/uL,Curie per Microliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,232,CIGAR,Cigar Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,233,CIGARETTE,Cigarette Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,234,cL,Centiliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,235,cm H2O,Centimeters of Water
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,236,cm,Centimeter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,237,cm/min,Centimeter Per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,238,cm/s,Centimeter per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,239,cm2,Square Centimeter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,240,cm2/s,Square Centimeter per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,241,cmH2O*s/mL,Centimeter of Water Times Second per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,242,cmH2O*s2/mL,Centimeter of Water Times Second Squared per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,243,cmH2O/mL,Centimeter of Water per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,244,cmH2O/mL/s,Centimeter of Water per Milliliter per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,245,cmHg,Centimeters of Mercury
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,246,cmol,Centimole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,247,cmol/L,Centimole per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,248,COAT,Coat Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,249,CONTAINER,Container Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,250,copies/cell,Copies per Cell
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,251,copies/mL,Copies per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,252,copies/ug,Copies per Microgram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,253,copies/uL,Copies per Microliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,254,Coulomb,Coulomb
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,255,cP,Centipoise
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,256,cpm,Count per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,257,cs,Centisecond
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,258,Cu,Coresta Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,259,cup eq,Cup Equivalent
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,260,CUP,Cup Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,261,CUTS/in,Cuts per Inch
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,262,cy/cm,Grating Cycles per Centimeter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,263,cycle/min,Cycle per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,264,CYLINDER,Cylinder Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,265,DAgU,D Antigen Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,266,DAgU/mL,D Antigen Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,267,damol/L,Decamole Per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,268,daPa,Decapascal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,269,day*ng/mL/(mg/kg),Day Times Nanogram Per Milliliter Per Milligram Per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,270,DAYS,Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,271,days/month,Days Per Month
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,272,days/wk,Days Per Week
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,273,dB,Decibel
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,274,DDU,D-Dimer Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,275,deg,Degree Unit of Plane Angle
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,276,deg/mm,Degree Per Millimeter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,277,deg/s,Degrees Per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,278,deg2,Degrees Squared
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,279,DIOPTER,Diopter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,280,DIP,Dip Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,281,DISK,Disk Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,282,dL,Deciliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,283,dmol,Decimole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,284,DNA copies/mL,DNA Copies per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,285,DNA copies/ug,DNA Copies Per Microgram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,286,DPM,Disintegration per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,287,dpm/0.5 mL,Disintegrations per Minute per 0.5 Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,288,dpm/100 mg,Disintegration per Minute per 100 milligrams
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,289,dpm/g,Disintegration per Minute per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,290,dpm/mg,Disintegration per Minute per Milligram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,291,dpm/mL,Disintegration per Minute per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,292,dram,Dram Mass Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,293,DRINK,Drink Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,294,DROP,Drop
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,295,DRUM,Drum Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,296,dyn,Dyne
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,297,dyn*s/cm5,Dyne Second per Centimeter to the Fifth Power
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,298,E-CIGARETTE,Electronic Cigarette Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,299,ECL unit,Electrochemiluminescence Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,300,EIA unit,Enzyme Immunoassay Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,301,EID 50/dose,50 Percent Embryo Infective Dose per Dose
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,302,EID 50/mL,50 Percent Embryo Infective Dose per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,303,Ejaculate U,Ejaculate Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,304,ELISA unit,Enzyme-Linked Immunosorbent Assay Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,305,ELISA unit/dose,Enzyme-Linked Immunosorbent Assay Unit per Dose
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,306,ELISA unit/mL,Enzyme-Linked Immunosorbent Assay Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,307,Endotoxin U,Endotoxin Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,308,Endotoxin U/mL,Endotoxin Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,309,ENVELOPE,Envelope Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,310,Enzyme U,Enzyme Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,311,Enzyme U/g Hb,Enzyme Unit per Gram Hemoglobin
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,312,Enzyme U/L,Enzyme Unit per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,313,Enzyme U/m2,Enzyme Unit per Meter Squared
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,314,Enzyme U/mg Protein,Enzyme Unit per Milligram of Protein
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,315,EP U,European Pharmacopoeia Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,316,eq,Equivalent Weight
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,317,EU,Ehrlich Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,318,EVENTS,Event Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,319,F,Degree Fahrenheit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,320,Farad,Farad
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,321,FEU,Fibrinogen Equivalent Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,322,FFU,Focus Forming Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,323,FFU/mL,Focus Forming Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,324,fg,Femtogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,325,FILM,Film Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,326,FINGERTIP LENGTH UNIT,Fingertip Unit of Length
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,327,FINGERTIP UNIT,Fingertip Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,328,FIU,Fluorescence Intensity Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,329,fL,Femtoliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,330,fmol,Femtomole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,331,fmol/g,Femtomole per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,332,fmol/L,Femtomole per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,333,fmol/L/s,Femtomole per Liter per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,334,foz_br,Fluid Ounce British
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,335,foz_us,Fluid Ounce US
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,336,fraction of 1,Fraction of 1
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,337,Frames/s,Frames Per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,338,ft,International Foot
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,339,ft2,Square Foot
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,340,ft3,Standard Cubic Foot
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,341,g IODINE,Grams Iodine
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,342,g IODINE/L,Grams Iodine Per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,343,g,Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,344,g/100g,Gram per One Hundred Grams
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,345,g/9000m,Gram per 9000 Meters
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,346,g/animal,Gram per Animal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,347,g/animal/day,Gram per Animal per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,348,g/animal/wk,Gram per Animal per Week
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,349,g/cage,Gram per Cage
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,350,g/cage/day,Gram per Cage per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,351,g/cage/wk,Gram per Cage per Week
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,352,g/cm2,Gram per Square Centimeter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,353,g/cm3,Gram per Cubic Centimeter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,354,g/day,Gram per 24 Hours
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,355,g/dL,Gram per Deciliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,356,g/g,Gram per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,357,g/g/day,Gram per Gram per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,358,g/kg,Gram per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,359,g/kg/day,Gram per Kilogram per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,360,g/L,Kilogram per Cubic Meter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,361,g/m2,Gram per Square Meter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,362,g/m2*h,Gram per Hour times Square Meter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,363,g/m2/day,Gram per Square Meter per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,364,g/mol,Gram per Mole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,365,g/ston_av,Gram per Short Ton
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,366,g/U,Gram Per Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,367,g/wk,Gram per Week
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,368,Gauss,Gauss
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,369,GBq,Gigabecquerel
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,370,GBq/g,Gigabecquerel per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,371,GBq/mg,Gigabecquerel per Milligram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,372,GBq/ug,Gigabecquerel per Microgram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,373,GBq/umol,Gigabecquerel per Micromole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,374,genEq,Genomic Equivalents
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,375,genEq/mL,Genomic Equivalents per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,376,gEq/L,Milligram Equivalents Per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,377,GLASS,Glass Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,378,GLOBULE,Globule Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,379,gMFI,Geometric Mean Fluorescence Intensity Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,380,gpELISA unit/mL,Glycoprotein-ELISA Unit Per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,381,GPL U,IgG Phospholipid Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,382,GPL U/mL,Immunoglobin G Phospholipid Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,383,GPS U,Phosphatidylserine IgG Antibody Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,384,GPS U/mL,Phosphatidylserine IgG Antibody Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,385,grain,Grain
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,386,Gravitational Unit,Unit of Gravity
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,387,gtt,Metric Drop
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,388,GUMMY,Chewable Gel Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,389,Gy,Gray
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,390,Gy/h,Gray per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,391,Gy/min,Gray per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,392,h*%,Hour Times Percent
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,393,h*ng/mL,Hour Times Nanogram per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,394,h*nmol/L,Hour Times Picomole per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,395,h/wk,Hours Per Week
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,396,HAND UNIT,Hand Unit of Length
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,397,Henry,Henry
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,398,HEP,Histamine Equivalent Prick Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,399,HOMEOPATHIC DILUTION,Homeopathic Dilution Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,400,Hounsfield Unit,Hounsfield Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,401,HOURS,Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,402,hPa,Hectopascal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,403,hr/day,Hour per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,404,Hz,Hertz
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,405,Hz/s,Hertz Per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,406,IMPLANT,Implant Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,407,in,Inch
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,408,in2,Square Inch
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,409,INHALATION,Inhalation Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,410,INJECTION,Injection Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,411,IU,International Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,412,IU/day,International Unit per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,413,IU/dL,International Unit per Deciliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,414,IU/g Hb,International Unit per Gram Hemoglobin
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,415,IU/g,International Unit per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,416,IU/h,International Unit per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,417,IU/kg,International Unit per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,418,IU/kg/h,International Unit per Kilogram per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,419,IU/L,International Unit per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,420,IU/mg,International Unit per Milligram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,421,IU/mL,International Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,422,IU/mmol,International Unit per Millimole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,423,J/cm2,Joule per Square Centimeter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,424,JAR,Jar Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,425,JDF Unit,Juvenile Diabetes Foundation Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,426,Joule,Joule
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,427,K,Kelvin
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,428,ka_u/dL,King-Armstrong Unit per Deciliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,429,KALLIKREIN INHIBITOR UNIT,Kallikrein Inhibitor Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,430,kat,Katal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,431,kBq,Kilobecquerel
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,432,kBq/uL,Kilobecquerel per Microliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,433,kcal,Calorie
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,434,kcal/day,Kilocalorie per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,435,kDa,Kilodalton
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,436,keV,Kiloelectronvolt
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,437,kg,Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,438,kg/cm,Kilogram per Centimeter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,439,kg/cm2,Kilogram per Square Centimeter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,440,kg/L,Kilogram per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,441,kg/m2,Kilogram per Square Meter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,442,kg/mol,Kilogram per Mole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,443,kHz,Kilohertz
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,444,KIT,Kit Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,445,kIU,Kilointernational Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,446,km,Kilometer
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,447,km/h,Kilometer per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,448,kN/cm2,Kilonewton per Centimeter Squared
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,449,kPa,Kilopascal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,450,kPa/L/s,Kilopascal Per Liter Per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,451,ks,Kilosecond
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,452,kUSP,Kilo United States Pharmacopeia Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,453,kV,Kilovolt
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,454,L,Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,455,L/day,Liter per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,456,L/h,Liter per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,457,L/h/m2,Liter Per Hour Per Square Meter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,458,L/kg,Liter per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,459,L/L,Liter Per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,460,L/m2/s,Liter per Square Meter per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,461,L/min,Liter per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,462,L/min/m2,Liter Per Minute Per Square Meter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,463,L/s,Liter per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,464,L/s/kPa,Liter per Second per Kilopascal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,465,LB,Pound
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,466,LENS,Lens Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,467,Linear ft*LB,Linear Foot Pound
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,468,Lipase Units,Lipase Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,469,Lipase Units/kg,Lipase Units per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,470,lm,Lumen
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,471,log10 CCID 50/dose,Log10 50 Percent Cell Culture Infective Dose per Dose
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,472,log10 CFU/g,Log10 Colony Forming Units per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,473,log10 CFU/mL,Log10 Colony Forming Units per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,474,log10 copies,log10 Copy
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,475,log10 copies/mL,Log10 Copies per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,476,log10 EID 50/dose,Log10 50 Percent Embryo Infective Dose per Dose
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,477,Log10 ELISA unit,Log10 Enzyme-Linked Immunosorbent Assay Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,478,Log10 ELISA unit/dose,Log10 Enzyme-Linked Immunosorbent Assay Unit per Dose
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,479,log10 IU/mL,Log10 International Units per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,480,log10 minutes of arc,Log10 Arcminutes
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,481,log10 PFU,Log10 Plaque Forming Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,482,log10 PFU/mL,log10 Plaque Forming Units Per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,483,log10 TCID 50,Log10 50 Percent Tissue Culture Infective Dose
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,484,log10 TCID 50/dose,Log10 50 Percent Tissue Culture Infective Dose per Dose
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,485,log10 TCID 50/mL,Log10 50 Percent Tissue Culture Infective Dose per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,486,log10 TCID 50/uL,Log10 50 Percent Tissue Culture Infective Dose per Microliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,487,Log10 Titer,Log10 Titer
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,488,log10 U/mL,Log10 Arbitrary Units per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,489,LOZENGE,Lozenge Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,490,lton_av,Long Ton
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,491,lx,Lux
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,492,m,Meter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,493,m*%,Meters Times Percent
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,494,m/s,Meter per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,495,m/s2,Meter per Second Squared
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,496,m2,Square Meter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,497,m2/s,Meter Squared per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,498,m3,Cubic Meter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,499,MAC50,Minimum Alveolar Concentration 50 Percent
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,500,mAh,Milliampere Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,501,mAmp,Milliampere
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,502,mAnson U/mL,Milli-Anson Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,503,MASK,Mask Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,504,MBP,Megabase Pair
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,505,MBq,Megabecquerel
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,506,MBq/uL,Megabecquerel per Microliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,507,mCi,Millicurie
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,508,mCi/kg,Millicurie per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,509,mCi/L,Millicurie per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,510,MdFI,Median Fluorescence Intensity Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,511,mEq,Milliequivalent
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,512,mEq/day,Milliequivalent per 24 Hours
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,513,mEq/dL,Milliequivalent per Deciliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,514,mEq/g,Milliequivalent per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,515,meq/h,Milliequivalent per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,516,mEq/kg,Milliequivalent per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,517,mEq/L,Milliequivalent per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,518,mEq/mL,Milliequivalent per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,519,mEq/mmol,Milliequivalent per Millimole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,520,mEq/ug,Milliequivalent per Microgram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,521,mEq/uL,Milliequivalent per Microliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,522,MESF,Molecule of Equivalent Soluble Fluorochrome
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,523,MET,Metabolic Equivalent of Task Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,524,MET*h,Metabolic Equivalent of Task Hours
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,525,MET*min,Metabolic Equivalent of Task Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,526,MeV,Megaelectronvolt
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,527,mg IODINE,Milligrams Iodine
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,528,mg,Milligram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,529,mg/animal,Milligram per Animal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,530,mg/breath,Milligram Per Breath
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,531,mg/CAPSULE,Milligram per Capsule
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,532,mg/CIGARETTE,Milligram per Cigarette
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,533,mg/cm2,Milligram per Squared Centimeter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,534,mg/day,Milligram per 24 Hours
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,535,mg/dL,Milligram per Deciliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,536,mg/dose,Milligram per Dose
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,537,mg/g/h,Milligram per Gram per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,538,mg/g/min,Milligram per Gram per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,539,mg/h,Milligram per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,540,mg/kg,Milligram per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,541,mg/kg/day,Milligram per Kilogram per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,542,mg/kg/dose,Milligram per Kilogram per Dose
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,543,mg/kg/h,Milligram per Kilogram per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,544,mg/kg/min,Milligram per Kilogram per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,545,mg/kg/week,Milligram Per Kilogram Per Week
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,546,mg/L DDU,Milligram per Liter D-Dimer Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,547,mg/L FEU,Milligram per Liter Fibrinogen Equivalent Units
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,548,mg/L,Microgram per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,549,mg/m2,Milligram per Square Meter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,550,mg/m2/day,Milligram per Square Meter per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,551,mg/m2/h,Milligram per Square Meter per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,552,mg/m2/min,Milligram per Square Meter per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,553,mg/m2/wk,Milligram per Square Meter per Week
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,554,mg/min,Milligram per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,555,mg/mL/day,Gram per Liter per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,556,mg/mL/min,Milligram per Milliliter per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,557,mg/mol,Milligram per Mole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,558,mg/PUFF,Milligram per Puff
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,559,mg/TABLET,Milligram Per Tablet
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,560,mg/wk,Milligram per Week
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,561,mg2/dL2,Square Milligram per Square Deciliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,562,mgEq,Milligram Equivalent
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,563,MHz,Megahertz
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,564,Mile,Mile
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,565,min,Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,566,min*mg/mL,Minute Times Milligram per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,567,min/day,Minute per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,568,mIU/L,Microinternational Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,569,mIU/m2,Milliinternational Unit per Square Meter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,570,mJoule/cm2,Millijoules per Square Centimeter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,571,mkat,Millikatal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,572,mkat/L,Millikatal per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,573,mL,Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,574,mL*cmH2O,Milliliter Times Centimeter of Water
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,575,mL/(min*100mL),Milliliter Per Minute Times One Hundred Milliliters
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,576,mL/100g/min,Milliliter per 100 Grams per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,577,mL/animal,Milliliter per Animal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,578,mL/animal/day,Milliliter per Animal per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,579,mL/animal/wk,Milliliter per Animal per Week
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,580,mL/beat,Milliliter per Heartbeat
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,581,mL/breath,Milliliter per Breath
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,582,mL/cage,Milliliter per Cage
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,583,mL/cage/day,Milliliter per Cage per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,584,mL/cage/wk,Milliliter per Cage per Week
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,585,mL/cm H2O,Milliliter per Centimeter of Water
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,586,mL/cm,Milliliter per Centimeter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,587,mL/cm3/min,Milliliter per Cubic Centimeter per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,588,mL/day,Milliliter per 24 Hours
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,589,mL/dL,Milliliter per Deciliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,590,mL/dose,Milliliter per Dose
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,591,mL/g/day,Milliliter per Gram per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,592,mL/g/h,Milliliter per Gram per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,593,mL/g/min,Milliliter per Gram per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,594,mL/h,Milliliter per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,595,mL/kg,Milliliter per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,596,mL/kg/day,Milliliter per Kilogram per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,597,mL/kg/h,Milliliter per Kilogram per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,598,mL/kg/min,Milliliter per Kilogram per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,599,mL/m2,Milliliter per Square Meter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,600,mL/m2/day,Milliliter per Square Meter per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,601,mL/m2/h,Milliliter per Square Meter per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,602,mL/m2/min,Milliliter per Square Meter per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,603,mL/min,Milliliter per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,604,mL/min/1.73 m2,Milliliter per Minute per 1.73 m2 of Body Surface Area
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,605,mL/min/mmHg,Milliliter per Minute per Millimeters of Mercury
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,606,mL/mmHg,Milliliters Per Millimeter of Mercury
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,607,mL/mmHg/min/L,Milliliter per Minute per Millimeters of Mercury per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,608,mL/s,Milliliter per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,609,mL/s/1.73 m2,Milliliter Per Second Per 1.73 Meter Squared
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,610,mL/s/kg,Milliliter per Kilogram per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,611,mL/s/m2,Milliliter Per Second Per Square Meter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,612,mm H2O,Millimeter of Water Column
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,613,mm,Millimeter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,614,mm/2h,Millimeter per Two Hours
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,615,mm/h,Millimeter per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,616,mm/min,Millimeter Per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,617,mm/s,Millimeter Per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,618,mm2,Square Millimeter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,619,mm2/us,Square Millimeter per Microsecond
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,620,mm3/mm2/year,Cubic Millimeter per Square Millimeter per Year
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,621,mmAL,Millimeters of Aluminum Equivalents
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,622,mmHg,Millimeter of Mercury
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,623,mmHg*beats/min,Millimeters of Mercury times Beats per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,624,mmHg*m2/L/min,Millimeter Mercury times Square Meter per Liter per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,625,mmHg*min/L,Hybrid Resistance Units
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,626,mmHg/L/min,Millimeter Mercury Per Liter Per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,627,mmHg/s,Millimeter of Mercury per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,628,mmol,Millimole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,629,mmol/day,Millimole per 24 Hours
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,630,mmol/g,Mole per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,631,mmol/h,Millimole per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,632,mmol/kg,Millimole per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,633,mmol/kg/s,Millimole per Kilogram per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,634,mmol/L,Millimole per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,635,mmol/L/day,Millimole per Liter per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,636,mmol/L/h,Millimole per Liter per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,637,mmol/min/kPa,Millimoles per Minute per Kilopascal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,638,mmol/min/kPa/L,Millimole per Minute per Thousand Pascal per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,639,mmol/mol CREATININE,Millimole Per Mole of Creatinine
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,640,mmol/mol,Millimole per Mole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,641,mmol/s,Millimole per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,642,mmol2/L2,Square Millimole per Square Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,643,mMU/mL,MilliMerck Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,644,mN,Millinewton
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,645,MnFI,Mean Fluorescence Intensity Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,646,mol,Mole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,647,mol/day,Mole per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,648,mol/g,Mole per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,649,mol/L,Mole per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,650,mol/mg,Mole per Milligram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,651,mol/mL,Mole per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,652,mol/mol,Mole per Mole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,653,MONTHS,Month
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,654,mOsm,Milliosmole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,655,mOsm/kg,Milliosmole per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,656,mOsm/L,Milliosmole per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,657,mPa,Millipascal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,658,mPa/s,Millipascal per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,659,mph,Mile Per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,660,MPL U,IgM Phospholipid Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,661,MPL U/mL,Immunoglobin M Phospholipid Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,662,MPS U,Phosphatidylserine IgM Antibody Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,663,MPS U/mL,Phosphatidylserine IgM Antibody Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,664,Mrad,Megarad
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,665,ms,Millisecond
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,666,ms/mmHg,Millisecond per Millimeter Mercury
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,667,ms2,Square Millisecond
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,668,mU,Milliunit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,669,mU/g,Milliunit per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,670,mU/L,Microunit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,671,mV,Millivolt
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,672,mV*min,Millivolt Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,673,mV/s,Millivolt per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,674,mV2/Hz,Millivolt Squared per Hertz
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,675,nCi,Nanocurie
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,676,NEBULE,Nebule Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,677,Newton,Newton
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,678,NFIU,Normalized Fluorescence Intensity Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,679,ng,Nanogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,680,ng/CIGARETTE,Nanogram per Cigarette
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,681,ng/day,Nanogram per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,682,ng/dL,Nanogram per Deciliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,683,ng/kg,Nanogram per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,684,ng/L,Nanogram per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,685,ng/mol,Nanogram per Mole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,686,ng/PUFF,Nanogram per Puff
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,687,ngEq,Nanogram Equivalents
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,688,ngEq/g,Nanogram Equivalents Per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,689,ngEq/L,Nanogram Equivalents Per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,690,nkat,Nanokatal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,691,nkat/g Hb,Nanokatal per Gram Hemoglobin
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,692,nkat/L,Nanokatal per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,693,nL,Nanoliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,694,nm,Nanometer
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,695,nm/min,Nanometer Per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,696,nmol BCE/L,Nanomole Bone Collagen Equivalent per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,697,nmol BCE/mmol,Nanomole Bone Collagen Equivalent per Millimole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,698,nmol BCE/nmol,Nanomole Bone Collagen Equivalents per Nanomole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,699,nmol,Nanomole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,700,nmol/day,Nanomole per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,701,nmol/dL,Nanomole per Deciliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,702,nmol/g,Nanomole per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,703,nmol/kg/day,Nanomole per Kilogram per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,704,nmol/L,Nanomole per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,705,nmol/L/h,Nanomole per Liter per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,706,nmol/L/min,Nanomole per Liter per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,707,nmol/L/s,Nanomole per Liter per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,708,nmol/mg/h,Nanomole per Milligram per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,709,nmol/mg/min,Nanomole per Milligram per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,710,nmol/mL/min,Nanomole per Minute per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,711,nmol/mol,Nanomole per Mole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,712,nmolEq,Nanomole Equivalents
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,713,ns,Nanosecond
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,714,nU/cL,Nanounit Per Centiliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,715,OD Unit,Unit of Optical Density
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,716,ohm,Ohm
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,717,OI50,Opsonization Index 50%
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,718,Organisms,Organism-Based Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,719,Organisms/g,Organism Per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,720,Organisms/mL,Organism Per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,721,Osm,Osmole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,722,oz eq,Ounce Equivalent
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,723,oz,Ounce
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,724,P,Poise
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,725,Pa,Pascal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,726,PA,Per Year
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,727,Pack Year,Pack Year
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,728,PACK,Pack Dosage Form
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,729,PACKAGE,Package Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,730,PACKET,Packet Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,731,PATCH,Patch Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,732,PELLET,Pellet Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,733,PFU,Plaque Forming Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,734,PFU/animal,Plaque Forming Units per Animal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,735,PFU/dose,Plaque Forming Unit per Dose
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,736,PFU/mL,Plaque Forming Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,737,pg,Picogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,738,pg/cell,Picogram Per Cell
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,739,pg/dL,Picogram per Deciliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,740,pg/L,Femtogram per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,741,PHERESIS UNIT,Pheresis Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,742,PILL,Pill Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,743,PIPE,Pipe Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,744,PIXEL,Pixel
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,745,PIXELS/cm,Pixels per Centimeter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,746,PIXELS/in,Pixels per Inch
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,747,pkat,Picokatal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,748,pkat/L,Picokatal per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,749,pL,Picoliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,750,PLUG,Plug Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,751,pm,Picometer
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,752,pmol,Picomole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,753,pmol/10^10 cells,Picomole per Ten Billion Cells
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,754,pmol/10^9 cells,Picomole per Billion Cells
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,755,pmol/day,Picomole per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,756,pmol/dL,Picomole per Deciliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,757,pmol/g,Nanomole per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,758,pmol/L,Picomole per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,759,pmol/L/h,Picomole per Liter per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,760,pmol/punch/h,Picomole per Punch Observational Unit per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,761,PNU/mL,Allergenic Protein Nitrogen Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,762,POINT,Point
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,763,POUCH,Pouch Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,764,ppb,Part Per Billion
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,765,ppm,Part Per Million
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,766,ppth,Part per Thousand
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,767,pptr,Part Per Trillion
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,768,PRESSOR UNITS,Pressor Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,769,ps,Picosecond
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,770,psi,Pound per Square Inch
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,771,pt_br,Pint British
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,772,pt_us,Pint
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,773,PUFF,Puff Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,774,PUFF/min,Puffs per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,775,PUMP,Pump Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,776,QUANTITY SUFFICIENT,Quantity Sufficient
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,777,Rad,Rad
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,778,rad/s,Radians Per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,779,RADIOACTIVE SEED IMPLANT,Radioactive Seed Implant Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,780,RAE,Retinol Equivalent
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,781,RATIO,Ratio
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,782,RELATIVE U,Relative Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,783,RELATIVE U/mL,Relative Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,784,RFU,Relative Fluorescence Intensity Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,785,RING,Ring Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,786,RLU,Relative Luminescence Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,787,RNA copies/mL,RNA Copy per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,788,RNA copies/ug,RNA Copies per Microgram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,789,Roentgen,Roentgen
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,790,rpm,Revolution per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,791,s,Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,792,s*kPa,Second Times Kilopascal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,793,s/h,Seconds Per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,794,s^-1(%O2)^-1,Reciprocal of Seconds Times Percent O2 Concentration
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,795,SACHET,Sachet Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,796,SAU,Standard IgA Anti-Beta 2 Glycoprotein 1 Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,797,SBE/mL,Standardized Allergy Biological Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,798,scm,Standard Cubic Meter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,799,SCOOPFUL,Scoopful Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,800,SERVING,Serving Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,801,SFC/10^5 PBMC,Spot Forming Units Per Ten Thousand Peripheral Blood Mononuclear Cells
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,802,SFC/10^6 PBMC,Spot Forming Units Per Million Peripheral Blood Mononuclear Cells
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,803,SFC/2x10^5 PBMC,Spot Forming Units Per Twenty Thousand Peripheral Blood Mononuclear Cells
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,804,SFC/WELL,Spot Forming Cells per Well
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,805,SGU,Standard IgG Anti-Beta 2 Glycoprotein 1 Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,806,Shock Wave,Shockwave Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,807,Siemens,Siemens
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,808,SMU,Standard IgM Anti-Beta 2 Glycoprotein 1 Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,809,SPRAY,Spray Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,810,SQU/mL,Standardized Allergy Quality Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,811,STEPS,Step Unit of Distance
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,812,steps/min,Steps Per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,813,ston_av,Short Ton
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,814,STRIP,Strip Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,815,SUPPOSITORY,Suppository Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,816,Sv,Sievert
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,817,SYRINGE,Syringe Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,818,TABLET,Tablet Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,819,TAMPON,Tampon Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,820,Tbsp,Tablespoon Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,821,TCID 50/dose,50 Percent Tissue Culture Infective Dose per Dose
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,822,Tesla,Tesla
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,823,Therapeutic Cells,Therapeutic Cells Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,824,Therapeutic Cells/m2,Therapeutic Cells per Square Meter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,825,titer,Titer
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,826,tonne,Ton
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,827,Torr,Torr
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,828,TRACE,Trace Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,829,TRANSDUCING UNIT,Transducing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,830,TRANSDUCING UNIT/mL,Transducing Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,831,TROCHE,Troche Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,832,tsp eq,Teaspoon Equivalent
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,833,tsp,Teaspoon Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,834,TUBE,Tube Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,835,tuberculin unit,Tuberculin Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,836,tuberculin unit/0.1mL,Tuberculin Unit per 100 Microliters
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,837,tuberculin unit/mL,Tuberculin Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,838,U,Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,839,U.CARR,Carratelli Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,840,U/10^12 RBC,Unit per Trillion Red Blood Cells
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,841,U/animal,Unit per Animal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,842,U/cL,Unit Per Centiliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,843,U/dL,Unit Per Deciliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,844,U/g Hb,Unit Per Gram Hemoglobin
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,845,U/g,Unit per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,846,U/g/day,Unit per Gram per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,847,U/g/h,Unit per Gram per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,848,U/g/min,Unit per Gram per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,849,U/h,Unit per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,850,U/kg,Unit per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,851,U/kg/day,Unit per Kilogram per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,852,U/kg/h,Unit per Kilogram per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,853,U/kg/min,Unit per Kilogram per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,854,U/L,Unit per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,855,U/m2,Unit per Square Meter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,856,U/m2/day,Unit per Square Meter per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,857,U/m2/h,Unit per Square Meter per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,858,U/m2/min,Unit per Square Meter per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,859,U/mg,Unit per Milligram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,860,U/mL,Unit per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,861,U/mmol,Unit per Millimole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,862,uCi,Microcurie
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,863,uCi/kg,Microcurie per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,864,uCi/L,Microcurie per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,865,uEq,Microequivalent
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,866,uEq/L,Microequivalent per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,867,ug,Microgram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,868,ug/animal,Microgram per Animal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,869,ug/CIGARETTE,Microgram per Cigarette
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,870,ug/cm2,Microgram per Square Centimeter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,871,ug/day,Microgram per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,872,ug/dL,Microgram per Deciliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,873,ug/dose,Microgram per Dose
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,874,ug/g/day,Microgram per Gram per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,875,ug/g/h,Microgram per Gram per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,876,ug/g/min,Microgram per Gram per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,877,ug/h,Microgram per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,878,ug/kg,Microgram per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,879,ug/kg/day,Microgram per Kilogram per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,880,ug/kg/h,Microgram per Kilogram per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,881,ug/kg/min,Microgram per Kilogram per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,882,ug/kg/wk,Microgram per Kilogram per Week
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,883,ug/L DDU,Micrograms DDU Per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,884,ug/L FEU,Microgram per Liter Fibrinogen Equivalent Units
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,885,ug/L,Microgram per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,886,ug/L/h,Microgram per Liter per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,887,ug/m2,Microgram per Square Meter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,888,ug/m2/day,Microgram per Square Meter per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,889,ug/m2/h,Microgram per Square Meter per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,890,ug/m2/min,Microgram per Square Meter per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,891,ug/min,Microgram per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,892,ug/mL/h,Microgram per Milliliter per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,893,ug/mol,Microgram per Mole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,894,ug/PUFF,Microgram per Puff
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,895,ugEq,Microgram Equivalent
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,896,ugEq/g,Microgram Equivalents Per Gram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,897,ugEq/L,Microgram Equivalent per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,898,ugEq/mL,Microgram Equivalents Per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,899,uIU/dL,Micro-International Unit per Deciliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,900,uIU/L,Micro-International Unit per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,901,ukat,Microkatal
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,902,ukat/10^12 RBC,Microkatal per Trillion Erythrocytes
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,903,ukat/g Hb,Microkatal per Gram Hemoglobin
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,904,ukat/L,Microkatal per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,905,uL,Microliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,906,uL/dose,Microliter per Dose
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,907,uL/kg/day,Microliter per Kilogram per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,908,uL/L,Microliter per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,909,uL/mL,Microliter per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,910,um,Micron
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,911,um/day,Micrometer per Day
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,912,um/s,Micrometer per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,913,um2,Square Micrometer
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,914,umol,Micromole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,915,umol/day,Micromole per 24 Hours
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,916,umol/dL,Micromole per Deciliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,917,umol/h/mmol,Micromole per Hour per Millimole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,918,umol/kg/min,Micromole per Kilogram per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,919,umol/L,Micromole per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,920,umol/L/h,Micromole per Liter per Hour
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,921,umol/L/min,Micromole per Liter per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,922,umol/L/s,Micromole Per Liter Per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,923,umol/mg/min,Micromole per Milligram per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,924,umol/min,Micromole per Minute
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,925,umol/mol,Micromole per Mole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,926,uOsm,Microosmole
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,927,us,Microsecond
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,928,uSiemens,Microsiemens
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,929,USP U,United States Pharmacopeia Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,930,uU/dL,Micro-Unit per Deciliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,931,uU/L,Micro-Unit per Liter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,932,uV,Microvolt
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,933,uV*s,Microvolt Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,934,uV2,Microvolts Squared
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,935,V,Volt
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,936,V/s,Volt Per Second
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,937,vg/dose,Vector Genomes per Dose
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,938,vg/kg,Vector Genomes per Kilogram
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,939,vg/mL,Vector Genomes per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,940,VIAL,Vial Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,941,VIRTUAL PIXEL,Virtual Pixel
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,942,VOXEL,Voxel
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,943,vp/dose,Viral Particles per Dose
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,944,vp/mL,Viral Particles per Milliliter
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,945,WAFER,Wafer Dosing Unit
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,946,Watt,Watt
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,947,Weber,Weber
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,948,WEEKS,Week
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,949,yd,Yard
+UNIT,C71620,true,CDISC CT sdtmct-2026-03-27,950,YEARS,Year
+AECAUS,,,sponsor (from pilot define.xml),1,NONE,NONE
+AECAUS,,,sponsor (from pilot define.xml),2,POSSIBLE,POSSIBLE
+AECAUS,,,sponsor (from pilot define.xml),3,PROBABLE,PROBABLE
+AECAUS,,,sponsor (from pilot define.xml),4,REMOTE,REMOTE
+ARM,,,sponsor (from pilot define.xml),1,Screen Failure,Screen Failure
+ARM,,,sponsor (from pilot define.xml),2,Placebo,Placebo
+ARM,,,sponsor (from pilot define.xml),3,Xanomeline Low Dose,Xanomeline Low Dose
+ARM,,,sponsor (from pilot define.xml),4,Xanomeline High Dose,Xanomeline High Dose
+ARMCD,,,sponsor (from pilot define.xml),1,Scrnfail,Screen Failure
+ARMCD,,,sponsor (from pilot define.xml),2,Pbo,Placebo
+ARMCD,,,sponsor (from pilot define.xml),3,Xan_Lo,Xanomeline Low Dose
+ARMCD,,,sponsor (from pilot define.xml),4,Xan_Hi,Xanomeline High Dose
+COUNTRY,,,sponsor (from pilot define.xml),1,USA,USA
+ELEMENT,,,sponsor (from pilot define.xml),1,Screen,Screen
+ELEMENT,,,sponsor (from pilot define.xml),2,Placebo,Placebo
+ELEMENT,,,sponsor (from pilot define.xml),3,Low,Low
+ELEMENT,,,sponsor (from pilot define.xml),4,High_Start,High_Start
+ELEMENT,,,sponsor (from pilot define.xml),5,High_Middle,High_Middle
+ELEMENT,,,sponsor (from pilot define.xml),6,High_End,High_End
+ELEMENT,,,sponsor (from pilot define.xml),7,Follow_up,Follow_up
+ETCD,,,sponsor (from pilot define.xml),1,SCRN,Screen
+ETCD,,,sponsor (from pilot define.xml),2,PBO,Placebo
+ETCD,,,sponsor (from pilot define.xml),3,LO,Low
+ETCD,,,sponsor (from pilot define.xml),4,HIS,High_Start
+ETCD,,,sponsor (from pilot define.xml),5,HIM,High_Middle
+ETCD,,,sponsor (from pilot define.xml),6,HIE,High_End
+ETCD,,,sponsor (from pilot define.xml),7,FOLO,Follow_up
+ETCD,,,sponsor (from pilot define.xml),8,UNPLAN,Unplanned
+EXTRT,,,sponsor (from pilot define.xml),1,PLACEBO,PLACEBO
+EXTRT,,,sponsor (from pilot define.xml),2,XANOMELINE,XANOMELINE
+IETEST,,,sponsor (from pilot define.xml),1,Males and postmenopausal females at least 50 years of age.,Males and postmenopausal females at least 50 years of age.
+IETEST,,,sponsor (from pilot define.xml),2,Diagnosis of probable AD as defined by NINCDS and the ADRDA guidelines (Protocol Attachment LZZT.7).,Diagnosis of probable AD as defined by NINCDS and the ADRDA guidelines (Protocol Attachment LZZT.7).
+IETEST,,,sponsor (from pilot define.xml),3,MMSE score of 10 to 23.,MMSE score of 10 to 23.
+IETEST,,,sponsor (from pilot define.xml),4,Modified Hachinski Ischemic Scale score of <= 4. (Protocol Attachment LZZT.8).,Modified Hachinski Ischemic Scale score of <= 4. (Protocol Attachment LZZT.8).
+IETEST,,,sponsor (from pilot define.xml),5,CNS imaging (CT scan or MRI of brain) compatible with AD within past 1 year.,CNS imaging (CT scan or MRI of brain) compatible with AD within past 1 year.
+IETEST,,,sponsor (from pilot define.xml),6,Investigator has obtained informed consent signed by the patient (and/or legal representative) and by the caregiver.,Investigator has obtained informed consent signed by the patient (and/or legal representative) and by the caregiver.
+IETEST,,,sponsor (from pilot define.xml),7,Geographic proximity to investigator's site that allows adequate follow-up.,Geographic proximity to investigator's site that allows adequate follow-up.
+IETEST,,,sponsor (from pilot define.xml),8,"Caregiverwill monitor administration of prescribed medications, and will be responsible for the overall care of the patient at home.","Caregiverwill monitor administration of prescribed medications, and will be responsible for the overall care of the patient at home."
+IETEST,,,sponsor (from pilot define.xml),9,Persons who have previously completed or withdrawn from this study or any other investigating xanomeline TTS or the oral formulation of xanomeline.,Persons who have previously completed or withdrawn from this study or any other investigating xanomeline TTS or the oral formulation of xanomeline.
+IETEST,,,sponsor (from pilot define.xml),10,Use of any investigational agent or approved Alzheimer's therapeutic medication within 30 days prior to enrollment into the study.,Use of any investigational agent or approved Alzheimer's therapeutic medication within 30 days prior to enrollment into the study.
+IETEST,,,sponsor (from pilot define.xml),11,Serious illness which required hospitalization within 3 months of screening.,Serious illness which required hospitalization within 3 months of screening.
+IETEST,,,sponsor (from pilot define.xml),12,Diagnosis of serious neurological conditions.,Diagnosis of serious neurological conditions.
+IETEST,,,sponsor (from pilot define.xml),13,Episode of depression meeting DSM-IV criteria within 3 months of screening.,Episode of depression meeting DSM-IV criteria within 3 months of screening.
+IETEST,,,sponsor (from pilot define.xml),14,A history of mental illness within the last 5 years.,A history of mental illness within the last 5 years.
+IETEST,,,sponsor (from pilot define.xml),15,A history of syncope within the last 5 years.,A history of syncope within the last 5 years.
+IETEST,,,sponsor (from pilot define.xml),16,Evidence from ECG recording at screening of any listed condition.,Evidence from ECG recording at screening of any listed condition.
+IETEST,,,sponsor (from pilot define.xml),17,A history within the last 5 years of a serious cardiovascular disorder.,A history within the last 5 years of a serious cardiovascular disorder.
+IETEST,,,sponsor (from pilot define.xml),18,A history within the last 5 years of a serious gastrointestinal disorder.,A history within the last 5 years of a serious gastrointestinal disorder.
+IETEST,,,sponsor (from pilot define.xml),19,A history within the last 5 years of a serious endocrine disorder.,A history within the last 5 years of a serious endocrine disorder.
+IETEST,,,sponsor (from pilot define.xml),20,A history within the last 5 years of a serious respiratory disorder (see list).,A history within the last 5 years of a serious respiratory disorder (see list).
+IETEST,,,sponsor (from pilot define.xml),21,A history within the last 5 years of a serious genitourinary disorder.,A history within the last 5 years of a serious genitourinary disorder.
+IETEST,,,sponsor (from pilot define.xml),22,A history within the last 5 years of a serious rheumatologic disorder.,A history within the last 5 years of a serious rheumatologic disorder.
+IETEST,,,sponsor (from pilot define.xml),23,A known history of human immunodeficiency virus (HIV) within the last 5 years.,A known history of human immunodeficiency virus (HIV) within the last 5 years.
+IETEST,,,sponsor (from pilot define.xml),24,A history within the last 5 years of a serious infectious disease (see list in protocol).,A history within the last 5 years of a serious infectious disease (see list in protocol).
+IETEST,,,sponsor (from pilot define.xml),25,"A history within the last 5 years of a primary or recurrent malignant disease (with exceptions, see list in protocol).","A history within the last 5 years of a primary or recurrent malignant disease (with exceptions, see list in protocol)."
+IETEST,,,sponsor (from pilot define.xml),26,"Visual, hearing, or communication disabilities impairing the ability to participate in the study; (for example, inability to speak or understand English, illiteracy).","Visual, hearing, or communication disabilities impairing the ability to participate in the study; (for example, inability to speak or understand English, illiteracy)."
+IETEST,,,sponsor (from pilot define.xml),27,"Laboratory test values exceeding the Lilly Reference Range III for the patient's age in any of the following analytes: creatinine, total bilirubin, SGOT, SGPT, etc.","Laboratory test values exceeding the Lilly Reference Range III for the patient's age in any of the following analytes: creatinine, total bilirubin, SGOT, SGPT, etc."
+IETEST,,,sponsor (from pilot define.xml),28,"Central laboratory test values below reference range for folate, and vitamin B12, and outside reference range for thyroid function tests.","Central laboratory test values below reference range for folate, and vitamin B12, and outside reference range for thyroid function tests."
+IETEST,,,sponsor (from pilot define.xml),29,Positive syphilis screening with confirmatory testing.,Positive syphilis screening with confirmatory testing.
+IETEST,,,sponsor (from pilot define.xml),30,Central laboratory test value above reference range for glycosylated hemoglobin (A1C) (insulin dependent diabetes mellitus patients only).,Central laboratory test value above reference range for glycosylated hemoglobin (A1C) (insulin dependent diabetes mellitus patients only).
+IETEST,,,sponsor (from pilot define.xml),31,Treatment with medications within 1 month prior to enrollment (see list).,Treatment with medications within 1 month prior to enrollment (see list).
+IETESTCD,,,sponsor (from pilot define.xml),1,INCL01,Males and postmenopausal females at least 50 years of age.
+IETESTCD,,,sponsor (from pilot define.xml),2,INCL02,Diagnosis of probable AD as defined by NINCDS and the ADRDA guidelines (Protocol Attachment LZZT.7).
+IETESTCD,,,sponsor (from pilot define.xml),3,INCL03,MMSE score of 10 to 23.
+IETESTCD,,,sponsor (from pilot define.xml),4,INCL04,Modified Hachinski Ischemic Scale score of <= 4. (Protocol Attachment LZZT.8).
+IETESTCD,,,sponsor (from pilot define.xml),5,INCL05,CNS imaging (CT scan or MRI of brain) compatible with AD within past 1 year.
+IETESTCD,,,sponsor (from pilot define.xml),6,INCL06,Investigator has obtained informed consent signed by the patient (and/or legal representative) and by the caregiver.
+IETESTCD,,,sponsor (from pilot define.xml),7,INCL07,Geographic proximity to investigator's site that allows adequate follow-up.
+IETESTCD,,,sponsor (from pilot define.xml),8,INCL08,"Caregiverwill monitor administration of prescribed medications, and will be responsible for the overall care of the patient at home."
+IETESTCD,,,sponsor (from pilot define.xml),9,EXCL09,Persons who have previously completed or withdrawn from this study or any other investigating xanomeline TTS or the oral formulation of xanomeline.
+IETESTCD,,,sponsor (from pilot define.xml),10,EXCL10,Use of any investigational agent or approved Alzheimer's therapeutic medication within 30 days prior to enrollment into the study.
+IETESTCD,,,sponsor (from pilot define.xml),11,EXCL11,Serious illness which required hospitalization within 3 months of screening.
+IETESTCD,,,sponsor (from pilot define.xml),12,EXCL12,Diagnosis of serious neurological conditions.
+IETESTCD,,,sponsor (from pilot define.xml),13,EXCL13,Episode of depression meeting DSM-IV criteria within 3 months of screening.
+IETESTCD,,,sponsor (from pilot define.xml),14,EXCL14,A history of mental illness within the last 5 years.
+IETESTCD,,,sponsor (from pilot define.xml),15,EXCL15,A history of syncope within the last 5 years.
+IETESTCD,,,sponsor (from pilot define.xml),16,EXCL16,Evidence from ECG recording at screening of any listed condition.
+IETESTCD,,,sponsor (from pilot define.xml),17,EXCL17,A history within the last 5 years of a serious cardiovascular disorder.
+IETESTCD,,,sponsor (from pilot define.xml),18,EXCL18,A history within the last 5 years of a serious gastrointestinal disorder.
+IETESTCD,,,sponsor (from pilot define.xml),19,EXCL19,A history within the last 5 years of a serious endocrine disorder.
+IETESTCD,,,sponsor (from pilot define.xml),20,EXCL20,A history within the last 5 years of a serious respiratory disorder (see list).
+IETESTCD,,,sponsor (from pilot define.xml),21,EXCL21,A history within the last 5 years of a serious genitourinary disorder.
+IETESTCD,,,sponsor (from pilot define.xml),22,EXCL22,A history within the last 5 years of a serious rheumatologic disorder.
+IETESTCD,,,sponsor (from pilot define.xml),23,EXCL23,A known history of human immunodeficiency virus (HIV) within the last 5 years.
+IETESTCD,,,sponsor (from pilot define.xml),24,EXCL24,A history within the last 5 years of a serious infectious disease (see list in protocol).
+IETESTCD,,,sponsor (from pilot define.xml),25,EXCL25,"A history within the last 5 years of a primary or recurrent malignant disease (with exceptions, see list in protocol)."
+IETESTCD,,,sponsor (from pilot define.xml),26,EXCL26,"Visual, hearing, or communication disabilities impairing the ability to participate in the study; (for example, inability to speak or understand English, illiteracy)."
+IETESTCD,,,sponsor (from pilot define.xml),27,EXCL27,"Laboratory test values exceeding the Lilly Reference Range III for the patient's age in any of the following analytes: creatinine, total bilirubin, SGOT, SGPT, etc."
+IETESTCD,,,sponsor (from pilot define.xml),28,EXCL28,"Central laboratory test values below reference range for folate, and vitamin B12, and outside reference range for thyroid function tests."
+IETESTCD,,,sponsor (from pilot define.xml),29,EXCL29,Positive syphilis screening with confirmatory testing.
+IETESTCD,,,sponsor (from pilot define.xml),30,EXCL30,Central laboratory test value above reference range for glycosylated hemoglobin (A1C) (insulin dependent diabetes mellitus patients only).
+IETESTCD,,,sponsor (from pilot define.xml),31,EXCL31,Treatment with medications within 1 month prior to enrollment (see list).
+VISIT,,,sponsor (from pilot define.xml),1,SCREENING 1,SCREENING 1
+VISIT,,,sponsor (from pilot define.xml),2,UNSCHEDULED 1.1,UNSCHEDULED 1.1
+VISIT,,,sponsor (from pilot define.xml),3,UNSCHEDULED 1.2,UNSCHEDULED 1.2
+VISIT,,,sponsor (from pilot define.xml),4,UNSCHEDULED 1.3,UNSCHEDULED 1.3
+VISIT,,,sponsor (from pilot define.xml),5,SCREENING 2,SCREENING 2
+VISIT,,,sponsor (from pilot define.xml),6,BASELINE,BASELINE
+VISIT,,,sponsor (from pilot define.xml),7,UNSCHEDULED 3.1,UNSCHEDULED 3.1
+VISIT,,,sponsor (from pilot define.xml),8,AMBUL ECG PLACEMENT,AMBUL ECG PLACEMENT
+VISIT,,,sponsor (from pilot define.xml),9,WEEK 2,WEEK 2
+VISIT,,,sponsor (from pilot define.xml),10,UNSCHEDULED 4.1,UNSCHEDULED 4.1
+VISIT,,,sponsor (from pilot define.xml),11,UNSCHEDULED 4.2,UNSCHEDULED 4.2
+VISIT,,,sponsor (from pilot define.xml),12,WEEK 4,WEEK 4
+VISIT,,,sponsor (from pilot define.xml),13,UNSCHEDULED 5.1,UNSCHEDULED 5.1
+VISIT,,,sponsor (from pilot define.xml),14,AMBUL ECG REMOVAL,AMBUL ECG REMOVAL
+VISIT,,,sponsor (from pilot define.xml),15,UNSCHEDULED 6.1,UNSCHEDULED 6.1
+VISIT,,,sponsor (from pilot define.xml),16,WEEK 6,WEEK 6
+VISIT,,,sponsor (from pilot define.xml),17,UNSCHEDULED 7.1,UNSCHEDULED 7.1
+VISIT,,,sponsor (from pilot define.xml),18,WEEK 8,WEEK 8
+VISIT,,,sponsor (from pilot define.xml),19,WEEK 10 (T),WEEK 10 (T)
+VISIT,,,sponsor (from pilot define.xml),20,UNSCHEDULED 8.2,UNSCHEDULED 8.2
+VISIT,,,sponsor (from pilot define.xml),21,WEEK 12,WEEK 12
+VISIT,,,sponsor (from pilot define.xml),22,WEEK 14 (T),WEEK 14 (T)
+VISIT,,,sponsor (from pilot define.xml),23,UNSCHEDULED 9.2,UNSCHEDULED 9.2
+VISIT,,,sponsor (from pilot define.xml),24,UNSCHEDULED 9.3,UNSCHEDULED 9.3
+VISIT,,,sponsor (from pilot define.xml),25,WEEK 16,WEEK 16
+VISIT,,,sponsor (from pilot define.xml),26,WEEK 18 (T),WEEK 18 (T)
+VISIT,,,sponsor (from pilot define.xml),27,UNSCHEDULED 10.2,UNSCHEDULED 10.2
+VISIT,,,sponsor (from pilot define.xml),28,WEEK 20,WEEK 20
+VISIT,,,sponsor (from pilot define.xml),29,WEEK 22 (T),WEEK 22 (T)
+VISIT,,,sponsor (from pilot define.xml),30,UNSCHEDULED 11.2,UNSCHEDULED 11.2
+VISIT,,,sponsor (from pilot define.xml),31,WEEK 24,WEEK 24
+VISIT,,,sponsor (from pilot define.xml),32,UNSCHEDULED 12.1,UNSCHEDULED 12.1
+VISIT,,,sponsor (from pilot define.xml),33,WEEK 26,WEEK 26
+VISIT,,,sponsor (from pilot define.xml),34,UNSCHEDULED 13.1,UNSCHEDULED 13.1
+VISIT,,,sponsor (from pilot define.xml),35,AE FOLLOW-UP,AE FOLLOW-UP
+VISIT,,,sponsor (from pilot define.xml),36,RETRIEVAL,RETRIEVAL
+VISIT,,,sponsor (from pilot define.xml),37,Rash followup,Rash followup
+VISITNUM,,,sponsor (from pilot define.xml),1,1,SCREENING 1
+VISITNUM,,,sponsor (from pilot define.xml),2,1.1,UNSCHEDULED 1.1
+VISITNUM,,,sponsor (from pilot define.xml),3,1.2,UNSCHEDULED 1.2
+VISITNUM,,,sponsor (from pilot define.xml),4,1.3,UNSCHEDULED 1.3
+VISITNUM,,,sponsor (from pilot define.xml),5,2,SCREENING 2
+VISITNUM,,,sponsor (from pilot define.xml),6,3,BASELINE
+VISITNUM,,,sponsor (from pilot define.xml),7,3.1,UNSCHEDULED 3.1
+VISITNUM,,,sponsor (from pilot define.xml),8,3.5,AMBUL ECG PLACEMENT
+VISITNUM,,,sponsor (from pilot define.xml),9,4,WEEK 2
+VISITNUM,,,sponsor (from pilot define.xml),10,4.1,UNSCHEDULED 4.1
+VISITNUM,,,sponsor (from pilot define.xml),11,4.2,UNSCHEDULED 4.2
+VISITNUM,,,sponsor (from pilot define.xml),12,5,WEEK 4
+VISITNUM,,,sponsor (from pilot define.xml),13,5.1,UNSCHEDULED 5.1
+VISITNUM,,,sponsor (from pilot define.xml),14,6,AMBUL ECG REMOVAL
+VISITNUM,,,sponsor (from pilot define.xml),15,6.1,UNSCHEDULED 6.1
+VISITNUM,,,sponsor (from pilot define.xml),16,7,WEEK 6
+VISITNUM,,,sponsor (from pilot define.xml),17,7.1,UNSCHEDULED 7.1
+VISITNUM,,,sponsor (from pilot define.xml),18,8,WEEK 8
+VISITNUM,,,sponsor (from pilot define.xml),19,8.1,WEEK 10 (T)
+VISITNUM,,,sponsor (from pilot define.xml),20,8.2,UNSCHEDULED 8.2
+VISITNUM,,,sponsor (from pilot define.xml),21,9,WEEK 12
+VISITNUM,,,sponsor (from pilot define.xml),22,9.1,WEEK 14 (T)
+VISITNUM,,,sponsor (from pilot define.xml),23,9.2,UNSCHEDULED 9.2
+VISITNUM,,,sponsor (from pilot define.xml),24,9.3,UNSCHEDULED 9.3
+VISITNUM,,,sponsor (from pilot define.xml),25,10,WEEK 16
+VISITNUM,,,sponsor (from pilot define.xml),26,10.1,WEEK 18 (T)
+VISITNUM,,,sponsor (from pilot define.xml),27,10.2,UNSCHEDULED 10.2
+VISITNUM,,,sponsor (from pilot define.xml),28,11,WEEK 20
+VISITNUM,,,sponsor (from pilot define.xml),29,11.1,WEEK 22 (T)
+VISITNUM,,,sponsor (from pilot define.xml),30,11.2,UNSCHEDULED 11.2
+VISITNUM,,,sponsor (from pilot define.xml),31,12,WEEK 24
+VISITNUM,,,sponsor (from pilot define.xml),32,12.1,UNSCHEDULED 12.1
+VISITNUM,,,sponsor (from pilot define.xml),33,13,WEEK 26
+VISITNUM,,,sponsor (from pilot define.xml),34,13.1,UNSCHEDULED 13.1
+VISITNUM,,,sponsor (from pilot define.xml),35,101,AE FOLLOW-UP
+VISITNUM,,,sponsor (from pilot define.xml),36,201,RETRIEVAL
+VISITNUM,,,sponsor (from pilot define.xml),37,501,Rash followup

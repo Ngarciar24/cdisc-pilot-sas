@@ -1,0 +1,193 @@
+dataset,variable,core,change
+TA,STUDYID,Req,unchanged
+TA,DOMAIN,Req,unchanged
+TA,ARMCD,Req,unchanged
+TA,ARM,Req,unchanged
+TA,TAETORD,Req,label 'Order of Element within Arm' -> 'Planned Order of Element within Arm'
+TA,ETCD,Req,unchanged
+TA,ELEMENT,Perm,unchanged
+TA,TABRANCH,Exp,unchanged
+TA,TATRANS,Exp,unchanged
+TA,EPOCH,Req,unchanged
+TE,STUDYID,Req,unchanged
+TE,DOMAIN,Req,unchanged
+TE,ETCD,Req,unchanged
+TE,ELEMENT,Req,unchanged
+TE,TESTRL,Req,unchanged
+TE,TEENRL,Perm,unchanged
+TE,TEDUR,Perm,unchanged
+TV,STUDYID,Req,unchanged
+TV,DOMAIN,Req,unchanged
+TV,VISITNUM,Req,unchanged
+TV,VISIT,Req,core Perm -> Req
+TV,VISITDY,Perm,unchanged
+TV,ARMCD,Exp,unchanged
+TV,ARM,Perm,unchanged
+TV,TVSTRL,Req,unchanged
+TV,TVENRL,Perm,unchanged
+TI,STUDYID,Req,unchanged
+TI,DOMAIN,Req,unchanged
+TI,IETESTCD,Req,unchanged
+TI,IETEST,Req,unchanged
+TI,IECAT,Req,unchanged
+TI,TIRL,Perm,unchanged
+TS,STUDYID,Req,unchanged
+TS,DOMAIN,Req,unchanged
+TS,TSSEQ,Req,unchanged
+TS,TSPARMCD,Req,unchanged
+TS,TSPARM,Req,unchanged
+TS,TSVAL,Exp,core Req -> Exp
+TS,TSVALNF,Perm,added (Perm in SDTMIG 3.4; needed for a conformance fix)
+TS,TSVALCD,Exp,added (Exp in SDTMIG 3.4)
+TS,TSVCDREF,Exp,added (Exp in SDTMIG 3.4)
+TS,TSVCDVER,Exp,added (Exp in SDTMIG 3.4)
+DM,STUDYID,Req,unchanged
+DM,DOMAIN,Req,unchanged
+DM,USUBJID,Req,unchanged
+DM,SUBJID,Req,unchanged
+DM,RFSTDTC,Exp,unchanged
+DM,RFENDTC,Exp,unchanged
+DM,RFXSTDTC,Exp,unchanged
+DM,RFXENDTC,Exp,unchanged
+DM,RFICDTC,Exp,unchanged
+DM,RFPENDTC,Exp,unchanged
+DM,DTHDTC,Exp,unchanged
+DM,DTHFL,Exp,unchanged
+DM,SITEID,Req,unchanged
+DM,AGE,Exp,unchanged
+DM,AGEU,Exp,unchanged
+DM,SEX,Req,unchanged
+DM,RACE,Exp,unchanged; codelist RACE not in sdtmct-2026-03-27
+DM,ETHNIC,Perm,unchanged; codelist ETHNIC not in sdtmct-2026-03-27
+DM,ARMCD,Exp,core Req -> Exp
+DM,ARM,Exp,core Req -> Exp
+DM,ACTARMCD,Exp,unchanged
+DM,ACTARM,Exp,unchanged
+DM,ARMNRS,Exp,added (Exp in SDTMIG 3.4)
+DM,ACTARMUD,Exp,added (Exp in SDTMIG 3.4)
+DM,COUNTRY,Req,unchanged
+DM,DMDTC,Perm,unchanged
+DM,DMDY,Perm,unchanged
+SUPPDM,STUDYID,Req,unchanged
+SUPPDM,RDOMAIN,Req,unchanged
+SUPPDM,USUBJID,Req,unchanged
+SUPPDM,IDVAR,Exp,unchanged
+SUPPDM,IDVARVAL,Exp,unchanged
+SUPPDM,QNAM,Req,unchanged
+SUPPDM,QLABEL,Req,unchanged
+SUPPDM,QVAL,Req,unchanged
+SUPPDM,QORIG,Req,unchanged
+SUPPDM,QEVAL,Exp,unchanged
+SE,STUDYID,Req,unchanged
+SE,DOMAIN,Req,unchanged
+SE,USUBJID,Req,unchanged
+SE,SESEQ,Req,unchanged
+SE,ETCD,Req,unchanged
+SE,ELEMENT,Perm,unchanged
+SE,SESTDTC,Req,unchanged
+SE,SEENDTC,Exp,unchanged
+SE,SESTDY,Perm,added (Perm in SDTMIG 3.4)
+SE,SEENDY,Perm,added (Perm in SDTMIG 3.4)
+SE,SEUPDES,Perm,unchanged
+SV,STUDYID,Req,unchanged
+SV,DOMAIN,Req,unchanged
+SV,USUBJID,Req,unchanged
+SV,VISITNUM,Req,unchanged
+SV,VISIT,Perm,unchanged
+SV,SVPRESP,Exp,added (Exp in SDTMIG 3.4)
+SV,SVOCCUR,Exp,added (Exp in SDTMIG 3.4)
+SV,VISITDY,Perm,unchanged
+SV,SVSTDTC,Exp,label 'Start Date/Time of Visit' -> 'Start Date/Time of Observation'
+SV,SVENDTC,Exp,label 'End Date/Time of Visit' -> 'End Date/Time of Observation'
+SV,SVSTDY,Perm,added (Perm in SDTMIG 3.4)
+SV,SVENDY,Perm,added (Perm in SDTMIG 3.4)
+EX,STUDYID,Req,unchanged
+EX,DOMAIN,Req,unchanged
+EX,USUBJID,Req,unchanged
+EX,EXSEQ,Req,unchanged
+EX,EXTRT,Req,label 'Name of Actual Treatment' -> 'Name of Treatment'
+EX,EXDOSE,Exp,label 'Dose per Administration' -> 'Dose'
+EX,EXDOSU,Exp,unchanged
+EX,EXDOSFRM,Exp,unchanged
+EX,EXDOSFRQ,Perm,label 'Dosing Frequency Per Interval' -> 'Dosing Frequency per Interval'
+EX,EXROUTE,Perm,unchanged
+EX,VISITNUM,Perm,kept from pilot; allowed by SDTM but not in the SDTMIG 3.4 domain table
+EX,VISIT,Perm,kept from pilot; allowed by SDTM but not in the SDTMIG 3.4 domain table
+EX,VISITDY,Perm,kept from pilot; allowed by SDTM but not in the SDTMIG 3.4 domain table
+EX,EPOCH,Perm,added (Perm in SDTMIG 3.4; needed for a conformance fix)
+EX,EXSTDTC,Exp,unchanged
+EX,EXENDTC,Exp,core Perm -> Exp
+EX,EXSTDY,Perm,unchanged
+EX,EXENDY,Perm,unchanged
+AE,STUDYID,Req,unchanged
+AE,DOMAIN,Req,unchanged
+AE,USUBJID,Req,unchanged
+AE,AESEQ,Req,unchanged
+AE,AESPID,Perm,unchanged
+AE,AETERM,Req,unchanged
+AE,AELLT,Exp,unchanged
+AE,AELLTCD,Exp,unchanged
+AE,AEDECOD,Req,unchanged
+AE,AEPTCD,Exp,unchanged
+AE,AEHLT,Exp,unchanged
+AE,AEHLTCD,Exp,unchanged
+AE,AEHLGT,Exp,unchanged
+AE,AEHLGTCD,Exp,unchanged
+AE,AEBODSYS,Exp,unchanged
+AE,AEBDSYCD,Exp,unchanged
+AE,AESOC,Exp,unchanged
+AE,AESOCCD,Exp,unchanged
+AE,AESEV,Perm,unchanged
+AE,AESER,Exp,unchanged
+AE,AEACN,Exp,unchanged
+AE,AEREL,Exp,unchanged
+AE,AEOUT,Perm,unchanged
+AE,AESCAN,Perm,unchanged
+AE,AESCONG,Perm,unchanged
+AE,AESDISAB,Perm,unchanged
+AE,AESDTH,Perm,unchanged
+AE,AESHOSP,Perm,unchanged
+AE,AESLIFE,Perm,unchanged
+AE,AESOD,Perm,unchanged
+AE,AEDTC,Perm,kept from pilot; allowed by SDTM but not in the SDTMIG 3.4 domain table
+AE,AEDY,Perm,added (--DY for the --DTC kept from the pilot)
+AE,EPOCH,Perm,added (Perm in SDTMIG 3.4; needed for a conformance fix)
+AE,AESTDTC,Exp,unchanged
+AE,AEENDTC,Exp,unchanged
+AE,AESTDY,Perm,unchanged
+AE,AEENDY,Perm,unchanged
+SUPPAE,STUDYID,Req,unchanged
+SUPPAE,RDOMAIN,Req,unchanged
+SUPPAE,USUBJID,Req,unchanged
+SUPPAE,IDVAR,Exp,unchanged
+SUPPAE,IDVARVAL,Exp,unchanged
+SUPPAE,QNAM,Req,unchanged
+SUPPAE,QLABEL,Req,unchanged
+SUPPAE,QVAL,Req,unchanged
+SUPPAE,QORIG,Req,unchanged
+SUPPAE,QEVAL,Exp,unchanged
+DS,STUDYID,Req,unchanged
+DS,DOMAIN,Req,unchanged
+DS,USUBJID,Req,unchanged
+DS,DSSEQ,Req,unchanged
+DS,DSSPID,Perm,unchanged
+DS,DSTERM,Req,unchanged
+DS,DSDECOD,Req,unchanged
+DS,DSCAT,Exp,unchanged
+DS,VISITNUM,Perm,kept from pilot; allowed by SDTM but not in the SDTMIG 3.4 domain table
+DS,VISIT,Perm,kept from pilot; allowed by SDTM but not in the SDTMIG 3.4 domain table
+DS,EPOCH,Perm,added (Perm in SDTMIG 3.4; needed for a conformance fix)
+DS,DSDTC,Perm,unchanged
+DS,DSSTDTC,Exp,unchanged
+DS,DSDY,Perm,added (Perm in SDTMIG 3.4)
+DS,DSSTDY,Exp,core Perm -> Exp
+SUPPDS,STUDYID,Req,unchanged
+SUPPDS,RDOMAIN,Req,unchanged
+SUPPDS,USUBJID,Req,unchanged
+SUPPDS,IDVAR,Exp,unchanged
+SUPPDS,IDVARVAL,Exp,unchanged
+SUPPDS,QNAM,Req,unchanged
+SUPPDS,QLABEL,Req,unchanged
+SUPPDS,QVAL,Req,unchanged
+SUPPDS,QORIG,Req,unchanged
+SUPPDS,QEVAL,Exp,unchanged
