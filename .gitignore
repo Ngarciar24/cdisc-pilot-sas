@@ -1,0 +1,15 @@
+# SAS working files: rebuilt by run_all.sas, never committed
+*.sas7bdat
+*.sas7bcat
+*.sas7bvew
+*.sas7bndx
+work/
+
+# Keep: *.xpt, logs/, lst/, outputs/ (they are the evidence)
+
+# Local tooling
+__pycache__/
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
