@@ -1,8 +1,10 @@
 name: log-check
 
+# No push trigger: pushes never start this check, so they cannot fail it.
+# Runs on pull requests and on demand (Actions tab -> log-check -> Run workflow).
 on:
-  push:
   pull_request:
+  workflow_dispatch:
 
 jobs:
   logs:
